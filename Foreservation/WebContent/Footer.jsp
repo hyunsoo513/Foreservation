@@ -42,9 +42,9 @@
                     <a href="index.html" class="d-inline-block mb-3">
                         <h1 class="text-primary">Foreservation</h1>
                     </a>
-                    <p><i class="fa fa-map-marker-alt me-3"></i>경북 칠곡군 석적읍 유학로 532</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>054-977-8773</p>
-                    <p><i class="fa fa-envelope me-3"></i>foreservation@soopchewon.com</p>
+                    <p><i class="fa fa-map-marker-alt me-1"></i>경북 칠곡군 석적읍 유학로 532</p>
+                    <p><i class="fa fa-phone-alt me-1"></i>054-977-8773</p>
+                    <p><i class="fa fa-envelope me-1"></i>foreservation@soopchewon.com</p>
                     <p>본 사이트는 국립칠곡숲체원의 통합예약서비스 구현을 위해 만들어졌습니다.</p>
                 </div>
             </div>

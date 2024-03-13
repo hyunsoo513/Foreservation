@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>NavMain.jsp</title>
+	<title>NavSiteInfo.jsp</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -49,7 +49,7 @@
                     <div class="navbar-nav ms-auto">
                         <a href="index.html" class="nav-item nav-link">온라인예약</a>
                         <a href="SiteInfo.jsp" class="nav-item nav-link">기관안내</a>
-                        <a href="RoomInfo.jsp" class="nav-item nav-link">시설안내</a>
+                        <a href="RoomInfo.jsp" class="nav-item nav-link active">시설안내</a>
                         <a href="contact.html" class="nav-item nav-link">프로그램안내</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">마이페이지</a>
