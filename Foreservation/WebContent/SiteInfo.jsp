@@ -103,8 +103,9 @@
                 <div class="col-md-7 wow fadeIn" data-wow-delay="0.5s">
                     <div class="position-relative w-100 mt-3 mb-2">
                         <input class="form-control w-100 py-4 ps-4 pe-5" type="text" placeholder="경상북도 칠곡군 유학로 532" style="height: 48px;">
-                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
-                                class="fa fa-location-arrow text-white fs-4" aria-hidden="true"></i></button>
+                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2">
+                        	<i class="fa fa-location-arrow text-white fs-4" aria-hidden="true"></i>
+                       	</button>
                     </div>
                 </div>
             </div>

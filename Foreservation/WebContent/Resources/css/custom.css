@@ -10,3 +10,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 .info-icon {
 	width: 20px;
 }
+
+.left-icon {
+	padding-left: 6px;
+}
+
+.sm-text {
+	font-weight: bold;
+}
