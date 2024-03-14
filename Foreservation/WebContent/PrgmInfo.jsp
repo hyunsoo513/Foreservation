@@ -119,8 +119,8 @@
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
                     <div class="blog-item border h-100 p-4">
                         <img class="img-fluid mb-4" src="Resources/img/prgm_1.png" alt="">
-                        <a href="" class="h5 lh-base d-inline-block">[산림교육]숲 타이쿤</a>
-                        <div class="d-flex text-black-50 mb-2">가족/친구/직장/단체/아동/청소년/청년/봄/여름/가을/겨울</div>
+                        <a href="" class="h5 lh-base d-inline-block">[진로교육]산림복지 직업체험관(이론)</a>
+                        <div class="d-flex text-black-50 mb-2">교육/개인/친구/단체/아동/청소년/청년</div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
                                 <small class="sm-text">진행장소</small>
@@ -134,7 +134,7 @@
                                 <small class="sm-text">인&emsp;&emsp;원</small>
                             </div>
                             <div class="pe-3">
-                                <small>20명(최대 120명)</small>
+                                <small>20명(최대 40명)</small>
                             </div>
                         </div>
                         <div class="d-flex text-black-50 mb-2">
@@ -150,7 +150,7 @@
                                 <small class="sm-text">효&emsp;&emsp;과</small>
                             </div>
                             <div class="pe-3">
-                                <small>숲 가꾸기의 중요성을 이해하고 탄소배출권 거래제 개념 인지</small>
+                                <small>자신의 적성에 맞는 직무 발굴</small>
                             </div>
                         </div>
                         <div class="d-flex text-black-50 mb-2">
@@ -158,7 +158,7 @@
                                 <small class="sm-text">내&emsp;&emsp;용</small>
                             </div>
                             <div class="pe-3">
-                                <small>참가자가 친환경 기업이 되어 숲 가꾸기 과정을 통해 나무를 가꾸고 거래하며 수확하는 청소년 대상 탄소중립 보드게임</small>
+                                <small>사회진출을 앞두고 있는 대상자들에게 산림복지 분야의 전반에 대해 교육하고, 국가 산림복지 일자리에 대해 소개하는 프로그램</small>
                             </div>
                         </div>
                         <a href="" class="btn btn-outline-primary px-3">자세히 보기<i class="fa fa-plus-circle left-icon" aria-hidden="true"></i></a>
@@ -167,8 +167,8 @@
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
                     <div class="blog-item border h-100 p-4">
                         <img class="img-fluid mb-4" src="Resources/img/prgm_1.png" alt="">
-                        <a href="" class="h5 lh-base d-inline-block">[산림교육]숲 타이쿤</a>
-                        <div class="d-flex text-black-50 mb-2">가족/친구/직장/단체/아동/청소년/청년/봄/여름/가을/겨울</div>
+                        <a href="" class="h5 lh-base d-inline-block">[산림치유][자율체험]메밀베개 만들기</a>
+                        <div class="d-flex text-black-50 mb-2">휴식/개인/가족/전연령</div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
                                 <small class="sm-text">진행장소</small>
@@ -198,7 +198,7 @@
                                 <small class="sm-text">효&emsp;&emsp;과</small>
                             </div>
                             <div class="pe-3">
-                                <small>숲 가꾸기의 중요성을 이해하고 탄소배출권 거래제 개념 인지</small>
+                                <small>자연물 재료로 생활용품을 만들어보고, 기후변화가 우리 생활에 어떤 영향을 미칠 수 있는지 경각심을 가진다.</small>
                             </div>
                         </div>
                         <div class="d-flex text-black-50 mb-2">
@@ -206,7 +206,7 @@
                                 <small class="sm-text">내&emsp;&emsp;용</small>
                             </div>
                             <div class="pe-3">
-                                <small>참가자가 친환경 기업이 되어 숲 가꾸기 과정을 통해 나무를 가꾸고 거래하며 수확하는 청소년 대상 탄소중립 보드게임</small>
+                                <small>자신만의 메밀베개를 만들고 메밀의 효능과 자연물 재료의 가치에 대해 배운다.</small>
                             </div>
                         </div>
                         <a href="" class="btn btn-outline-primary px-3">자세히 보기<i class="fa fa-plus-circle left-icon" aria-hidden="true"></i></a>

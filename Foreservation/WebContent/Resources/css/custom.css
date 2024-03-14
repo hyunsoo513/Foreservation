@@ -18,3 +18,40 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 .sm-text {
 	font-weight: bold;
 }
+
+.table-01 {
+	border-top: 1px solid #6588d0;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.table-02 {
+	border-top: 1px solid #6588d0;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.table-01 th {
+	color: #000;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+}
+
+.table-02 th {
+	color: #000;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    border-right: 1px solid #ddd;
+}
+
+.part {
+	column-count: 2;
+	column-gap: 50px;
+	column-rule: 3px dotted gray;
+}

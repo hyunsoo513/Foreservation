@@ -54,7 +54,7 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">마이페이지</a>
                             <div class="dropdown-menu bg-light mt-2">
-                                <a href="feature.html" class="dropdown-item">예약정보</a>
+                                <a href="MyResrv.jsp" class="dropdown-item">예약정보</a>
                                 <a href="how-to-use.html" class="dropdown-item">찜목록</a>
                                 <a href="testimonial.html" class="dropdown-item">견적요청</a>
                                 <a href="blog.html" class="dropdown-item">나의정보</a>
