@@ -35,7 +35,7 @@
 
 <body>
     <!-- Navbar Start -->
-    <div class="container-fluid bg-primary sticky-top">
+    <div class="container-fluid bg-primary">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light p-0">
                 <a href="ForeservationInfo.jsp" class="navbar-brand">
