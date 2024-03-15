@@ -168,3 +168,64 @@ li {
 .state_green {
     background: #009523;
 }
+
+.title-line {
+	border-bottom: 1px solid #c6d1db;
+}
+
+.list-st{
+	border: 1px solid #e2e2e2;
+	display: flex;
+    justify-content: space-around;
+}
+
+.list-st>.list-img {
+	margin: 35px 0 45px 45px;
+    width: 300px;
+    height: 210px;
+    float: left;
+    position: relative;
+}
+
+.list-st>.list-title {
+	margin: 35px 30px 30px 25px;
+}
+
+.list-title>h5 {
+	display: inline-block;
+}
+
+.list-title > ul {
+	width: 100%;
+    display: block;
+    float: left;
+    padding-left: 0;
+}
+
+.list-title>ul>li {
+    display: inline;
+    border: 1px solid #009523;
+    border-radius: 25px;
+    font-size: 13px;
+    text-align: center;
+    padding: 3px 10px;
+}
+
+.list-info>ul {
+    padding-left: 0;
+}
+
+.list-info>ul li strong {
+    width: 80px;
+    float: left;
+    color: #008040!important;
+}
+
+.list-info>ul li p {
+    margin-bottom: 0;
+}
+
+.list-st>.list-btn {
+	margin: 30px 30px 30px 0;
+}
+

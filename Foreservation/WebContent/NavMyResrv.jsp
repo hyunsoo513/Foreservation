@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>NavSiteInfo.jsp</title>
+	<title>NavMyResrv.jsp</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -35,7 +35,7 @@
 
 <body>
     <!-- Navbar Start -->
-    <div class="container-fluid sticky-top">
+    <div class="container-fluid bg-primary">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light p-0">
                 <a href="ForeservationInfo.jsp" class="navbar-brand">
@@ -48,13 +48,13 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="index.html" class="nav-item nav-link">온라인예약</a>
-                        <a href="SiteInfo.jsp" class="nav-item nav-link active">기관안내</a>
+                        <a href="SiteInfo.jsp" class="nav-item nav-link">기관안내</a>
                         <a href="RoomInfo.jsp" class="nav-item nav-link">시설안내</a>
                         <a href="PrgmInfo.jsp" class="nav-item nav-link">프로그램안내</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">마이페이지</a>
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">마이페이지</a>
                             <div class="dropdown-menu bg-light mt-2">
-                                <a href="MyResrv.jsp" class="dropdown-item">예약정보</a>
+                                <a href="MyResrv.jsp" class="dropdown-item active">예약정보</a>
                                 <a href="JimList.jsp" class="dropdown-item">찜목록</a>
                                 <a href="testimonial.html" class="dropdown-item">견적요청</a>
                                 <a href="blog.html" class="dropdown-item">나의정보</a>
