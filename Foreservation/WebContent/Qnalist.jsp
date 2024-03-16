@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>JimList.jsp</title>
+	<title>Qnalist.jsp</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -46,83 +46,89 @@
 
 
 	<!-- Navbar Start -->
-	<jsp:include page="./NavJimList.jsp"></jsp:include>
+	<jsp:include page="./NavQnaList.jsp"></jsp:include>
 	<!-- Navbar End -->
 
 
     <!-- Hero Start -->
     <div class="container-fluid mb-3 title-line">
         <div class="container text-center">
-            <h2 class="text-dark mt-5 mb-4">찜 목록</h2>
+            <h2 class="text-dark mt-5 mb-4">1:1문의</h2>
         </div>
     </div>
     <!-- Hero End -->
 
 
-	<!-- JimList Start -->
+	<!-- QnaList Start -->
 	<div class="container-fluid py-3">
         <div class="container">
-        	<div class="list-st">
-        		<div class="list-img">
-        			<img src="Resources/img/pg.jpg" alt="" class="jim-img">
-        		</div>
-        		<div class="list-title">
-        			<span>숲공예</span>
-        			<h5>[자율체험]토리별 놀이교실(우리가족 숲놀이)</h5>
-        			<ul class="mt-3">
-        				<li>휴식</li>
-        				<li>개인</li>
-        				<li>가족</li>
-        				<li>친구</li>
-        				<li>직장</li>
-        				<li>단체</li>
-        				<li>전연령</li>
-        			</ul>
-        			<div class="list-info mt-1">
-        				<ul>
-        					<li>
-        						<strong>위치</strong>
-        						<p>국립칠곡숲체원</p>
-        					</li>
-        					<li>
-        						<strong>소요시간</strong>
-        						<p>1시간</p>
-        					</li>
-        					<li>
-        						<strong>효과</strong>
-        						<p>숲에서 즐길 수 있는 다양한 놀이가 있음을 알 수 있다.</p>
-        					</li>
-        				</ul>
-        			</div>
-        		</div>
-        		<div class="list-link">
-        			<div class="list-btn">
-	        				<ul>
-	        					<li>
-	        						<a href="#">
-		        						<p>홈페이지 가기</p>	
-		        						<span><img alt="" src="Resources/img/arr.png"></span>
-	        						</a>
-	        					</li>
-	        					<li>
-	        						<a href="#">
-		        						<p>상세내역 보기</p>	
-		        						<span><img alt="" src="Resources/img/arr.png"></span>
-	        						</a>
-	        					</li>
-	        					<li>
-	        						<a href="#">
-		        						<p>찜하기</p>	
-		        						<span><img alt="" src="Resources/img/heart_on.png"></span>
-	        						</a>
-	        					</li>
-	        				</ul>
-        			</div>
-        		</div>
-        	</div>
+        	<div class="mb-5">
+	            <div class="mx-auto tb-line mb-3">
+	                <h5 class="text-primary mt-2 tb1-title">AD2403070100085<span class="fw-light text-dark"> 국립칠곡숲체원</span></h5>
+	                <span class="tb1-button">
+	                	<a href="#">예약취소</a>
+					</span>
+				</div>
+				<div class="mx-auto row g-5 part mb-4">
+		            <div class="col-lg-6" data-wow-delay="0.1s">
+		            	<h5>객실내역</h5>
+		            	<table class="tb1">
+		            		<thead>
+		            			<tr>
+		            				<th>
+		            					<span><img src="Resources/img/house.png" alt="" class="list-icon"></span>
+		            					101(제비꽃) 10인실 /10~13명
+		            				</th>
+		            			</tr>
+		            		</thead>
+		            		<tbody>
+		            			<tr>
+		            				<td>
+	            						<span><img src="Resources/img/date2.png" alt="" class="list-icon"></span>
+		            					이용날짜 : 2024-03-10~2024-03-11(1박 2일)
+		            				</td>
+		            			</tr>
+		            		</tbody>
+		            	</table>
+		            </div>
+		            <div class="col-lg-6" data-wow-delay="0.1s">
+		            	<h5>프로그램 내역</h5>
+		            	<table class="tb2">
+		            		<colgroup>
+		            			<col style="width: 25%;">
+		            			<col style="width: auto;">
+		            			<col style="width: 20%;">
+		            			<col style="width: 20%;">
+		            		</colgroup>
+		            		<thead>
+		            			<tr>
+		            				<th>교육날짜</th>
+		            				<th>프로그램명</th>
+		            				<th>회차</th>
+		            				<th>참가인원</th>
+		            			</tr>
+		            		</thead>
+		            		<tbody>
+		            			<tr>
+		            				<td>2024.03.10</td>
+		            				<td>[자율체험]숲 오리엔티어링</td>
+		            				<td>1회차	</td>
+		            				<td>1명</td>
+		            			</tr>
+		            		</tbody>
+		            	</table>
+		            </div>
+				</div>
+				<div class="state">
+	            	<p>신청날짜 : 2024-03-07</p>
+	            	<p>예약상태 : <span class="state_red">취소</span></p>
+	            	<p>식사이용여부 : <span class="state_green">미이용</span></p>
+	            	<p>결제만기일 : <span style="color: red;">2024.03.08 17:00:00까지</span></p>
+				</div>
+			</div>
        	</div>
 	</div>
-	<!-- JimList End -->
+	<!-- QnaList End -->
 
 
     <!-- SiteLocation Start -->
