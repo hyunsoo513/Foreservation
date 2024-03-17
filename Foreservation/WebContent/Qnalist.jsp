@@ -63,67 +63,32 @@
 	<div class="container-fluid py-3">
         <div class="container">
         	<div class="mb-5">
-	            <div class="mx-auto tb-line mb-3">
-	                <h5 class="text-primary mt-2 tb1-title">AD2403070100085<span class="fw-light text-dark"> 국립칠곡숲체원</span></h5>
-	                <span class="tb1-button">
-	                	<a href="#">예약취소</a>
-					</span>
+	            <div class="qna-srch mx-auto title-color mb-3">
+	            	<fieldset>
+	            		<legend>게시판검색</legend>
+	            		<div class="qna-srchDate">
+	            			<input type="text" title="시작일을 선택하세요" placeholder="시작일" readonly="readonly">
+	            			<span class="mid">~</span>
+	            			<input type="text" title="종료일을 선택하세요" placeholder="종료일" readonly="readonly">
+	            		</div>
+	            		<div class="qna-srchTitle">
+	            			<select>
+	            				<option>제목</option>
+	            				<option>내용</option>
+	            			</select>
+	            		</div>
+	            		<div class="qna-srchInput">
+	            			<label class="hide">검색어입력</label>
+	            			<input type="text" placeholder="검색어를 입력하세요.">
+	            			<div class="qna-srchBtn">
+		            			<a href="#" class="text-dark">검색</a>
+	            			</div>
+	            		</div>
+	            	</fieldset>
 				</div>
-				<div class="mx-auto row g-5 part mb-4">
-		            <div class="col-lg-6" data-wow-delay="0.1s">
-		            	<h5>객실내역</h5>
-		            	<table class="tb1">
-		            		<thead>
-		            			<tr>
-		            				<th>
-		            					<span><img src="Resources/img/house.png" alt="" class="list-icon"></span>
-		            					101(제비꽃) 10인실 /10~13명
-		            				</th>
-		            			</tr>
-		            		</thead>
-		            		<tbody>
-		            			<tr>
-		            				<td>
-	            						<span><img src="Resources/img/date2.png" alt="" class="list-icon"></span>
-		            					이용날짜 : 2024-03-10~2024-03-11(1박 2일)
-		            				</td>
-		            			</tr>
-		            		</tbody>
-		            	</table>
-		            </div>
-		            <div class="col-lg-6" data-wow-delay="0.1s">
-		            	<h5>프로그램 내역</h5>
-		            	<table class="tb2">
-		            		<colgroup>
-		            			<col style="width: 25%;">
-		            			<col style="width: auto;">
-		            			<col style="width: 20%;">
-		            			<col style="width: 20%;">
-		            		</colgroup>
-		            		<thead>
-		            			<tr>
-		            				<th>교육날짜</th>
-		            				<th>프로그램명</th>
-		            				<th>회차</th>
-		            				<th>참가인원</th>
-		            			</tr>
-		            		</thead>
-		            		<tbody>
-		            			<tr>
-		            				<td>2024.03.10</td>
-		            				<td>[자율체험]숲 오리엔티어링</td>
-		            				<td>1회차	</td>
-		            				<td>1명</td>
-		            			</tr>
-		            		</tbody>
-		            	</table>
-		            </div>
-				</div>
-				<div class="state">
-	            	<p>신청날짜 : 2024-03-07</p>
-	            	<p>예약상태 : <span class="state_red">취소</span></p>
-	            	<p>식사이용여부 : <span class="state_green">미이용</span></p>
-	            	<p>결제만기일 : <span style="color: red;">2024.03.08 17:00:00까지</span></p>
+				<div class="qna-blank">
+					<img alt="" src="Resources/img/blank_icon.png">
+					<p class="sub-txt">자료가 없습니다. 다른 검색조건을 선택해주세요.</p>
 				</div>
 			</div>
        	</div>
@@ -131,26 +96,27 @@
 	<!-- QnaList End -->
 
 
-    <!-- SiteLocation Start -->
+    <!-- Newsletter Start -->
     <div class="container-fluid newsletter bg-primary py-5 my-5">
         <div class="container py-5">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h3 class="text-white mb-3">오시는 길</h3>
-                <p class="text-dark mb-4">주소: (구) 경상북도 칠곡군 성곡리 산73-13 / (신) 경상북도 칠곡군 유학로 532</p>
+                <h1 class="text-white mb-3"><span class="fw-light text-dark">Let's Subscribe</span> The Newsletter</h1>
+                <p class="text-white mb-4">Subscribe now to get 30% discount on any of our products</p>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-7 wow fadeIn" data-wow-delay="0.5s">
                     <div class="position-relative w-100 mt-3 mb-2">
-                        <input class="form-control w-100 py-4 ps-4 pe-5" type="text" placeholder="경상북도 칠곡군 유학로 532" style="height: 48px;">
-                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2">
-                        	<i class="fa fa-location-arrow text-white fs-4" aria-hidden="true"></i>
-                       	</button>
+                        <input class="form-control w-100 py-4 ps-4 pe-5" type="text" placeholder="Enter Your Email"
+                            style="height: 48px;">
+                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                class="fa fa-paper-plane text-white fs-4"></i></button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- SiteLocation End -->
+    <!-- Newsletter End -->
+
 
 
     <!-- Footer Start -->
