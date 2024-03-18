@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Qnalist.jsp</title>
+	<title>MyInfo.jsp</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -46,57 +46,37 @@
 
 
 	<!-- Navbar Start -->
-	<jsp:include page="./NavQnaList.jsp"></jsp:include>
+	<jsp:include page="./NavMyInfo.jsp"></jsp:include>
 	<!-- Navbar End -->
 
 
     <!-- Hero Start -->
     <div class="container-fluid mb-3 title-line">
         <div class="container text-center">
-            <h2 class="text-dark mt-5 mb-4">1:1문의</h2>
+            <h2 class="text-dark mt-5 mb-4">나의정보</h2>
         </div>
     </div>
     <!-- Hero End -->
 
 
-	<!-- QnaList Start -->
+	<!-- MyInfo Start -->
 	<div class="container-fluid py-3">
         <div class="container">
         	<div class="mb-5">
-	            <div class="qna-srch mx-auto title-color mb-3">
-	            	<fieldset>
-	            		<legend>게시판검색</legend>
-	            		<div class="qna-srchDate">
-	            			<input type="text" title="시작일을 선택하세요" placeholder="시작일" readonly="readonly">
-	            			<span class="mid">~</span>
-	            			<input type="text" title="종료일을 선택하세요" placeholder="종료일" readonly="readonly">
-	            		</div>
-	            		<div class="qna-srchTitle">
-	            			<select>
-	            				<option>제목</option>
-	            				<option>내용</option>
-	            			</select>
-	            		</div>
-	            		<div class="qna-srchInput">
-	            			<label class="hide">검색어입력</label>
-	            			<input type="text" placeholder="검색어를 입력하세요.">
-	            			<div>
-		            			<a href="#" class="btn-default font-bold">검색</a>
-	            			</div>
-	            		</div>
-	            	</fieldset>
+	            <div class="myinfo-box mx-auto title-color mb-3">
+           			<p class="sub-txt">* 회원정보 확인 및 수정 하시려면 비밀번호를 재입력 하셔야 합니다.</p>
+            		<div class="display-flex justify-content-center mt-4">
+	           			<p class="mt-1">비밀번호</p>
+	           			<input type="password" class="myinfo-pw ms-4">
+            		</div>
 				</div>
-				<div class="qna-blank">
-					<img alt="" src="Resources/img/blank_icon.png">
-					<p class="sub-txt">자료가 없습니다. 다른 검색조건을 선택해주세요.</p>
-				</div>
-				<div class="text-right">
-          			<a href="#" class="btn-default">글쓰기</a>
+				<div class="text-center mt-5">
+          			<a href="#" class="btn-default">확인</a>
        			</div>
 			</div>
        	</div>
 	</div>
-	<!-- QnaList End -->
+	<!-- MyInfo End -->
 
 
     <!-- Newsletter Start -->

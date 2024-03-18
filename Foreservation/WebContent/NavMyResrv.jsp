@@ -57,8 +57,8 @@
                                 <a href="MyResrv.jsp" class="dropdown-item active">예약정보</a>
                                 <a href="JimList.jsp" class="dropdown-item">찜목록</a>
                                 <a href="Qnalist.jsp" class="dropdown-item">1:1문의</a>
-                                <a href="blog.html" class="dropdown-item">나의정보</a>
-                                <a href="404.html" class="dropdown-item">회원탈퇴</a>
+                                <a href="MyInfo.jsp" class="dropdown-item">나의정보</a>
+                                <a href="Widrw.jsp" class="dropdown-item">회원탈퇴</a>
                             </div>
                         </div>
                     </div>

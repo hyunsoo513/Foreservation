@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Qnalist.jsp</title>
+	<title>Widrw.jsp</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -46,57 +46,62 @@
 
 
 	<!-- Navbar Start -->
-	<jsp:include page="./NavQnaList.jsp"></jsp:include>
+	<jsp:include page="./NavWidrw.jsp"></jsp:include>
 	<!-- Navbar End -->
 
 
     <!-- Hero Start -->
     <div class="container-fluid mb-3 title-line">
         <div class="container text-center">
-            <h2 class="text-dark mt-5 mb-4">1:1문의</h2>
+            <h2 class="text-dark mt-5 mb-4">회원탈퇴</h2>
         </div>
     </div>
     <!-- Hero End -->
 
 
-	<!-- QnaList Start -->
+	<!-- Widrw Start -->
 	<div class="container-fluid py-3">
         <div class="container">
         	<div class="mb-5">
-	            <div class="qna-srch mx-auto title-color mb-3">
-	            	<fieldset>
-	            		<legend>게시판검색</legend>
-	            		<div class="qna-srchDate">
-	            			<input type="text" title="시작일을 선택하세요" placeholder="시작일" readonly="readonly">
-	            			<span class="mid">~</span>
-	            			<input type="text" title="종료일을 선택하세요" placeholder="종료일" readonly="readonly">
+        		<div class="mx-auto mb-3">
+        			<h5 class="ms-3">회원 탈퇴시 유의사항</h5>
+        			<ul class="widrw-txt">
+        				<li>웹 고객 탈퇴시 개인정보와 홈페이지 게시판에 올리신 글을 즉시 삭제됩니다.</li>
+        				<li>사이트 이용에 불편을 느끼셨다면 깊이 사과 드리며, 더 나은 서비스를 위한 조언을 메일로 보내주시면 보다 나은 서비스 제공을 위해 노력하겠습니다.</li>
+        				<li>재가입에 대한 제재는 없으나 기존 아이디를 사용하실 수 없으며, 기존 아이디로 이용한 모든 정보를 보실 수 없습니다.</li>
+        				<li>예약, 대기 건이 있거나 환불이 완료되지 않은 건이 있는 경우, 해당 건이 취소 또는 완료되어야 탈퇴가 가능합니다.</li>
+        			</ul>
+        		</div>
+	            <div class="mx-auto title-color display-flex justify-content-center mt-3 mb-3 px-5">
+	            	<div class="widrw-inbox mt-3 mb-5">
+	            		<div class="display-flex mt-4">
+		           			<p class="font-bold mt-1">탈퇴사유</p>
+		           			<textarea rows="5" cols="50" class="ms-4"></textarea>
 	            		</div>
-	            		<div class="qna-srchTitle">
-	            			<select>
-	            				<option>제목</option>
-	            				<option>내용</option>
-	            			</select>
+	            		<div class="display-flex mt-4">
+		           			<p class="font-bold mt-1">비밀번호</p>
+		           			<input type="password" class="widrw-pw ms-4">
 	            		</div>
-	            		<div class="qna-srchInput">
-	            			<label class="hide">검색어입력</label>
-	            			<input type="text" placeholder="검색어를 입력하세요.">
-	            			<div>
-		            			<a href="#" class="btn-default font-bold">검색</a>
-	            			</div>
-	            		</div>
-	            	</fieldset>
+						<div class="display-flex mt-3">
+							<ul class="widrw-txt">
+		        				<li>회원탈퇴를 하시려면 비밀번호를 재입력 하셔야 합니다.</li>
+		        				<li>개인정보 완전삭제를 원하시는 경우 하단 체크박스에 체크를 한 뒤 탈퇴하기 버튼을 눌러주세요.</li>
+		        			</ul>
+						</div>
+						<div class="ms-3 widrw-chk">
+							<label>
+								<input type="checkbox"> 개인정보 완전삭제 요청(이용내역, 결제내역, 게시글 등의 모든 정보 삭제)
+							</label>
+						</div>
+	            	</div>
 				</div>
-				<div class="qna-blank">
-					<img alt="" src="Resources/img/blank_icon.png">
-					<p class="sub-txt">자료가 없습니다. 다른 검색조건을 선택해주세요.</p>
-				</div>
-				<div class="text-right">
-          			<a href="#" class="btn-default">글쓰기</a>
+				<div class="text-center mt-5">
+          			<a href="#" class="widrw-btn btn-default">회원탈퇴</a>
        			</div>
 			</div>
        	</div>
 	</div>
-	<!-- QnaList End -->
+	<!-- Widrw End -->
 
 
     <!-- Newsletter Start -->

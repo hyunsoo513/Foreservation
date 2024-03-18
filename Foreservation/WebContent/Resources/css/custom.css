@@ -7,6 +7,47 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     color: #1c2900;
 }
 
+li {
+	list-style: none;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.display-flex {
+	display: flex;
+}
+
+label {
+	cursor: pointer;
+}
+
+.hide {
+	position: fixed;
+    top: -1px;
+    left: -1px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    color: #000;
+    background: #fff;
+}
+
+.sub-txt {
+	text-align: center;
+    color: #000;
+    margin-top: 20px;
+}
+
+.font-bold {
+	font-weight: bold;
+}
+
 .info-icon {
 	width: 20px;
 }
@@ -50,10 +91,6 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     text-align: center;
     line-height: 43px;
     color: #4357b3;
-}
-
-li {
-	list-style: none;
 }
 
 .tb1 {
@@ -348,7 +385,7 @@ li {
 	justify-content: center;
 	align-items: center;
 	width: 45%;
-    padding-right: 120px;
+    padding-right: 30px;
     margin-left: 0.5%;
 }
 
@@ -358,10 +395,10 @@ li {
     padding-left: 8px;
 }
 
-.qna-srchInput>.qna-srchBtn {
+.btn-default {
 	border: 1px solid black;
     background: #fff;
-    color: #3f44a0 !important;
+    color: #1c2900 !important;
     display: inline-block;
     padding: 5px 0;
     text-align: center;
@@ -371,7 +408,10 @@ li {
     margin-left: 8px;
 }
 
-.qna-srchInput>.qna-srchBtn {
+.btn-default:hover {
+	border: 1px solid #fff;
+    background: #90bc79;
+    color: #fff !important;
     font-weight: bold;
 }
 
@@ -384,19 +424,48 @@ li {
     margin: 40px 0;
 }
 
-.hide {
-	position: fixed;
-    top: -1px;
-    left: -1px;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    color: #000;
-    background: #fff;
+.myinfo-box {
+	width: 80%;
 }
 
-.sub-txt {
-	text-align: center;
-    color: #000;
-    margin-top: 20px;
+.myinfo-pw {
+	height: 35px;
+    border: 1px solid #c9c9c9;
+    text-indent: 5px;
+    background: #fff;
+    width: 60%;
+}
+
+.widrw-txt li {
+	list-style: square;
+	font-size: 13px;
+}
+
+.widrw-inbox {
+	width: 580px;
+}
+
+.widrw-pw {
+	height: 35px;
+    border: 1px solid #c9c9c9;
+    text-indent: 5px;
+    background: #fff;
+    width: 441px;
+}
+
+.widrw-btn {
+	width: 120px;
+	height: 45px;
+    padding: 10px 0;
+}
+
+.widrw-chk {
+	font-size: 13px;
+}
+
+.widrw-chk label input {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: -4px;
 }
