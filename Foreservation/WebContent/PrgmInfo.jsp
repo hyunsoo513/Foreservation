@@ -75,7 +75,7 @@
                         <div class="d-flex text-black-50 mb-2">가족/친구/직장/단체/아동/청소년/청년/봄/여름/가을/겨울</div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">진행장소</small>
+                                <small class="font-bold">진행장소</small>
                             </div>
                             <div class="pe-3">
                                 <small>국립칠곡숲체원</small>
@@ -83,7 +83,7 @@
                         </div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">인&emsp;&emsp;원</small>
+                                <small class="font-bold">인&emsp;&emsp;원</small>
                             </div>
                             <div class="pe-3">
                                 <small>20명(최대 120명)</small>
@@ -91,7 +91,7 @@
                         </div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">소요시간</small>
+                                <small class="font-bold">소요시간</small>
                             </div>
                             <div class="pe-3">
                                 <small>1시간</small>
@@ -99,7 +99,7 @@
                         </div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">효&emsp;&emsp;과</small>
+                                <small class="font-bold">효&emsp;&emsp;과</small>
                             </div>
                             <div class="pe-3">
                                 <small>숲 가꾸기의 중요성을 이해하고 탄소배출권 거래제 개념 인지</small>
@@ -107,7 +107,7 @@
                         </div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">내&emsp;&emsp;용</small>
+                                <small class="font-bold">내&emsp;&emsp;용</small>
                             </div>
                             <div class="pe-3">
                                 <small>참가자가 친환경 기업이 되어 숲 가꾸기 과정을 통해 나무를 가꾸고 거래하며 수확하는 청소년 대상 탄소중립 보드게임</small>
@@ -123,7 +123,7 @@
                         <div class="d-flex text-black-50 mb-2">교육/개인/친구/단체/아동/청소년/청년</div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">진행장소</small>
+                                <small class="font-bold">진행장소</small>
                             </div>
                             <div class="pe-3">
                                 <small>국립칠곡숲체원</small>
@@ -131,7 +131,7 @@
                         </div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">인&emsp;&emsp;원</small>
+                                <small class="font-bold">인&emsp;&emsp;원</small>
                             </div>
                             <div class="pe-3">
                                 <small>20명(최대 40명)</small>
@@ -139,7 +139,7 @@
                         </div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">소요시간</small>
+                                <small class="font-bold">소요시간</small>
                             </div>
                             <div class="pe-3">
                                 <small>1시간</small>
@@ -147,7 +147,7 @@
                         </div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">효&emsp;&emsp;과</small>
+                                <small class="font-bold">효&emsp;&emsp;과</small>
                             </div>
                             <div class="pe-3">
                                 <small>자신의 적성에 맞는 직무 발굴</small>
@@ -155,7 +155,7 @@
                         </div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">내&emsp;&emsp;용</small>
+                                <small class="font-bold">내&emsp;&emsp;용</small>
                             </div>
                             <div class="pe-3">
                                 <small>사회진출을 앞두고 있는 대상자들에게 산림복지 분야의 전반에 대해 교육하고, 국가 산림복지 일자리에 대해 소개하는 프로그램</small>
@@ -171,7 +171,7 @@
                         <div class="d-flex text-black-50 mb-2">휴식/개인/가족/전연령</div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">진행장소</small>
+                                <small class="font-bold">진행장소</small>
                             </div>
                             <div class="pe-3">
                                 <small>국립칠곡숲체원</small>
@@ -179,7 +179,7 @@
                         </div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">인&emsp;&emsp;원</small>
+                                <small class="font-bold">인&emsp;&emsp;원</small>
                             </div>
                             <div class="pe-3">
                                 <small>20명(최대 120명)</small>
@@ -187,7 +187,7 @@
                         </div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">소요시간</small>
+                                <small class="font-bold">소요시간</small>
                             </div>
                             <div class="pe-3">
                                 <small>1시간</small>
@@ -195,7 +195,7 @@
                         </div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">효&emsp;&emsp;과</small>
+                                <small class="font-bold">효&emsp;&emsp;과</small>
                             </div>
                             <div class="pe-3">
                                 <small>자연물 재료로 생활용품을 만들어보고, 기후변화가 우리 생활에 어떤 영향을 미칠 수 있는지 경각심을 가진다.</small>
@@ -203,7 +203,7 @@
                         </div>
                         <div class="d-flex text-black-50 mb-2">
                             <div class="pe-3">
-                                <small class="sm-text">내&emsp;&emsp;용</small>
+                                <small class="font-bold">내&emsp;&emsp;용</small>
                             </div>
                             <div class="pe-3">
                                 <small>자신만의 메밀베개를 만들고 메밀의 효능과 자연물 재료의 가치에 대해 배운다.</small>

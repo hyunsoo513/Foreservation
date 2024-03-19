@@ -59,7 +59,7 @@
                     </h1>
                     <br/>
                     <!-- <p class="text-white mb-4 animated slideInRight">숲을 통해 국민이 함께 누리는 산림복지서비스 제공 국립OO숲체원</p> -->
-                    <a href="" class="btn btn-dark py-2 px-4 me-3 animated slideInRight">예약하기</a>
+                    <a href="" class="btn btn-outline-dark py-2 px-4 me-3 animated slideInRight">예약하기</a>
                 </div>
                 <div class="col-lg-6">
                     <img class="img-fluid animated pulse infinite" src="Resources/img/main_fowi.png" alt="">

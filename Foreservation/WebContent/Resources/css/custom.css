@@ -44,6 +44,11 @@ label {
     margin-top: 20px;
 }
 
+.font-red {
+	color: red;
+	font-size: 14px;
+}
+
 .font-bold {
 	font-weight: bold;
 }
@@ -54,10 +59,6 @@ label {
 
 .left-icon {
 	padding-left: 6px;
-}
-
-.sm-text {
-	font-weight: bold;
 }
 
 .tb-line {
@@ -329,6 +330,8 @@ label {
 	padding: 10px;
 }
 
+/* Qnalist.jsp */
+
 .qna-srch {
     padding: 10px 40px;
 }
@@ -424,6 +427,8 @@ label {
     margin: 40px 0;
 }
 
+/* MyInfo.jsp */
+
 .myinfo-box {
 	width: 80%;
 }
@@ -435,6 +440,8 @@ label {
     background: #fff;
     width: 60%;
 }
+
+/* Widrw.jsp */
 
 .widrw-txt li {
 	list-style: square;
@@ -468,4 +475,65 @@ label {
     height: 15px;
     margin-right: 5px;
     vertical-align: -4px;
+}
+
+/* GnrSrch.jsp */
+
+.srch-wrap {
+	display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+.srch-wrap>.srch-item {
+    width: calc((100% - 100px) / 4);
+    height: 100%;
+}
+
+.srch-item {
+	margin: 0;
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;    
+}
+
+.srch-item:not(:last-of-type) {
+	border-right: 1px dashed #e2e2e2;
+}
+
+.srch-txt p {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.srch-item>.icon {
+	background: #f7f7fb;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #039f6f;
+    margin: 0 15px 0 0;
+    font-size: 14px;
+    flex-shrink: 0;
+    padding-top: 2px;
+}
+.srch-btn {
+	width: 100px;
+}
+.srch-btn a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #485CB5;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }

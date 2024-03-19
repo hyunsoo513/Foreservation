@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>NavMain.jsp</title>
+	<title>NavGnrSrch.jsp</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -35,7 +35,7 @@
 
 <body>
     <!-- Navbar Start -->
-    <div class="container-fluid sticky-top">
+    <div class="container-fluid bg-primary">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light p-0">
                 <a href="ForeservationInfo.jsp" class="navbar-brand">
@@ -48,9 +48,9 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <div class="nav-item dropdown">
-                            <a href="GnrSrch.jsp" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">온라인예약</a>
+                            <a href="GnrSrch.jsp" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">온라인예약</a>
                             <div class="dropdown-menu bg-light mt-2">
-                                <a href="GnrSrch.jsp" class="dropdown-item">일반/숙박예약</a>
+                                <a href="GnrSrch.jsp" class="dropdown-item active">일반/숙박예약</a>
                                 <a href="#" class="dropdown-item">프로그램예약</a>
                                 <a href="#" class="dropdown-item">월별예약조회</a>
                             </div>
