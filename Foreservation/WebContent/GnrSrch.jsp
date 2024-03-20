@@ -111,64 +111,72 @@
         				</span>
         			</div>
         		</form>
-	            <div class="list-st">
-	        		<div class="list-img">
+	            <div class="list-st px-4 py-4">
+	        		<div class="img-slider me-4">
 	        			<img src="Resources/img/sitesrch1.png" alt="">
 	        		</div>
-	        		<div class="list-title">
-	        			<h5>국립칠곡숲체원</h5>
-	        			<ul class="srch-site mt-3">
-	        				<li>경북</li>
-	        				<li>국립</li>
-	        				<li class="state_red text-white">예약가능</li>
-	        			</ul>
-        			<div class="list-info mt-1">
-        				<ul>
-        					<li>
-        						<strong>객실정보</strong>
-        						<p>객실정보: 24개/최대인원271명(숙박기준)</p>
-        					</li>
-        					<li>
-        						<strong>프로그램정보</strong>
-        						<p>50개</p>
-        					</li>
-        					<li>
-        						<strong>편의시설</strong>
-        						<p>대강당, 세미나실(1~3실/전실), 세미나실(1~2실/2개실), 세미나실(1실/1개실), 다목적광장, 대강당, 세미나실(1~2실/2개실), 세미나실(단독형), 세미나실(1~3실/전실), 세미나실(1실/1개실)</p>
-        					</li>
-        					<li>
-        						<strong>위치</strong>
-        						<p>경북 칠곡군 석적읍 유학로 532 칠곡숲체원 (39846)</p>
-        					</li>
-        					<li>
-        						<strong>시설소개</strong>
-        						<p>숲체험 활동을 통해 국민이 산림에 대한 올바른 지식을 습득하고 가치관을 가지도록 함으로써 산림을 지속가능하게 보전하고 국가와 사회 발전 및 국민의 삶의 질 향상에 이바지함을 목적으로 두고</p>
-        					</li>
-        				</ul>
-        			</div>
-	        		</div>
-	        		<div class="list-link">
-	        			<div class="list-btn">
+	        		<div class="srch-info">
+		        		<div class="srch-title">
+		        			<h5>국립칠곡숲체원</h5>
+		        			<ul>
+		        				<li>경북</li>
+		        				<li>국립</li>
+		        				<li>예약가능</li>
+		        			</ul>
+		        		</div>
+	        			<div class="srch-detail mt-1">
 	        				<ul>
 	        					<li>
-	        						<a href="#">
-		        						<p>홈페이지 가기</p>	
-		        						<span><img alt="" src="Resources/img/arr.png"></span>
-	        						</a>
+	        						<strong>객실정보</strong>
+	        						<p>객실정보: 24개/최대인원271명(숙박기준)</p>
 	        					</li>
 	        					<li>
-	        						<a href="#">
-		        						<p>상세내역 보기</p>	
-		        						<span><img alt="" src="Resources/img/arr.png"></span>
-	        						</a>
+	        						<strong>프로그램정보</strong>
+	        						<p>50개</p>
 	        					</li>
 	        					<li>
-	        						<a href="#">
-		        						<p>찜하기</p>	
-		        						<span><img alt="" src="Resources/img/heart_on.png"></span>
-	        						</a>
+	        						<strong>편의시설</strong>
+	        						<p>대강당, 세미나실(1~3실/전실), 세미나실(1~2실/2개실), 세미나실(1실/1개실), 다목적광장, 대강당, 세미나실(1~2실/2개실), 세미나실(단독형), 세미나실(1~3실/전실), 세미나실(1실/1개실)</p>
+	        					</li>
+	        					<li>
+	        						<strong>위치</strong>
+	        						<p>경북 칠곡군 석적읍 유학로 532 칠곡숲체원 (39846)</p>
+	        					</li>
+	        					<li>
+	        						<strong>시설소개</strong>
+	        						<p>숲체험 활동을 통해 국민이 산림에 대한 올바른 지식을 습득하고 가치관을 가지도록 함으로써 산림을 지속가능하게 보전하고 국가와 사회 발전 및 국민의 삶의 질 향상에 이바지함을 목적으로 두고</p>
 	        					</li>
 	        				</ul>
+	        			</div>
+	        		</div>
+	        		<div class="srch-link">
+	        			<div class="srch-psbtn">
+	        				<div class="srch-bell">
+	        					<img alt="" src="Resources/img/bell.png">
+	        					<h5 class="mt-2 ms-5">예약 가능한</h5>
+	        				</div>
+	        				<div class="srch-num">
+		        				<ul>
+		        					<li>
+		        						<a href="#">
+			        						<p>객실 수</p>	
+			        						<span>5</span>
+		        						</a>
+		        					</li>
+		        					<li>
+		        						<a href="#">
+			        						<p>산림복지프로그램 수</p>	
+			        						<span>2</span>
+		        						</a>
+		        					</li>
+		        				</ul>
+	        				</div>
+	        				<div class="srch-rsvbtn">
+	        					<ul>
+	        						<li><a>예약하기</a></li>
+	        						<li><a>하트</a></li>
+	        					</ul>
+	        				</div>
 	        			</div>
 	        		</div>
         		</div>
