@@ -727,3 +727,25 @@ CheckList.jsp
 .check-title>h2 {
 	color: #3565d1;
 }
+
+.check-title ul {
+	margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.check-title ul li {
+	background: #fff;
+    padding: 25px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+    text-align: center;
+    box-sizing: border-box;
+    width: calc((100% - 100px) / 6);
+    flex-shrink: 0;
+    word-break: keep-all;
+}
+
+.check-title ul li:not(:last-of-type) {
+	margin-right: 20px;
+}
