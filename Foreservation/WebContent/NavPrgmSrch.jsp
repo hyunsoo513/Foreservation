@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>NavGnrSrch.jsp</title>
+	<title>NavPrgmSrch.jsp</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -50,9 +50,9 @@
                         <div class="nav-item dropdown">
                             <a href="GnrSrch.jsp" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">온라인예약</a>
                             <div class="dropdown-menu bg-light mt-2">
-                                <a href="GnrSrch.jsp" class="dropdown-item active">일반/숙박예약</a>
-                                <a href="PrgmSrch.jsp" class="dropdown-item">프로그램예약</a>
-                                <a href="#" class="dropdown-item">월별예약조회</a>
+                                <a href="GnrSrch.jsp" class="dropdown-item">일반/숙박예약</a>
+                                <a href="PrgmSrch.jsp" class="dropdown-item active">프로그램예약</a>
+                                <a href="MonthSrch.jsp" class="dropdown-item">월별예약조회</a>
                             </div>
                         </div>
                         <a href="SiteInfo.jsp" class="nav-item nav-link">기관안내</a>

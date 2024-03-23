@@ -254,11 +254,23 @@ label {
 
 .list-title>ul>li {
     display: inline;
-    border: 1px solid #009523;
+    border: 1px solid #FF8123;
     border-radius: 25px;
     font-size: 13px;
     text-align: center;
     padding: 3px 10px;
+}
+
+.list-title>ul>li:nth-child(1) {
+    border: 1px solid #009523;
+}
+
+.list-title>ul>li:nth-child(2) {
+    border: 1px solid #009523;
+}
+
+.list-title>ul>li:nth-child(3) {
+    border: 1px solid #6CA4D9;
 }
 
 .list-info>ul {
@@ -748,4 +760,77 @@ CheckList.jsp
 
 .check-title ul li:not(:last-of-type) {
 	margin-right: 20px;
+}
+
+.check-title ul li img {
+    vertical-align: middle;
+    margin-bottom: 13px;
+    color: black;
+}	
+
+.check-title ul li strong {
+	display: block;
+	font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+.check-title ul li p {
+	font-size: 12px;
+}
+
+/*
+PrgmSrch.jsp
+*/
+.list-link .prgm-btn {
+	width: 85%;
+	height: 70%;
+	border: 1px solid #e2e2e2;
+	border-radius: 25px;
+}
+
+.list-link>.prgm-btn>ul {
+	width: 100%;
+    height: 80%;
+    float: left;
+    padding-left: 0;
+}
+
+.list-link>.prgm-btn>ul li {
+	width: 85%;
+	height: 45px;
+    margin: 18px auto;
+    border-radius: 25px;
+    background: #EEEEEE;
+    text-align: center;
+    position: relative;
+    padding-top: 12px;
+}
+
+.prgm-btn>ul li a p {
+	width: 70%;
+    float: left;
+    color: black;
+    margin-bottom: 0;    
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.prgm-btn>ul li a img {
+	vertical-align: 0;
+}
+
+.prgm-btn>.srch-rsvbtn {
+	width: 100%;
+    position: relative;
+}
+
+
+/*
+footer.jsp
+*/
+.footer-txt p {
+    margin-bottom: 2px;
+    width: 800px;
 }
