@@ -98,7 +98,11 @@
         					</div>
         					<div class="srch-txt">
         						<p class="font-bold">인원</p>
-        						<p>1명</p>
+        						<div class="pl-mi">
+	        						<a href="#"><i class="fa fa-minus" aria-hidden="true"></i></a>
+	        						<p>1명</p>
+	        						<a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+        						</div>
         					</div>
         				</div>
         				<span class="srch-btn">
@@ -171,7 +175,7 @@
 
 
     <!-- CheckList Start -->
-    <jsp:include page="./CheckList.jsp"></jsp:include>
+    <jsp:include page="./ForestEdu.jsp"></jsp:include>
     <!-- CheckList End -->
 
 

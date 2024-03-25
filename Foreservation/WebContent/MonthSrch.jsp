@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>GnrSrch.jsp</title>
+	<title>MonthSrch.jsp</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -46,14 +46,14 @@
 
 
 	<!-- Navbar Start -->
-	<jsp:include page="./NavGnrSrch.jsp"></jsp:include>
+	<jsp:include page="./NavMonthSrch.jsp"></jsp:include>
 	<!-- Navbar End -->
 
 
     <!-- Hero Start -->
     <div class="container-fluid mb-3 title-line">
         <div class="container text-center">
-            <h2 class="text-dark mt-5 mb-4">일반 예약 검색</h2>
+            <h2 class="text-dark mt-5 mb-4">월별예약조회</h2>
         </div>
     </div>
     <!-- Hero End -->
