@@ -842,6 +842,7 @@ PrgmSrch.jsp
     border-radius: 10px;
     margin-top: 60px;
     overflow: hidden;
+    max-width: 1174px;
 }
 
 .edu-title {
@@ -877,6 +878,7 @@ PrgmSrch.jsp
 	display: flex;
 	width: 100%;
 	padding-left: 0;
+	flex-wrap: wrap;
 }
 	
 .content-item ul li {
@@ -888,9 +890,10 @@ PrgmSrch.jsp
     text-align: center;
     position: relative;	
 	display: flex;
+	margin: 7px 0;
 }	
 
-.content-item ul li p {
+.content-item ul li div p {
 	font-size: 12px;
 	margin-bottom: 0;
     padding-left: .6rem !important;
@@ -902,10 +905,104 @@ PrgmSrch.jsp
 	
 .content-item ul.col-3 li {
 	width: calc((100% - 100px) / 3);
-    margin: 7px 20px 7px 0;
+    margin: 7px 25px 7px 0;
 	align-items: center;
 }	
 
+.content-item ul.col-3 li:last-of-type {
+    margin: 7px 0;
+}	
+	
+.expt-col-1 li {
+	width: 95%;
+	align-items: center;
+}
+
+.expt-col-1 .tit {
+	text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.expt-col-1 .dot {
+	position: relative;
+	text-align: left;
+}
+
+.content-item .col6 li {
+    width: calc((100% - 100px) / 6);
+    display: block;
+    margin-right: 10px;
+}
+
+.content-item .col6 li:last-of-type {
+    margin-right: 0;
+}
+
+.content-item ul li .up {
+    background: url(../img/increase.png);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 15px auto 0 auto;
+    vertical-align: bottom;
+}
+
+.content-item ul li .down {
+    background: url(../img/decrease.png);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 15px auto 0 auto;
+    vertical-align: bottom;
+}
+
+.content-item ul li .updown .eft-num {
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 100%;
+}
+
+.content-item ul li .down .eft-num {
+    color: #4877cd;
+}
+
+.content-item ul li .up .eft-num {
+    color: #04a676;
+}
+
+.content-item ul li .updown .eft-txt {
+	color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 12.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content-item ul li .eft-tit {
+	font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 1.3;
+    padding-left: 0;
+}
+
+.edu-content .source-txt {
+	text-align: right;
+    font-size: 11px;
+    color: #444;
+    width: 95%;
+}
 	
 /* footer.jsp */
 .footer-txt p {
