@@ -1003,7 +1003,81 @@ PrgmSrch.jsp
     color: #444;
     width: 95%;
 }
+
+/* MonthSrch.jsp */
+.mth-srch-wrap {
+	display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+.mth-srch-wrap>.srch-item {
+	width: calc((100% - 100px) / 2);
+    height: 100%;
+}
+
+.month-choice {
+	display: flex;
+}
+
+.month-choice>a {
+	color: #777;
+	margin: 0 20px;
+}
+
+.month-choice>a:hover {
+	color: black;
+}
+
+.month-txt {
+	display: flex;
+	justify-content: space-between;
+}
+
+.month-txt .month-info {
+	display: flex;
+	font-size: 13px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.month-txt>p {
+	color: red;
+	font-size: 12px;
+	margin-bottom: 0;
+}
+
+.month-tbl {
+    width: 100%;
+    table-layout: auto;
+    border-top: 1px solid #848692;
+}
+
+.month-tbl thead {
+	background: #f7f7fb;
+    font-weight: 600;
+}
+
+
+.month-tbl th, .month-tbl td {
+	white-space: nowrap;
+    font-size: 13px;
+    padding: 6px;
+    height: 45px;
+    min-width: 30px;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
 	
+.month-tbl thead th:last-of-type, .month-tbl td:last-of-type {
+    border-right: 0;
+}
+
 /* footer.jsp */
 .footer-txt p {
     margin-bottom: 2px;

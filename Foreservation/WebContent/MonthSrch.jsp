@@ -63,128 +63,268 @@
 	<div class="container-fluid py-3">
         <div class="container">
         	<div class="mb-5">
-        		<form action="">
-        			<p class="text-center font-red">
-	            		※ 
-	            		<strong>매월 15일 09시</strong>부터 다음 한 달에 대한 예약 신청이 가능하며, 
-	            		<strong>예약 사용일 3일 전</strong>까지 예약하실 수 있습니다.
-        			</p>
-        			<div class="srch-wrap">
-        				<div class="srch-item">
-        					<div class="icon">
-        						<i class="fa fa-location-arrow fs-5 text-primary" aria-hidden="true"></i>
-        					</div>
-        					<div class="srch-txt">
-        						<p class="font-bold">지역</p>
-        						<p>경북</p>
-        					</div>
-        				</div>
-        				<div class="srch-item">
-        					<div class="icon">
-        						<i class="fa fa-home fs-5 text-primary" aria-hidden="true"></i>
-        					</div>
-        					<div class="srch-txt">
-        						<p class="font-bold">기관</p>
-        						<p>국립칠곡숲체원</p>
-        					</div>
-        				</div>
-        				<div class="srch-item">
-        					<div class="icon">
-        						<i class="fa fa-calendar fs-5 text-primary" aria-hidden="true"></i>
-        					</div>
-        					<div class="srch-txt">
-        						<p class="font-bold">예약일정</p>
-        						<p>날짜</p>
-        					</div>
-        				</div>
-        				<div class="srch-item">
-        					<div class="icon">
-        						<i class="fa fa-user fs-5 text-primary" aria-hidden="true"></i>
-        					</div>
-        					<div class="srch-txt">
-        						<p class="font-bold">인원</p>
-        						<div class="pl-mi">
-	        						<a href="#"><i class="fa fa-minus" aria-hidden="true"></i></a>
-	        						<p>1명</p>
-	        						<a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
-        						</div>
-        					</div>
-        				</div>
-        				<span class="srch-btn">
-        					<a href="#"><i class="fa fa-search fs-5 text-white" aria-hidden="true"></i>검색</a>
-        				</span>
-        			</div>
-        		</form>
-	            <div class="list-st px-4 py-4">
-	        		<div class="img-slider me-4">
-	        			<img src="Resources/img/sitesrch1.png" alt="">
-	        		</div>
-	        		<div class="srch-info">
-		        		<div class="srch-title">
-		        			<h5>국립칠곡숲체원</h5>
-		        			<ul>
-		        				<li>경북</li>
-		        				<li>국립</li>
-		        				<li>예약가능</li>
-		        			</ul>
-		        		</div>
-	        			<div class="srch-detail mt-1">
-	        				<ul>
-	        					<li>
-	        						<strong>객실정보</strong>
-	        						<p>객실정보: 24개/최대인원271명(숙박기준)</p>
-	        					</li>
-	        					<li>
-	        						<strong>프로그램정보</strong>
-	        						<p>50개</p>
-	        					</li>
-	        					<li>
-	        						<strong>편의시설</strong>
-	        						<p>대강당, 세미나실(1~3실/전실), 세미나실(1~2실/2개실), 세미나실(1실/1개실), 다목적광장, 대강당, 세미나실(1~2실/2개실), 세미나실(단독형), 세미나실(1~3실/전실), 세미나실(1실/1개실)</p>
-	        					</li>
-	        					<li>
-	        						<strong>위치</strong>
-	        						<p>경북 칠곡군 석적읍 유학로 532 칠곡숲체원 (39846)</p>
-	        					</li>
-	        					<li>
-	        						<strong>시설소개</strong>
-	        						<p>숲체험 활동을 통해 국민이 산림에 대한 올바른 지식을 습득하고 가치관을 가지도록 함으로써 산림을 지속가능하게 보전하고 국가와 사회 발전 및 국민의 삶의 질 향상에 이바지함을 목적으로 두고</p>
-	        					</li>
-	        				</ul>
-	        			</div>
-	        		</div>
-	        		<div class="srch-link">
-	        			<div class="srch-psbtn">
-	        				<div class="srch-bell">
-	        					<img alt="" src="Resources/img/bell.png">
-	        					<h5 class="mt-2 ms-5">예약 가능한</h5>
-	        				</div>
-	        				<div class="srch-num">
-		        				<ul>
-		        					<li>
-		        						<a href="#">
-			        						<p>객실 수</p>	
-			        						<span>5</span>
-		        						</a>
-		        					</li>
-		        					<li>
-		        						<a href="#">
-			        						<p>산림복지프로그램 수</p>	
-			        						<span>2</span>
-		        						</a>
-		        					</li>
-		        				</ul>
-	        				</div>
-	        				<div class="srch-rsvbtn">
-	        					<ul>
-	        						<li><a><img alt="" src="Resources/img/date.png" class="me-2">예약하기</a></li>
-	        						<li><a><img alt="" src="Resources/img/heart.png"></a></li>
-	        					</ul>
-	        				</div>
-	        			</div>
-	        		</div>
-        		</div>
+       			<p class="text-center font-red">
+            		※ 
+            		<strong>매월 15일 09시</strong>부터 다음 한 달에 대한 예약 신청이 가능하며, 
+            		<strong>예약 사용일 3일 전</strong>까지 예약하실 수 있습니다.
+       			</p>
+       			<div class="mth-srch-wrap">
+       				<div class="srch-item">
+       					<div class="icon">
+       						<i class="fa fa-location-arrow fs-5 text-primary" aria-hidden="true"></i>
+       					</div>
+       					<div class="srch-txt">
+       						<p class="font-bold">지역</p>
+       						<p>경북</p>
+       					</div>
+       				</div>
+       				<div class="srch-item">
+       					<div class="icon">
+       						<i class="fa fa-home fs-5 text-primary" aria-hidden="true"></i>
+       					</div>
+       					<div class="srch-txt">
+       						<p class="font-bold">기관</p>
+       						<p>국립칠곡숲체원</p>
+       					</div>
+       				</div>
+       				<span class="srch-btn">
+       					<a href="#"><i class="fa fa-search fs-5 text-white" aria-hidden="true"></i>검색</a>
+       				</span>
+       			</div>
 			</div>
+            <div>
+        		<div class="month-choice justify-content-center">
+        			<a href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+        			<h5>2024<span>년 </span>3<span>월</span></h5>
+        			<a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        		</div>
+       		</div>
+       		<div class="month-txt mb-2">
+       			<ul class="month-info">
+       				<li class="pe-3">
+       					<img alt="" src="Resources/img/month-state-icon01.png" class="pe-1">
+       					예약가능
+       				</li>
+       				<li>
+       					<img alt="" src="Resources/img/month-state-icon02.png" class="pe-1">
+       					예약완료
+       				</li>
+       			</ul>
+       			<p>※ 객실을 클릭하시면 정보를 볼 수 있습니다.</p>
+       		</div>
+       		<div>
+       			<table class="month-tbl">
+       				<caption style="display: none;">월간현황조회</caption>
+       				<thead>
+       					<tr class="text-center">
+       						<th scope="row">예약객실<br>상품명</th>
+       						<th scope="row">01<br>금</th>
+       						<th scope="row">02<br>토</th>
+       						<th scope="row">03<br>일</th>
+       						<th scope="row">04<br>월</th>
+       						<th scope="row">05<br>화</th>
+       						<th scope="row">06<br>수</th>
+       						<th scope="row">07<br>목</th>
+       						<th scope="row">08<br>금</th>
+       						<th scope="row">09<br>토</th>
+       						<th scope="row">10<br>일</th>
+       						<th scope="row">11<br>월</th>
+       						<th scope="row">12<br>화</th>
+       						<th scope="row">13<br>수</th>
+       						<th scope="row">14<br>목</th>
+       						<th scope="row">15<br>금</th>
+       						<th scope="row">16<br>토</th>
+       						<th scope="row">17<br>일</th>
+       						<th scope="row">18<br>월</th>
+       						<th scope="row">19<br>화</th>
+       						<th scope="row">20<br>수</th>
+       						<th scope="row">21<br>목</th>
+       						<th scope="row">22<br>금</th>
+       						<th scope="row">23<br>토</th>
+       						<th scope="row">24<br>일</th>
+       						<th scope="row">25<br>월</th>
+       						<th scope="row">26<br>화</th>
+       						<th scope="row">27<br>수</th>
+       						<th scope="row">28<br>목</th>
+       						<th scope="row">29<br>금</th>
+       						<th scope="row">30<br>토</th>
+       						<th scope="row">31<br>일</th>
+       					</tr>
+       				</thead>
+       				<tbody>
+       					<tr>
+       						<th scope="row" class="text-left">303(오소리)(5/7명)</th>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       					</tr>
+       					<tr>
+       						<th scope="row" class="text-left">304(다람쥐)(5/7명)</th>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       					</tr>
+       					<tr>
+       						<th scope="row" class="text-left">401(종달새)(5/7명)</th>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       					</tr>
+       					<tr>
+       						<th scope="row" class="text-left">402(동고비)(5/7명)</th>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       					</tr>
+       					<tr>
+       						<th scope="row" class="text-left">403(참수리)(5/7명)</th>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       						<td><img alt="예약가능" src="Resources/img/month-state-icon01.png"></td>
+       					</tr>
+       				</tbody>
+       			</table>
+       		</div>
        	</div>
 	</div>
 	<!-- GnrSrch End -->
