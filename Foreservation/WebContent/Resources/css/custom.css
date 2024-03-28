@@ -712,8 +712,11 @@ label {
     padding-left: 0;
     margin-bottom: 0;
     margin-top: 7px;
-    color: white;
     text-align: center;
+}
+
+.srch-rsvbtn > ul a {
+    color: white;
 }
 
 .srch-rsvbtn > ul li:nth-child(1) {
@@ -733,6 +736,8 @@ label {
     position: relative;
     padding-top: 15px;
 }
+
+
 
 /*
 CheckList.jsp
@@ -1076,6 +1081,98 @@ PrgmSrch.jsp
 	
 .month-tbl thead th:last-of-type, .month-tbl td:last-of-type {
     border-right: 0;
+}
+
+/* GnrResrv.jsp */
+.resrv-img-slider, .resrv-info {
+    width: 50%;
+}
+
+.resrv-img-slider img {
+    width: 95%;
+}	
+
+.resrv-info {
+	width: calc(100% - 500px);
+    margin: 0;
+    padding: 10px 0 0 20px;
+    letter-spacing: -1px;
+}
+
+.resrv-title {
+	width: 100%;
+    display: flex;
+    padding-top: 10px;
+}
+
+.resrv-title>h5 {
+	margin-bottom: 10px;
+	margin-top: 2px; 
+}
+
+.resrv-title > ul {
+	display: flex;
+	height: 100%;
+	justify-content: normal;
+	padding-left: 5px;
+	margin-bottom: 0;
+}
+
+.resrv-title > ul li {
+	width: auto;
+	height: 100%;
+    line-height: normal;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 3px 15px;
+    margin-left: 5px;
+}
+
+.resrv-title > ul li:nth-child(1) {
+    background: #00A948;
+}
+
+.resrv-title > ul li:nth-child(2) {
+    background: #1D74C5;
+}
+
+.resrv-detail {
+	width: 100%;
+	height: 85%;
+}
+
+.resrv-detail > ul {
+    padding-left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.resrv-detail > ul li {
+	width: 95%;
+    height: auto;
+	padding-bottom: 5px;
+}
+
+.resrv-detail > ul li strong {
+    float: left;
+    width: 25%;
+    height: 50%;
+    color: #007A62;
+    font-size: 14px;
+}
+
+.resrv-detail > ul li p {
+	text-align: left;
+	width: 75%;
+    height: 50%;
+    font-size: 15px;
+    float: left;
+    letter-spacing: -.5px;
+    font-size: 14px;
+    margin-bottom: 15px;
 }
 
 /* footer.jsp */

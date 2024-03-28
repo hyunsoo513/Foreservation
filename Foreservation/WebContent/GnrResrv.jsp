@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>GnrSrch.jsp</title>
+	<title>GnrResrv.jsp</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -53,82 +53,29 @@
     <!-- Hero Start -->
     <div class="container-fluid mb-3 title-line">
         <div class="container text-center">
-            <h2 class="text-dark mt-5 mb-4">일반 예약 검색</h2>
+            <h2 class="text-dark mt-5 mb-4">산림복지시설 예약</h2>
         </div>
     </div>
     <!-- Hero End -->
 
 
-	<!-- GnrSrch Start -->
+	<!-- GnrResrv Start -->
 	<div class="container-fluid py-3">
         <div class="container">
         	<div class="mb-5">
-        		<form action="">
-        			<p class="text-center font-red">
-	            		※ 
-	            		<strong>매월 15일 09시</strong>부터 다음 한 달에 대한 예약 신청이 가능하며, 
-	            		<strong>예약 사용일 3일 전</strong>까지 예약하실 수 있습니다.
-        			</p>
-        			<div class="srch-wrap">
-        				<div class="srch-item">
-        					<div class="icon">
-        						<i class="fa fa-location-arrow fs-5 text-primary" aria-hidden="true"></i>
-        					</div>
-        					<div class="srch-txt">
-        						<p class="font-bold">지역</p>
-        						<p>경북</p>
-        					</div>
-        				</div>
-        				<div class="srch-item">
-        					<div class="icon">
-        						<i class="fa fa-home fs-5 text-primary" aria-hidden="true"></i>
-        					</div>
-        					<div class="srch-txt">
-        						<p class="font-bold">기관</p>
-        						<p>국립칠곡숲체원</p>
-        					</div>
-        				</div>
-        				<div class="srch-item">
-        					<div class="icon">
-        						<i class="fa fa-calendar fs-5 text-primary" aria-hidden="true"></i>
-        					</div>
-        					<div class="srch-txt">
-        						<p class="font-bold">예약일정</p>
-        						<p>날짜</p>
-        					</div>
-        				</div>
-        				<div class="srch-item">
-        					<div class="icon">
-        						<i class="fa fa-user fs-5 text-primary" aria-hidden="true"></i>
-        					</div>
-        					<div class="srch-txt">
-        						<p class="font-bold">인원</p>
-        						<div class="pl-mi">
-	        						<a href="#"><i class="fa fa-minus" aria-hidden="true"></i></a>
-	        						<p>1명</p>
-	        						<a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
-        						</div>
-        					</div>
-        				</div>
-        				<span class="srch-btn">
-        					<a href="#"><i class="fa fa-search fs-5 text-white" aria-hidden="true"></i>검색</a>
-        				</span>
-        			</div>
-        		</form>
 	            <div class="list-st px-4 py-4">
-	        		<div class="img-slider me-4">
+	        		<div class="resrv-img-slider">
 	        			<img src="Resources/img/sitesrch1.png" alt="">
 	        		</div>
-	        		<div class="srch-info">
-		        		<div class="srch-title">
+	        		<div class="resrv-info">
+		        		<div class="resrv-title title-line">
 		        			<h5>국립칠곡숲체원</h5>
 		        			<ul>
 		        				<li>경북</li>
 		        				<li>국립</li>
-		        				<li>예약가능</li>
 		        			</ul>
 		        		</div>
-	        			<div class="srch-detail mt-1">
+	        			<div class="resrv-detail mt-3">
 	        				<ul>
 	        					<li>
 	        						<strong>객실정보</strong>
@@ -153,41 +100,11 @@
 	        				</ul>
 	        			</div>
 	        		</div>
-	        		<div class="srch-link">
-	        			<div class="srch-psbtn">
-	        				<div class="srch-bell">
-	        					<img alt="" src="Resources/img/bell.png">
-	        					<h5 class="mt-2 ms-5">예약 가능한</h5>
-	        				</div>
-	        				<div class="srch-num">
-		        				<ul>
-		        					<li>
-		        						<a href="#">
-			        						<p>객실 수</p>	
-			        						<span>5</span>
-		        						</a>
-		        					</li>
-		        					<li>
-		        						<a href="#">
-			        						<p>산림복지프로그램 수</p>	
-			        						<span>2</span>
-		        						</a>
-		        					</li>
-		        				</ul>
-	        				</div>
-	        				<div class="srch-rsvbtn">
-	        					<ul>
-	        						<li onclick=""><a href="GnrResrv.jsp"><img alt="" src="Resources/img/date.png" class="me-2">예약하기</a></li>
-	        						<li onclick=""><a href="#"><img alt="" src="Resources/img/heart.png"></a></li>
-	        					</ul>
-	        				</div>
-	        			</div>
-	        		</div>
         		</div>
 			</div>
        	</div>
 	</div>
-	<!-- GnrSrch End -->
+	<!-- GnrResrv End -->
 
 
     <!-- CheckList Start -->
