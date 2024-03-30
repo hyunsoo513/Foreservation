@@ -1211,7 +1211,7 @@ PrgmSrch.jsp
 	margin-bottom: 10px;
 }
 
-.roominfo-title span {
+.roominfo-title span , .prgminfo-title span {
     color: #777;
     font-size: 12px;
     font-weight: 400;
@@ -1219,7 +1219,7 @@ PrgmSrch.jsp
     float: right;
 }
 
-.resrv-roominfo {
+.resrv-roominfo, .resrv-prgminfo {
     font-size: 12px;
 }
 
@@ -1298,6 +1298,17 @@ PrgmSrch.jsp
     background: #fff;
     color: #90bc79 !important;
     font-size: 14px;
+}
+
+.prgm-list {
+	display: flex;
+}
+
+.prgm-list>li {
+	height: 114px;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
 }
 
 /* footer.jsp */

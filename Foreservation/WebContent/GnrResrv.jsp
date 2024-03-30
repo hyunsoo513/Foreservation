@@ -132,7 +132,7 @@
         							<li class="font-red" style="font-size: 12px;">※ 만 36개월 미만의 인원은 이용요금을 징수하지 않습니다.</li>
         						</ul>
         					</div>
-        					<div class="resrv-roominfo mt-5">
+        					<div class="resrv-roominfo mt-5 mb-5">
         						<h5 class="roominfo-title">
         							객실 선택
         							<span>* 이미지를 클릭하시면 객실요금과 상세정보를 확인하실 수 있습니다.</span>
@@ -182,44 +182,35 @@
        										<li><a class="room-btn btn-default" href="#">객실선택</a></li>
        									</ul>
        								</li>
-       								<li>
+       							</ul>
+        					</div>
+        					<hr>
+        					<div class="resrv-prgminfo mt-5">
+        						<h5 class="prgminfo-title">
+        							프로그램 선택
+        							<span>* 이미지를 클릭하시면 상세정보를 확인하실 수 있습니다.</span>
+       							</h5>
+       							<ul class="prgm-list mt-3 ps-0">
+       								<li class="active">
        									<div class="room-img"><a><img alt="" src="Resources/img/room100_in2.jpg"></a></div>
-       									<ul class="room-cont">
-       										<li>
-       											<div class="room-name">301(고라니)</div>
-       											<div class="room-txt">기준 인원 : 8명 / 최대 인원 : 11명(40㎡)</div>
-       										</li>
-       										<li class="room-price">
-       											<span class="text-primary">110,000</span>원
-       										</li>
-       										<li><a class="room-btn btn-default" href="#">객실선택</a></li>
-       									</ul>
+ 										<div class="room-name">301(고라니)</div>
+ 										<div class="room-txt">기준 인원 : 8명 / 최대 인원 : 11명(40㎡)</div>
+ 										<span class="text-primary">110,000</span>원
+ 										<a class="room-btn btn-default" href="#">객실선택</a>
        								</li>
-       								<li>
+       								<li class="active">
        									<div class="room-img"><a><img alt="" src="Resources/img/room100_in2.jpg"></a></div>
-       									<ul class="room-cont">
-       										<li>
-       											<div class="room-name">301(고라니)</div>
-       											<div class="room-txt">기준 인원 : 8명 / 최대 인원 : 11명(40㎡)</div>
-       										</li>
-       										<li class="room-price">
-       											<span class="text-primary">110,000</span>원
-       										</li>
-       										<li><a class="room-btn btn-default" href="#">객실선택</a></li>
-       									</ul>
+ 										<div class="room-name">301(고라니)</div>
+ 										<div class="room-txt">기준 인원 : 8명 / 최대 인원 : 11명(40㎡)</div>
+ 										<span class="text-primary">110,000</span>원
+ 										<a class="room-btn btn-default" href="#">객실선택</a>
        								</li>
-       								<li>
+       								<li class="active">
        									<div class="room-img"><a><img alt="" src="Resources/img/room100_in2.jpg"></a></div>
-       									<ul class="room-cont">
-       										<li>
-       											<div class="room-name">301(고라니)</div>
-       											<div class="room-txt">기준 인원 : 8명 / 최대 인원 : 11명(40㎡)</div>
-       										</li>
-       										<li class="room-price">
-       											<span class="text-primary">110,000</span>원
-       										</li>
-       										<li><a class="room-btn btn-default" href="#">객실선택</a></li>
-       									</ul>
+ 										<div class="room-name">301(고라니)</div>
+ 										<div class="room-txt">기준 인원 : 8명 / 최대 인원 : 11명(40㎡)</div>
+ 										<span class="text-primary">110,000</span>원
+ 										<a class="room-btn btn-default" href="#">객실선택</a>
        								</li>
        							</ul>
         					</div>
