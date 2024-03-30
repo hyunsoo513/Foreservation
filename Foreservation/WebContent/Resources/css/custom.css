@@ -1301,14 +1301,92 @@ PrgmSrch.jsp
 }
 
 .prgm-list {
-	display: flex;
+    border: 1px solid #ddd;
+    margin: 10px 2px;
+    width: 270px;
 }
 
-.prgm-list>li {
-	height: 114px;
-    align-items: center;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
+.prgm-img {
+	height: 0;
+    padding-top: 70%;
+    position: relative;
+    overflow: hidden;
+}
+
+.prgm-img img {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    min-height: 100%;
+}
+
+.prgm-info {
+	padding: 20px;
+    letter-spacing: -1px;
+}
+
+.prgm-name {
+	font-size: 15px;
+    min-height: 25px;
+    font-weight: 600;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
+.prgm-theme {
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+.prgm-theme li {
+	background: #f2f2f2;
+    float: left;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin: 2px 5px 2px 0;
+    color: #000;
+}
+
+.prgm-theme::after {
+	content: '';
+    display: block;
+    clear: both;	
+}
+
+.prgm-txt {
+	color: #777;
+    font-size: 13px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.prgm-price {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.prgm-price span {
+	font-size: 18px;
+    font-weight: 600;
+    color: #009523;
+}
+
+.prgminfo-btn {
+	font-size: 14px;
+    width: 100%;
+    padding: 6px 0;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    min-width: 106px;
+    font-weight: 500;
 }
 
 /* footer.jsp */

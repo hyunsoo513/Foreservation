@@ -190,29 +190,28 @@
         							프로그램 선택
         							<span>* 이미지를 클릭하시면 상세정보를 확인하실 수 있습니다.</span>
        							</h5>
-       							<ul class="prgm-list mt-3 ps-0">
-       								<li class="active">
-       									<div class="room-img"><a><img alt="" src="Resources/img/room100_in2.jpg"></a></div>
- 										<div class="room-name">301(고라니)</div>
- 										<div class="room-txt">기준 인원 : 8명 / 최대 인원 : 11명(40㎡)</div>
- 										<span class="text-primary">110,000</span>원
- 										<a class="room-btn btn-default" href="#">객실선택</a>
-       								</li>
-       								<li class="active">
-       									<div class="room-img"><a><img alt="" src="Resources/img/room100_in2.jpg"></a></div>
- 										<div class="room-name">301(고라니)</div>
- 										<div class="room-txt">기준 인원 : 8명 / 최대 인원 : 11명(40㎡)</div>
- 										<span class="text-primary">110,000</span>원
- 										<a class="room-btn btn-default" href="#">객실선택</a>
-       								</li>
-       								<li class="active">
-       									<div class="room-img"><a><img alt="" src="Resources/img/room100_in2.jpg"></a></div>
- 										<div class="room-name">301(고라니)</div>
- 										<div class="room-txt">기준 인원 : 8명 / 최대 인원 : 11명(40㎡)</div>
- 										<span class="text-primary">110,000</span>원
- 										<a class="room-btn btn-default" href="#">객실선택</a>
-       								</li>
-       							</ul>
+       							<div class="mt-4">
+       								<div>
+       									<div>
+       										<div class="prgm-list">
+       											<div class="prgm-img">
+       												<a href="#">
+       													<img alt="" src="Resources/img/program1.jpg">
+       												</a>
+       											</div>
+       											<div class="prgm-info">
+       												<div class="prgm-name">[자율체험]토리별 놀이교실(우리가족 숲놀이)</div>
+       												<ul class="prgm-theme">
+       													<li>휴식</li>
+       												</ul>
+       												<div class="prgm-txt">기준 인원 : 20명 / 최대 인원 : 120명</div>
+       												<div class="prgm-price"><span>5,000</span>원</div>
+       												<div><a class="prgminfo-btn btn-default" href="#">+ 이용회차 추가</a></div>
+       											</div>
+       										</div>
+       									</div>
+       								</div>
+       							</div>
         					</div>
         				</div>
         				<div class="resrv-right"></div>
