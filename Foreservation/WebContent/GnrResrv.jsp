@@ -190,9 +190,41 @@
         							프로그램 선택
         							<span>* 이미지를 클릭하시면 상세정보를 확인하실 수 있습니다.</span>
        							</h5>
-       							<div class="mt-4">
+       							<div class="mt-4 mb-5">
        								<div>
-       									<div>
+       									<div class="prgm-list-wrap">
+       										<div class="prgm-list">
+       											<div class="prgm-img">
+       												<a href="#">
+       													<img alt="" src="Resources/img/program1.jpg">
+       												</a>
+       											</div>
+       											<div class="prgm-info">
+       												<div class="prgm-name">[자율체험]토리별 놀이교실(우리가족 숲놀이)</div>
+       												<ul class="prgm-theme">
+       													<li>휴식</li>
+       												</ul>
+       												<div class="prgm-txt">기준 인원 : 20명 / 최대 인원 : 120명</div>
+       												<div class="prgm-price"><span>5,000</span>원</div>
+       												<div><a class="prgminfo-btn btn-default" href="#">+ 이용회차 추가</a></div>
+       											</div>
+       										</div>
+       										<div class="prgm-list">
+       											<div class="prgm-img">
+       												<a href="#">
+       													<img alt="" src="Resources/img/program1.jpg">
+       												</a>
+       											</div>
+       											<div class="prgm-info">
+       												<div class="prgm-name">[자율체험]토리별 놀이교실(우리가족 숲놀이)</div>
+       												<ul class="prgm-theme">
+       													<li>휴식</li>
+       												</ul>
+       												<div class="prgm-txt">기준 인원 : 20명 / 최대 인원 : 120명</div>
+       												<div class="prgm-price"><span>5,000</span>원</div>
+       												<div><a class="prgminfo-btn btn-default" href="#">+ 이용회차 추가</a></div>
+       											</div>
+       										</div>
        										<div class="prgm-list">
        											<div class="prgm-img">
        												<a href="#">
@@ -211,7 +243,42 @@
        										</div>
        									</div>
        								</div>
+									<div>
+										※ 해당 프로그램은 현장의 기상 상황 및 시설의 운영 사정 등에 따라 타 프로그램으로 대체 운영될 수 있습니다.
+									</div>
        							</div>
+       							<hr>
+        					</div>
+        					<div class="resrv-mealinfo">
+	        					<div class="meal-title">
+	        						<h5>
+	        							식사 선택
+	       							</h5>
+	       							<span>
+										<a class="meal-btn btn-default" href="#">선택인원 전체 일정 적용하기</a>
+										<a class="meal-btn btn-default" href="#">초기화</a>
+	       							</span>
+	        					</div>
+       							<div>
+       								<div>
+       									<div class="meal-list-wrap">
+       										<div class="meal-list">
+       											<div class="meal-info">
+       												<div class="meal-day">2024-04-11 / 1 Day</div>
+       												<ul class="prgm-theme">
+       													<li>휴식</li>
+       												</ul>
+       												<div class="prgm-txt">기준 인원 : 20명 / 최대 인원 : 120명</div>
+       												<div class="prgm-price"><span>5,000</span>원</div>
+       											</div>
+       										</div>
+       									</div>
+       								</div>
+									<div>
+										※ 해당 프로그램은 현장의 기상 상황 및 시설의 운영 사정 등에 따라 타 프로그램으로 대체 운영될 수 있습니다.
+									</div>
+       							</div>
+       							<hr>
         					</div>
         				</div>
         				<div class="resrv-right"></div>
