@@ -262,21 +262,39 @@
        							<div>
        								<div>
        									<div class="meal-list-wrap">
-       										<div class="meal-list">
-       											<div class="meal-info">
+       										<ul class="meal-list">
+       											<li class="meal-info">
        												<div class="meal-day">2024-04-11 / 
-       													<span>1 Day</span>
+       													<span class="font-blue">1 Day</span>
        												</div>
-       												<ul>
+       												<ul class="meal-step">
        													<li>
        														<span>조식</span>
-       														<div>
-       															
+       														<div class="meal-dropdown">
+       															<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       																인원 <span id="2024-04-11_003_nofprSpan">0</span> 명
+       															</button>
+       														</div>
+       													</li>
+       													<li>
+       														<span>중식</span>
+       														<div class="meal-dropdown">
+       															<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       																인원 <span id="2024-04-11_003_nofprSpan">0</span> 명
+       															</button>
+       														</div>
+       													</li>
+       													<li>
+       														<span>석식</span>
+       														<div class="meal-dropdown">
+       															<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       																인원 <span id="2024-04-11_003_nofprSpan">0</span> 명
+       															</button>
        														</div>
        													</li>
        												</ul>
-       											</div>
-       										</div>
+       											</li>
+       										</ul>
        									</div>
        								</div>
 									<div>

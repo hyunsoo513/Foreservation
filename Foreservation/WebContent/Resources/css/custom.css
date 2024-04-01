@@ -49,6 +49,10 @@ label {
 	font-size: 14px;
 }
 
+.font-blue {
+	color: #3565d1;
+}
+
 .font-bold {
 	font-weight: bold;
 }
@@ -743,10 +747,6 @@ label {
 CheckList.jsp
 */
 
-.check-title>h2 {
-	color: #3565d1;
-}
-
 .check-title ul {
 	margin-top: 30px;
     display: flex;
@@ -1417,6 +1417,10 @@ PrgmSrch.jsp
 	margin-top: 7px;
 }
 
+.meal-list {
+	width: 100%;
+}
+
 .meal-info {
 	padding: 15px;
 }
@@ -1425,6 +1429,26 @@ PrgmSrch.jsp
 	font-size: 15px;
     font-weight: 600;
     margin-bottom: 20px;
+}
+
+.mealnum_btn {
+    width: 100%;
+    border: 1px solid #c9c9c9;
+    height: 45px;
+    text-align: left;
+    padding: 0 14px;
+    background: #fff url(../img/select-arr.png) no-repeat right 9px center;
+}
+
+.meal-step li {
+	float: left;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.meal-dropdown {
+    flex-grow: 1;
 }
 
 /* footer.jsp */
