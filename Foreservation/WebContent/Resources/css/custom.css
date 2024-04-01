@@ -1417,6 +1417,16 @@ PrgmSrch.jsp
 	margin-top: 7px;
 }
 
+.meal-info {
+	padding: 15px;
+}
+
+.meal-day {
+	font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
 /* footer.jsp */
 .footer-txt p {
     margin-bottom: 2px;

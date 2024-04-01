@@ -264,12 +264,17 @@
        									<div class="meal-list-wrap">
        										<div class="meal-list">
        											<div class="meal-info">
-       												<div class="meal-day">2024-04-11 / 1 Day</div>
-       												<ul class="prgm-theme">
-       													<li>휴식</li>
+       												<div class="meal-day">2024-04-11 / 
+       													<span>1 Day</span>
+       												</div>
+       												<ul>
+       													<li>
+       														<span>조식</span>
+       														<div>
+       															
+       														</div>
+       													</li>
        												</ul>
-       												<div class="prgm-txt">기준 인원 : 20명 / 최대 인원 : 120명</div>
-       												<div class="prgm-price"><span>5,000</span>원</div>
        											</div>
        										</div>
        									</div>
