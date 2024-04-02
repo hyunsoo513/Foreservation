@@ -11,6 +11,13 @@ li {
 	list-style: none;
 }
 
+/* float 오류 해결을 위한 class */
+.clearfixed:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 .text-right {
 	text-align: right;
 }
@@ -1419,8 +1426,14 @@ PrgmSrch.jsp
 
 .meal-list {
 	width: 100%;
+	padding-left: 20px;
 }
 
+.meal-list > li {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+	
 .meal-info {
 	padding: 15px;
 }
@@ -1440,15 +1453,23 @@ PrgmSrch.jsp
     background: #fff url(../img/select-arr.png) no-repeat right 9px center;
 }
 
-.meal-step li {
+.meal-step>li {
 	float: left;
     width: 30%;
     display: flex;
     align-items: center;
 }
 
+
 .meal-dropdown {
     flex-grow: 1;
+}
+
+.meal-list-wrap>p {
+	float: right;
+	color: red;
+	font-size: 11px;
+	margin-bottom: 0;
 }
 
 /* footer.jsp */

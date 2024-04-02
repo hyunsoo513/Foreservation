@@ -249,7 +249,7 @@
        							</div>
        							<hr>
         					</div>
-        					<div class="resrv-mealinfo">
+        					<div class="resrv-mealinfo mb-5">
 	        					<div class="meal-title">
 	        						<h5>
 	        							식사 선택
@@ -259,51 +259,78 @@
 										<a class="meal-btn btn-default" href="#">초기화</a>
 	       							</span>
 	        					</div>
-       							<div>
-       								<div>
-       									<div class="meal-list-wrap">
-       										<ul class="meal-list">
-       											<li class="meal-info">
-       												<div class="meal-day">2024-04-11 / 
-       													<span class="font-blue">1 Day</span>
-       												</div>
-       												<ul class="meal-step">
-       													<li>
-       														<span>조식</span>
-       														<div class="meal-dropdown">
-       															<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-       																인원 <span id="2024-04-11_003_nofprSpan">0</span> 명
-       															</button>
-       														</div>
-       													</li>
-       													<li>
-       														<span>중식</span>
-       														<div class="meal-dropdown">
-       															<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-       																인원 <span id="2024-04-11_003_nofprSpan">0</span> 명
-       															</button>
-       														</div>
-       													</li>
-       													<li>
-       														<span>석식</span>
-       														<div class="meal-dropdown">
-       															<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-       																인원 <span id="2024-04-11_003_nofprSpan">0</span> 명
-       															</button>
-       														</div>
-       													</li>
-       												</ul>
-       											</li>
-       										</ul>
-       									</div>
-       								</div>
-									<div>
-										※ 해당 프로그램은 현장의 기상 상황 및 시설의 운영 사정 등에 따라 타 프로그램으로 대체 운영될 수 있습니다.
-									</div>
-       							</div>
-       							<hr>
-        					</div>
-        				</div>
+								<div class="meal-list-wrap clearfixed">
+									<ul class="meal-list">
+										<li class="meal-info">
+											<div class="meal-day">2024-04-11 / 
+												<span class="font-blue">1 Day</span>
+											</div>
+											<ul class="meal-step clearfixed">
+												<li>
+													<span>조식</span>
+													<div class="meal-dropdown ms-2 me-4">
+														<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+															인원 <span>0</span> 명
+														</button>
+													</div>
+												</li>
+												<li>
+													<span>중식</span>
+													<div class="meal-dropdown ms-2 me-4">
+														<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+															인원 <span>0</span> 명
+														</button>
+													</div>
+												</li>
+												<li>
+													<span>석식</span>
+													<div class="meal-dropdown ms-2">
+														<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+															인원 <span>0</span> 명
+														</button>
+													</div>
+												</li>
+											</ul>
+										</li>
+										<li class="meal-info">
+											<div class="meal-day">2024-04-12 / 
+												<span class="font-blue">2 Day</span>
+											</div>
+											<ul class="meal-step clearfixed">
+												<li>
+													<span>조식</span>
+													<div class="meal-dropdown ms-2 me-4">
+														<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+															인원 <span>0</span> 명
+														</button>
+													</div>
+												</li>
+												<li>
+													<span>중식</span>
+													<div class="meal-dropdown ms-2 me-4">
+														<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+															인원 <span>0</span> 명
+														</button>
+													</div>
+												</li>
+												<li>
+													<span>석식</span>
+													<div class="meal-dropdown ms-2">
+														<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+															인원 <span>0</span> 명
+														</button>
+													</div>
+												</li>
+											</ul>
+										</li>
+									</ul>
+									<p>※ 영유아(36개월 미만)와 어린이(36개월 이상 만13세 미만)는 입실시 증빙서류를 제시해야 합니다.</p>
+									<p>※ 가족관계증명서, 주민등록등본, 여권, 건강보험 등 생년월일을 확인할 수 있는 법정신분증 제시.</p>
+									<p>※ 식사는 사전 예약제로 운영되며 당일 식권 구입 및 취소는 불가합니다.</p>
+								</div>
+   							</div>
+   							<hr>
+      					</div>
         				<div class="resrv-right"></div>
         			</div>
         		</div>
