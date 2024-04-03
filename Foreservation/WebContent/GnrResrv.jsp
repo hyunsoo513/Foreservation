@@ -119,7 +119,7 @@
 	        		</div>
         		</div>
         		<div class="resrv-choice">
-        			<div>
+        			<div class="resrv-wrap">
         				<div class="resrv-left">
         					<div class="resrv-useinfo mt-5">
         						<p><i class="fa fa-info-circle me-1" aria-hidden="true"></i>이용안내</p>
@@ -331,7 +331,40 @@
    							</div>
    							<hr>
       					</div>
-        				<div class="resrv-right"></div>
+        				<div class="resrv-right mt-5">
+        					<div>
+        						<div class="res-con">
+        							<div class="edit-area">
+	        							<div class="edit-date">
+	        								<span class="edit-title">이용일</span>
+	        								<input type="text" placeholder="2024-04-11 ~ 2024-04-12" class="mb-3">
+	        							</div>
+	        							<div class="edit-num">
+	        								<span class="edit-title">인원</span>
+	        								<input type="text" placeholder="- 1 +" class="mb-3">
+	        							</div>
+	        							<div class="edit-num">
+	        								<span class="edit-title">추가 인원</span>
+	        								<input type="text" placeholder="- 1 +" class="mb-3">
+	        							</div>
+        									<!-- 
+	        								<div>
+	        									<label for="spinner">
+													<span class="hide">숫자선택</span>
+												</label>
+	        									<span class="ui-spinner ui-corner-all ui-widget ui-widget-content" style="height: 40px;">
+			        								<input type="number" min="1" max="19" class="spinner ui-spinner-input"
+			        								id="smmarGsrmNofpr" readonly="readonly" aria-valuemin="1" aria-valuemax="19" 
+			        								aria-valuenow="1" autocomplete="off" role="spinbutton">
+			        								<a tabindex="-1" aria-hidden="true" class="ui-spinner-button ui-spinner-up ui-corner-tr"></a>
+			        								<a tabindex="-1" aria-hidden="true" class="ui-spinner-button ui-spinner-down ui-corner-br"></a>
+	        									</span>
+	        								</div>
+        									 -->
+        							</div>
+        						</div>
+        					</div>
+        				</div>
         			</div>
         		</div>
 			</div>

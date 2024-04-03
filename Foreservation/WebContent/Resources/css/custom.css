@@ -1201,8 +1201,13 @@ PrgmSrch.jsp
     margin-right: 5px;
 }
 
+.resrv-wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
 .resrv-left {
-    width: 800px;
+    width: 780px;
     margin: 0;
 }
 
@@ -1314,7 +1319,7 @@ PrgmSrch.jsp
 .prgm-list, .meal-list {
     border: 1px solid #ddd;
     margin: 0 10px 15px 0;
-    width: 260px;
+    width: 253px;
 }
 
 .prgm-img {
@@ -1471,6 +1476,73 @@ PrgmSrch.jsp
 	font-size: 11px;
 	margin-bottom: 0;
 }
+
+.resrv-right {
+	width: 300px;
+    margin: 0;
+}
+
+.res-con {
+	width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px, rgba(0, 0, 0, 0.15) 0px 2px 16px 0px;
+    padding: 40px 30px;
+    margin: 0;
+}
+
+.edit-title {
+	display: inline-block;
+    color: #3565d1;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.edit-area > div {
+    border-bottom: 1px dashed #ddd;
+}
+
+.edit-date > input, .edit-num > input {
+	width: 100%;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+}
+
+/*
+.edit_num label {
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+.edit_num .ui-spinner {
+    display: flex;
+    background: #fff;
+}
+
+.edit_num .ui-spinner-button {
+    height: 40px;
+    width: 40px;
+    min-width: 40px;
+    border-radius: 0;
+    background: #f9f9f9 !important;
+    cursor: pointer;
+}
+
+.edit_num .ui-spinner-input {
+    width: 100%;
+    min-width: auto;
+    max-width: none;
+    margin: 0;
+    height: 40px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    font-size: 16px !important;
+}
+*/
+
 
 /* footer.jsp */
 .footer-txt p {
