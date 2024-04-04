@@ -1497,15 +1497,27 @@ PrgmSrch.jsp
     margin: 10px 0;
 }
 
-.edit-area > div {
+.edit-area > div, .choice_result > li {
     border-bottom: 1px dashed #ddd;
 }
 
 .edit-date > input, .edit-num > input {
 	width: 100%;
     border: 1px solid #ddd;
-    padding: 0 10px;
+    padding: 5px 10px;
 }
+
+.choice_result {
+	padding-left: 0;
+	font-size: 14px;
+}
+
+.choice_result p {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
 
 /*
 .edit_num label {

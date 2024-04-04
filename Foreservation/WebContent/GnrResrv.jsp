@@ -362,6 +362,47 @@
 	        								</div>
         									 -->
         							</div>
+        							<ul class="choice_result">
+										<li class="pt-3">
+											<strong>
+												객실
+												<a href="#" class="fold_btn rotate"><i class="fas fa-chevron-up" aria-hidden="true"></i><span class="hide">접기</span></a>
+											</strong>
+											<div class="choice_con" style="display: block;">
+												<p>
+													<span id="smmarGsrmNm">304(다람쥐)</span>
+													<span id="smmarGsrmAmt">70,000원</span>
+												</p>
+												<p>
+													<span id="smmarAddNofpr" style="display:none;">추가인원</span>
+													<span id="smmarAddNofprAmt" style="display:none;"></span>
+												</p>
+												<p id="weekAlert" style="color:red; display:none;">※ 주말 가격이 포함된 금액입니다.</p>
+											</div>
+										</li>
+										<li>
+											<strong>
+												프로그램
+												<a href="javascript:void(0);" class="edit_btn" onclick="ScrollToPrg();"><i class="fas fa-pen" aria-hidden="true"></i><span class="hide">수정하기</span></a>
+												<a href="javascript:void(0);" class="fold_btn"><i class="fas fa-chevron-up" aria-hidden="true"></i><span class="hide">접기</span></a>
+											</strong>
+											<div class="choice_con" id="prgrmChoiceList">
+											</div>
+										</li>
+										<li>
+											<strong>
+												식사
+												<a href="javascript:void(0);" class="edit_btn" onclick="ScrollToMeal();"><i class="fas fa-pen" aria-hidden="true"></i><span class="hide">수정하기</span></a>
+												<a href="javascript:void(0);" class="fold_btn"><i class="fas fa-chevron-up" aria-hidden="true"></i><span class="hide">접기</span></a>
+											</strong>
+											<div class="choice_con" id="mealChoiceList">
+											</div>
+										</li>
+										<li class="total">
+											<strong>합계금액</strong>
+											<p class="total_price" id="totAmt">70,000원</p>
+										</li>
+									</ul>
         						</div>
         					</div>
         				</div>
