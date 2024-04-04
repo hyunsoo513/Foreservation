@@ -1497,7 +1497,7 @@ PrgmSrch.jsp
     margin: 10px 0;
 }
 
-.edit-area > div, .choice_result > li {
+.edit-area > div, .choice_result > li:not(:last-of-type) {
     border-bottom: 1px dashed #ddd;
 }
 
@@ -1518,6 +1518,68 @@ PrgmSrch.jsp
     margin-top: 15px;
 }
 
+.choice_result p span:first-of-type {
+    width: calc(100% - 100px);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.choice_result li strong .fold_btn {
+    position: absolute;
+    right: 240px;
+    transform: translateY(-7%);
+}
+
+.choice_result li.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total strong {
+    padding-top: 5px;
+}
+
+.choice_result p.total_price {
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.terms {
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+	font-size: 13px;
+}
+
+.terms .all-terms {
+    border-bottom: 1px dashed #ddd;
+    margin-bottom: 5px;
+}
+
+.terms li:not(first-of-type) {
+    padding: 5px 0;
+}
+
+.terms .all-terms .main-check {
+    color: #000;
+    font-weight: 700;
+}
+
+.rc-wrap input[type=checkbox] + label:before, .rc-wrap input[type=radio] + label:before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+    content: '';
+    background: #ffffff;
+    width: 16px;
+    height: 16px;
+    display: block;
+    border: 1px solid #404040;
+    border-radius: 3px;
+}
 
 /*
 .edit_num label {

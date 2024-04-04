@@ -366,41 +366,81 @@
 										<li class="pt-3">
 											<strong>
 												객실
-												<a href="#" class="fold_btn rotate"><i class="fas fa-chevron-up" aria-hidden="true"></i><span class="hide">접기</span></a>
+												<a href="#" class="fold_btn rotate"><i class="fa fa-chevron-up font-blue" aria-hidden="true"></i><span class="hide">접기</span></a>
 											</strong>
 											<div class="choice_con" style="display: block;">
 												<p>
-													<span id="smmarGsrmNm">304(다람쥐)</span>
-													<span id="smmarGsrmAmt">70,000원</span>
+													<span>301(고라니)</span>
+													<span>110,000원</span>
 												</p>
 												<p>
-													<span id="smmarAddNofpr" style="display:none;">추가인원</span>
-													<span id="smmarAddNofprAmt" style="display:none;"></span>
+													<span style="display:none;">추가인원</span>
+													<span style="display:none;"></span>
 												</p>
-												<p id="weekAlert" style="color:red; display:none;">※ 주말 가격이 포함된 금액입니다.</p>
+												<p style="color:red; display:none;">※ 주말 가격이 포함된 금액입니다.</p>
 											</div>
 										</li>
-										<li>
+										<li class="pt-3">
 											<strong>
 												프로그램
-												<a href="javascript:void(0);" class="edit_btn" onclick="ScrollToPrg();"><i class="fas fa-pen" aria-hidden="true"></i><span class="hide">수정하기</span></a>
-												<a href="javascript:void(0);" class="fold_btn"><i class="fas fa-chevron-up" aria-hidden="true"></i><span class="hide">접기</span></a>
+												<a href="#" class="fold_btn"><i class="fa fa-chevron-up font-blue" aria-hidden="true"></i><span class="hide">접기</span></a>
 											</strong>
 											<div class="choice_con" id="prgrmChoiceList">
+												<p>
+													<span>[자율체험]토리별 놀이교실(우리가족 숲놀이)</span>
+													<span>5,000원</span>
+												</p>
+											</div>
+										</li>
+										<li class="pt-3">
+											<strong>
+												식사
+												<a href="#" class="fold_btn"><i class="fa fa-chevron-up font-blue" aria-hidden="true"></i><span class="hide">접기</span></a>
+											</strong>
+											<div class="choice_con" id="mealChoiceList">
+												<p>
+													<span>석식 / 인원 2</span>
+													<span>16,000원</span>
+												</p>
+												<p>
+													<span>조식 / 인원 2</span>
+													<span>16,000원</span>
+												</p>
+												<p>
+													<span>중식 / 인원 2</span>
+													<span>16,000원</span>
+												</p>
+											</div>
+										</li>
+										<li class="total pt-3">
+											<strong>합계금액</strong>
+											<p class="total_price" id="totAmt">70,000원</p>
+										</li>
+									</ul>
+									<ul class="terms">
+										<li class="all-terms">
+											<p class="main-check">이용약관, 위약금 정책을 확인하세요.</p>
+											<p class="sub-check">아래 약관 및 정책을 확인하신 후 동의하시는 경우 체크하여 최종 예약을 완료해주세요.</p>
+										</li>
+										<li>
+											<div class="rc-wrap">
+												<div class="rc-inner penalty_btn">
+													<input type="checkbox" id="penaltyChkBox" name="checkbox01">
+													<label for="penaltyChkBox">
+														<span class="label-txt"><strong>위약금 정책</strong>을 읽었으며 동의합니다.</span>
+													</label>
+												</div>
 											</div>
 										</li>
 										<li>
-											<strong>
-												식사
-												<a href="javascript:void(0);" class="edit_btn" onclick="ScrollToMeal();"><i class="fas fa-pen" aria-hidden="true"></i><span class="hide">수정하기</span></a>
-												<a href="javascript:void(0);" class="fold_btn"><i class="fas fa-chevron-up" aria-hidden="true"></i><span class="hide">접기</span></a>
-											</strong>
-											<div class="choice_con" id="mealChoiceList">
+											<div class="rc-wrap">
+												<div class="rc-inner term_btn">
+													<input type="checkbox" id="termChkBox" name="checkbox01">
+													<label for="termChkBox">
+														<span class="label-txt"><strong>이용약관</strong>을 읽었으며 동의합니다.</span>
+													</label>
+												</div>
 											</div>
-										</li>
-										<li class="total">
-											<strong>합계금액</strong>
-											<p class="total_price" id="totAmt">70,000원</p>
 										</li>
 									</ul>
         						</div>
