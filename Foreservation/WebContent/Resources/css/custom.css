@@ -1231,7 +1231,7 @@ PrgmSrch.jsp
     float: right;
 }
 
-.resrv-roominfo, .resrv-prgminfo, .resrv-mealinfo {
+.resrv-roominfo, .resrv-prgminfo, .resrv-mealinfo, .pgresrv-txt {
     font-size: 12px;
 }
 
@@ -1619,6 +1619,16 @@ PrgmSrch.jsp
     color: #fff;
     font-size: 17px;
     transition: all .2s;
+}
+
+.pg-resrv-img-slider {
+	width: 500px;
+}
+
+.pg-resrv-img-slider img {
+	width: 90%;
+	margin: 0 10px;
+    border-radius: 30px;
 }
 
 /*

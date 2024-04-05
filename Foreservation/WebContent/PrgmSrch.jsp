@@ -161,7 +161,7 @@
 	        				</ul>
 		        			<div class="srch-rsvbtn">
 	        					<ul>
-	        						<li><a><img alt="" src="Resources/img/date.png" class="me-2">예약하기</a></li>
+	        						<li><a href="PrgmResrv.jsp"><img alt="" src="Resources/img/date.png" class="me-2">예약하기</a></li>
 	        						<li><a><img alt="" src="Resources/img/heart.png"></a></li>
 	        					</ul>
 	        				</div>
