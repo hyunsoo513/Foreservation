@@ -62,7 +62,7 @@
 	<!-- GnrResrv Start -->
 	<div class="container-fluid py-3">
         <div class="container">
-        	<div class="mb-5">
+        	<div class="mb-1">
 	            <div class="list-st px-4 py-4">
 	        		<div class="resrv-img-slider">
 	        			<img src="Resources/img/sitesrch1.png" alt="">
@@ -443,6 +443,9 @@
 											</div>
 										</li>
 									</ul>
+									<div class="res_btn" onclick="javascript:fn_makeRsrvt();">
+										<a href="javascript:void(0);" class="a_link"><img src="/images/common/content/calendar.png" alt="">예약하기</a>
+									</div>
         						</div>
         					</div>
         				</div>

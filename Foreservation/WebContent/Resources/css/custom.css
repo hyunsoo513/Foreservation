@@ -1558,6 +1558,13 @@ PrgmSrch.jsp
     margin-bottom: 5px;
 }
 
+.terms li strong {
+    font-weight: 600;
+    text-decoration: underline;
+    line-height: 130%;
+    font-size: 13px;
+}
+
 .terms li:not(first-of-type) {
     padding: 5px 0;
 }
@@ -1565,6 +1572,27 @@ PrgmSrch.jsp
 .terms .all-terms .main-check {
     color: #000;
     font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.rc-wrap {
+    position: relative;
+    display: inline-block;
+    margin: 3px 0;
+}
+
+.rc-wrap input[type=checkbox], .rc-wrap input[type=radio] {
+    position: absolute;
+    outline: none;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    z-index: -9;
+}
+
+.rc-wrap input[type=checkbox] + label, .rc-wrap input[type=radio] + label {
+    cursor: pointer;
+    padding-left: 22px;
+    font-size: 13px;
 }
 
 .rc-wrap input[type=checkbox] + label:before, .rc-wrap input[type=radio] + label:before {
@@ -1579,6 +1607,18 @@ PrgmSrch.jsp
     display: block;
     border: 1px solid #404040;
     border-radius: 3px;
+}
+
+.res_btn a {
+    display: block;
+    width: 100%;
+    background: #039958;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 17px;
+    transition: all .2s;
 }
 
 /*
