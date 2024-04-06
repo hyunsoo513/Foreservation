@@ -61,7 +61,7 @@
 
 	<!-- PrgmResrv Start -->
 	<div class="container-fluid py-3">
-        <div class="container">
+        <div class="container pb-5 btm-line">
 	        <div class="list-st px-4 py-4">
         		<div class="pg-resrv-img-slider">
         			<img src="Resources/img/pg.jpg" alt="">
@@ -499,6 +499,69 @@
 							<div id="tab2" class="item info_map" style="width: 100%; height: 350px; display: none; position: relative; overflow: hidden; background: url(&quot;https://t1.daumcdn.net/mapjsapi/images/bg_tile.png&quot;);"><div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; touch-action: none; cursor: url(&quot;https://t1.daumcdn.net/mapjsapi/images/cursor/openhand.cur.ico&quot;) 7 5, url(&quot;https://t1.daumcdn.net/mapjsapi/images/cursor/openhand.cur.ico&quot;), default;"><div style="position: absolute;"><div style="position: absolute; z-index: 0;"></div><div style="position: absolute; z-index: 1; left: 0px; top: 0px;"><img src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v21_cclzf/3/1351/1414.png" alt="" role="presentation" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -111px; top: -22px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"></div><div style="position: absolute; z-index: 1;"></div><div style="width: 0px; height: 0px; position: absolute; z-index: 1;"></div><div style="position: absolute; z-index: 1;"><svg version="1.1" style="stroke: none; stroke-dashoffset: 0.5; stroke-linejoin: round; fill: none; transform: translateZ(0px); position: absolute; width: 0px; height: 0px; left: 0px; top: 0px;" viewBox="0 0 0 0"><defs></defs></svg></div><div style="position: absolute; z-index: 1; width: 100%; height: 0px; transform: translateZ(0px);"><div style="position: absolute; margin: -39px 0px 0px -14px; z-index: 0; left: 0px; top: 0px; display: none;"><img draggable="false" src="https://t1.daumcdn.net/mapjsapi/images/marker.png" alt="" role="presentation" title="" style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; clip: rect(0px, 29px, 42px, 0px); top: 0px; left: 0px; width: 29px; height: 42px;"><img src="https://t1.daumcdn.net/mapjsapi/images/transparent.gif" alt="" role="presentation" draggable="false" usemap="#daum.maps.Marker.Area:1" style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; width: 29px; height: 42px;"><map id="daum.maps.Marker.Area:1" name="daum.maps.Marker.Area:1"><area href="javascript:void(0)" alt="" role="presentation" shape="poly" coords="14,39,9,27,4,21,1,16,1,10,4,4,11,0,18,0,25,4,28,10,28,16,25,21,20,27" title="" style="-webkit-tap-highlight-color: transparent;"></map></div></div></div></div><div style="position: absolute; cursor: default; z-index: 1; margin: 0px 6px; height: 19px; line-height: 14px; left: 0px; bottom: 0px; color: rgb(0, 0, 0);"><div style="color: rgb(0, 0, 0); text-align: center; font-size: 10px; float: left; display: none;"><div style="float: left; margin: 2px 3px 0px 4px; height: 6px; transition: width 0.1s ease 0s; border-top: none rgb(0, 0, 0); border-right: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0); border-left: 2px solid rgb(0, 0, 0); border-image: initial; width: 46px;"></div><div style="float: left; margin: 0px 4px 0px 0px; font-family: AppleSDGothicNeo-Regular, 돋움, dotum, sans-serif; font-weight: bold; color: rgb(0, 0, 0);">50m</div></div><div style="margin: 0px 4px; float: left;"><a target="_blank" href="http://map.kakao.com/" title="Kakao 지도로 보시려면 클릭하세요." style="float: left; width: 32px; height: 10px;"><img src="https://t1.daumcdn.net/mapjsapi/images/m_bi_b.png" alt="Kakao 지도로 이동" style="float: left; width: 32px; height: 10px; border: none;"></a><div style="font: 11px / 11px Arial, Tahoma, Dotum, sans-serif; float: left;"></div></div></div><div style="cursor: auto; position: absolute; z-index: 2; left: 0px; top: 0px;"></div></div>
 						</div>
 					</div>
+				</div>
+				<div class="res_right">
+					<div class="res_con" style="position: relative;">
+						<div class="edit_area">
+							<div class="edit-date">
+								<span class="edit-tit">이용일</span>
+								<span class="plain_txt" id="smmarUseDt">2024.04.09</span>
+							</div>
+							<div class="edit_none">
+								<span class="edit-tit">이용금액</span>
+								<span class="plain_txt">5,000원</span>
+							</div>
+							<div class="edit_num edit_row">
+								<span class="edit-tit">이용회차</span>
+								<select onchange="javascript:fn_notmChange(this);" id="notmSelectBox" style="font-size: 14px;"><option value="928">1회차(10:00~11:00)</option></select>
+							</div>
+							<div class="edit_num edit_row">
+								<span class="edit-tit">신청인원</span>
+								<div class="spinner-wrap">
+									<label for="spinner">
+										<span class="hide">숫자선택</span></label>
+									<span class="ui-spinner ui-corner-all ui-widget ui-widget-content" style="height: 40px;"><input type="number" id="rqstNofpr" min="1" class="spinner ui-spinner-input" value="1" readonly="" aria-valuemin="1" aria-valuenow="1" autocomplete="off" role="spinbutton"><a tabindex="-1" aria-hidden="true" class="ui-spinner-button ui-spinner-up ui-corner-tr"></a><a tabindex="-1" aria-hidden="true" class="ui-spinner-button ui-spinner-down ui-corner-br"></a></span>
+								</div>
+							</div>
+						</div>
+						<ul class="choice_result">
+							<li class="total">
+								<strong>합계금액</strong>
+								<p class="total_price" id="smmarSumAmt">5,000원</p>
+							</li>
+						</ul>
+						<ul class="terms">
+							<li class="all-terms">
+								<p class="main-check">이용약관, 위약금 정책을 확인하세요.</p>
+								<p class="sub-check">아래 약관 및 정책을 확인하신 후 동의하시는 경우 체크하여 최종 예약을 완료해주세요.</p>
+							</li>
+							
+								<li>
+									<div class="rc-wrap">
+										<div class="rc-inner penalty_btn">
+											<input type="checkbox" id="penaltyChkBox" name="checkbox01">
+											<label for="penaltyChkBox">
+												<span class="label-txt"><strong>위약금 정책</strong>을 읽었으며 동의합니다.</span>
+											</label>
+										</div>
+									</div>
+								</li>
+							
+							<li>
+								<div class="rc-wrap">
+									<div class="rc-inner term_btn">
+										<input type="checkbox" id="termChkBox" name="checkbox01">
+										<label for="termChkBox">
+											<span class="label-txt"><strong>이용약관</strong>을 읽었으며 동의합니다.</span>
+										</label>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<div class="res_btn">
+							<a href="javascript:void(0);" onclick="javascript:fn_prgrmRsrvt();" class="a_link"><img src="/images/common/content/calendar.png" alt="">예약하기</a>
+						</div>
+					<div dir="ltr" class="resize-sensor" style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;"><div class="resize-sensor-expand" style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;"><div style="position: absolute; left: 0px; top: 0px; transition: all 0s ease 0s; width: 390px; height: 666px;"></div></div><div class="resize-sensor-shrink" style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;"><div style="position: absolute; left: 0px; top: 0px; transition: all 0s ease 0s; width: 200%; height: 200%;"></div></div></div></div>
 				</div>
        		</div>
        	</div>

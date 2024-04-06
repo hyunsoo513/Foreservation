@@ -336,15 +336,15 @@
         						<div class="res-con">
         							<div class="edit-area">
 	        							<div class="edit-date">
-	        								<span class="edit-title">이용일</span>
+	        								<span class="edit-tit">이용일</span>
 	        								<input type="text" placeholder="2024-04-11 ~ 2024-04-12" class="mb-3">
 	        							</div>
 	        							<div class="edit-num">
-	        								<span class="edit-title">인원</span>
+	        								<span class="edit-tit">인원</span>
 	        								<input type="text" placeholder="- 1 +" class="mb-3">
 	        							</div>
 	        							<div class="edit-num">
-	        								<span class="edit-title">추가 인원</span>
+	        								<span class="edit-tit">추가 인원</span>
 	        								<input type="text" placeholder="- 1 +" class="mb-3">
 	        							</div>
         									<!-- 

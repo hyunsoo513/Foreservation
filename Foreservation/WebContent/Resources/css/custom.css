@@ -11,6 +11,17 @@ li {
 	list-style: none;
 }
 
+select {
+    height: 35px;
+    border: 1px solid #c9c9c9;
+    background: #fff;
+    color: #323232;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #fff url(../img/select-arr.png) no-repeat right 9px center;
+    padding: 0 25px 0 14px;
+}
+
 /* float 오류 해결을 위한 class */
 .clearfixed:after {
 	content: "";
@@ -1489,7 +1500,7 @@ PrgmSrch.jsp
     margin: 0;
 }
 
-.edit-title {
+.edit-tit {
 	display: inline-block;
     color: #3565d1;
     font-size: 14px;
@@ -1510,6 +1521,7 @@ PrgmSrch.jsp
 .choice_result {
 	padding-left: 0;
 	font-size: 14px;
+	margin-bottom: 0;
 }
 
 .choice_result p {
@@ -1638,7 +1650,7 @@ PrgmSrch.jsp
 }
 
 .res_left {
-    width: 800px;
+    width: 770px;
     margin: 0;
 }
 
@@ -1754,6 +1766,7 @@ caption {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 0;
+    padding-left: 0;
 }
 
 .icon_wrap ul li {
@@ -1777,7 +1790,7 @@ caption {
 
 .icon_wrap ul li .icon_info {
     margin: 0;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .icon_wrap ul li strong {
@@ -1836,16 +1849,101 @@ caption {
 }
 
 .info_tab_con .info_txt {
-    padding: 40px;
+    padding: 35px;
     line-height: 1.8;
 }
 
+.res_right {
+    width: 305px;
+    margin: 0;
+}
 
+.res_right .res_con {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px, rgba(0, 0, 0, 0.15) 0px 2px 16px 0px;
+    padding: 25px;
+    margin: 0;
+}
 
+.edit_area > div {
+    border-bottom: 1px dashed #ddd;
+}
 
+.edit_date, .edit_num {
+    padding: 5px 0 15px;
+}
 
+.plain_txt, .edit_none .plain_txt {
+    float: right;
+    font-size: 14px;
+    margin: 10px 0;
+}
 
+.edit_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
 
+.edit_row .spinner-wrap, .edit_row select {
+    width: 170px;
+}
+
+.edit_row > * {
+    margin: 0;
+}
+
+.edit_num label {
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+.edit_num .ui-spinner {
+    display: flex;
+    background: #fff;
+}
+
+.edit_area .ui-spinner {
+    border-radius: 0;
+    overflow: visible;
+}
+
+.edit_num .ui-spinner-input {
+    width: 100%;
+    min-width: auto;
+    max-width: none;
+    margin: 0;
+    height: 40px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    font-size: 16px !important;
+}
+
+.edit_num .ui-spinner-button {
+    height: 40px;
+    width: 40px;
+    min-width: 40px;
+    border-radius: 0;
+    background: #f9f9f9 !important;
+    cursor: pointer;
+}
+
+.edit_area .ui-spinner-button {
+    position: relative;
+}
+
+.choice_result li {
+    padding: 20px 0;
+}
+
+.btm-line {
+	border-bottom: 1px solid #000;
+}
 
 /* footer.jsp */
 .footer-txt p {
