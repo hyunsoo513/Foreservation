@@ -1631,41 +1631,220 @@ PrgmSrch.jsp
     border-radius: 30px;
 }
 
-/*
-.edit_num label {
-    display: block;
-    overflow: hidden;
-    font-size: 0;
-    line-height: 0;
-    text-indent: -9999px;
+.res_wrap {
+	display: flex;
+    justify-content: space-between;
+    position: relative;
 }
 
-.edit_num .ui-spinner {
-    display: flex;
-    background: #fff;
-}
-
-.edit_num .ui-spinner-button {
-    height: 40px;
-    width: 40px;
-    min-width: 40px;
-    border-radius: 0;
-    background: #f9f9f9 !important;
-    cursor: pointer;
-}
-
-.edit_num .ui-spinner-input {
-    width: 100%;
-    min-width: auto;
-    max-width: none;
+.res_left {
+    width: 800px;
     margin: 0;
-    height: 40px;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    background: #fff;
-    font-size: 16px !important;
 }
-*/
+
+.calendar-box {
+    border-bottom: 2px solid #000;
+    padding-bottom: 60px;
+}
+
+.calendar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 30px;
+}
+
+.calender-tit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.calender-tit h5 {
+    margin: 0 20px;
+    padding: 0;
+    font-weight: 600;
+}
+
+.calender-tit h5 span {
+    font-size: 22px;
+    color: #777;
+}
+
+.calendar-top .calendar-legend > span {
+    display: flex;
+    align-items: center;
+}
+
+.calendar-top .today-legend::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #5dacd1;
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-top: 1px solid #848692;
+}
+
+caption {
+    height: 0;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.calendar-box table th {
+    background: #fff;
+    font-weight: 700;
+    border-right: 0;
+    padding: 1.5%;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+.calendar-box table td {
+    padding: 0;
+    border-right: 0;
+    font-size: 13px;
+}
+
+.calendar-box table td .day-wrap {
+    display: block;
+    padding-top: 70%;
+    position: relative;
+    min-height: 50px;
+}
+
+.calendar-box table tr {
+	border-bottom: 1px solid #ddd;
+}
+
+.calendar-box table td .day-info {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10% 5%;
+    text-align: left;
+    color: #000;
+}
+
+.calendar-box table td .num {
+    display: inline-block;
+    width: 30px;
+    font-weight: 700;
+}
+
+.icon_wrap {
+    border-bottom: 2px solid #000;
+    padding: 25px 0;
+}
+
+.icon_wrap ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.icon_wrap ul li {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.icon_wrap ul li .icon_img {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px 0 0;
+    flex-shrink: 0;
+}
+
+.icon_wrap ul li .icon_info {
+    margin: 0;
+    padding-right: 20px;
+}
+
+.icon_wrap ul li strong {
+    display: block;
+    color: #000;
+    letter-spacing: -1px;
+    font-size: 14px;
+}
+
+.icon_wrap ul li span {
+    font-size: 13px;
+}
+
+.detail_info {
+    padding-top: 60px;
+}
+
+.info_tab {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.info_tab li {
+    display: table-cell;
+    text-align: center;
+    font-size: 16px;
+}
+
+.info_tab li.active a {
+    background: #164b9e;
+    color: #fff;
+}
+
+.info_tab li a {
+    display: block;
+    padding: 10px 0;
+    background: #e8ebee;
+    color: #000;
+    font-weight: 600;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.info_tab_con .item.active {
+    display: block;
+    font-size: 13px;
+}
+
+.info_tab_con .item {
+    display: none;
+    border: 1px solid #ddd;
+}
+
+.info_tab_con .info_txt {
+    padding: 40px;
+    line-height: 1.8;
+}
+
+
+
+
+
+
 
 
 /* footer.jsp */
