@@ -47,7 +47,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link">온라인예약</a>
+                    	<div class="nav-item dropdown">
+                            <a href="GnrSrch.jsp" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">온라인예약</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="GnrSrch.jsp" class="dropdown-item">일반/숙박예약</a>
+                                <a href="PrgmSrch.jsp" class="dropdown-item">프로그램예약</a>
+                                <a href="MonthSrch.jsp" class="dropdown-item">월별예약조회</a>
+                            </div>
+                        </div>
                         <a href="SiteInfo.jsp" class="nav-item nav-link">기관안내</a>
                         <a href="RoomInfo.jsp" class="nav-item nav-link">시설안내</a>
                         <a href="PrgmInfo.jsp" class="nav-item nav-link">프로그램안내</a>
@@ -62,7 +69,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="" class="btn btn-outline-dark py-2 px-4 d-none d-lg-inline-block">로그인</a>
+                    <a href="Login.jsp" class="btn btn-outline-dark py-2 px-4 d-none d-lg-inline-block">로그인</a>
                 </div>
             </nav>
         </div>

@@ -69,7 +69,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="" class="btn btn-outline-dark py-2 px-4 d-none d-lg-inline-block">로그인</a>
+                    <a href="Login.jsp" class="btn btn-outline-dark py-2 px-4 d-none d-lg-inline-block">로그인</a>
                 </div>
             </nav>
         </div>

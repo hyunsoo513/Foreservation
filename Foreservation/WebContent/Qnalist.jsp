@@ -91,7 +91,7 @@
 					<p class="sub-txt">자료가 없습니다. 다른 검색조건을 선택해주세요.</p>
 				</div>
 				<div class="text-right">
-          			<a href="#" class="btn-default">글쓰기</a>
+          			<a href="QnaReg.jsp" class="btn-default">글쓰기</a>
        			</div>
 			</div>
        	</div>

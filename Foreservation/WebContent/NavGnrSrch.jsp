@@ -52,7 +52,7 @@
                             <div class="dropdown-menu bg-light mt-2">
                                 <a href="GnrSrch.jsp" class="dropdown-item active">일반/숙박예약</a>
                                 <a href="PrgmSrch.jsp" class="dropdown-item">프로그램예약</a>
-                                <a href="#" class="dropdown-item">월별예약조회</a>
+                                <a href="MonthSrch.jsp" class="dropdown-item">월별예약조회</a>
                             </div>
                         </div>
                         <a href="SiteInfo.jsp" class="nav-item nav-link">기관안내</a>
@@ -69,7 +69,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="" class="btn btn-outline-dark py-2 px-4 d-none d-lg-inline-block">로그인</a>
+                    <a href="Login.jsp" class="btn btn-outline-dark py-2 px-4 d-none d-lg-inline-block">로그인</a>
                 </div>
             </nav>
         </div>

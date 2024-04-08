@@ -59,7 +59,7 @@
     <!-- Hero End -->
 
 
-	<!-- Widrw Start -->
+	<!-- Login Start -->
 	<div id="container_wrap">
 		<div class="login_page">
 			<div class="login_txt">
@@ -116,7 +116,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- Widrw End -->
+	<!-- Login End -->
 
 
     <!-- Newsletter Start -->
