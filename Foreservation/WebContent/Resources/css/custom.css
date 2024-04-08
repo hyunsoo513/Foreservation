@@ -303,7 +303,7 @@ label {
     border: 1px solid #6CA4D9;
 }
 
-.list-info>ul {
+.list-info>ul, .login_modify>ul {
     padding-left: 0;
 }
 
@@ -1966,7 +1966,7 @@ caption {
 }
 
 .l_Top {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     padding: 40px 20px;
     background: #f7f7fb;
     text-align: center;
@@ -2009,7 +2009,7 @@ caption {
     color: #000;
     font-size: 20px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .login_page .login_form {
@@ -2083,6 +2083,102 @@ caption {
     color: #555;
 }
 
+.login_page .login_modify ul li:first-child:before {
+    display: none;
+}
+
+.login_page .login_modify ul li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1px;
+    height: 30px;
+    margin-top: -15px;
+    background: #d2d2d2;
+}
+
+.log1::after {
+    content: "";
+    position: absolute;
+    width: 1.5px;
+    background: #ddd;
+    height: 300px;
+    top: 0;
+    right: -50px;
+}
+
+.sns_log {
+    min-height: 40px;
+    line-height: 24px;
+    color: #606060;
+    word-break: break-word;
+    width: 85%;
+}
+
+.login_page .other_social a {
+    display: inline-flex;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.login_page .other_social a:nth-child(1) {
+    background: #FAE832;
+}
+
+.login_page .other_social a .icon.kakao {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.login_page .other_social a .icon.kakao img {
+    position: absolute;
+    top: 23px;
+    left: 32px;
+}
+
+.login_page .other_social a .so_txt {
+    position: relative;
+    font-size: 16px;
+    top: 14px;
+    padding-left: 25px;
+    color: #444444;
+    font-weight: 600;
+}
+
+.login_page .other_social a:nth-child(2) {
+    background: #2BB73D;
+}
+
+.login_page .other_social a .icon.naver {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.login_page .other_social a .icon.naver img {
+    position: absolute;
+    top: 24px;
+    left: 34px;
+}
+
+.login_page .other_social a .so_txt1 {
+    position: relative;
+    font-size: 16px;
+    top: 14px;
+    padding-left: 25px;
+    color: #fff;
+    font-weight: 600;
+}
 
 /* footer.jsp */
 .footer-txt p {

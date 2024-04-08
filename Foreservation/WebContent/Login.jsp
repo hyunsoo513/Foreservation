@@ -88,23 +88,23 @@
 							</ul>
 						</div>
 						<br>
-						<span style="font-size: 15.4px;">
+						<span style="font-size: 13.5px;">
 							※ 스마트폰보다
-							<span class="red">컴퓨터(구글 크롬, MS 엣지)를 이용</span>
-							하시면 원활한 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이용이 가능하십니다.
+							<span class="font-red">컴퓨터(구글 크롬, MS 엣지)를 이용</span>
+							하시면 원활한 &nbsp;&nbsp;&nbsp;&nbsp;이용이 가능하십니다.
 						</span>
 					</div>
 					<div class="loginItem">
 						<strong class="login_tit log_mr">SNS 로그인</strong>
 						<div class="sns_log">
-							<div style="line-height: 3.6;">먼저 숲e랑 <span class="red">회원가입 후</span> 사용이 가능합니다.</div>
+							<div style="line-height: 1.6; font-size: 13.5px;">먼저 숲e랑 <span class="font-red">회원가입 후</span> 사용이 가능합니다.</div>
 						</div>
 						<div class="other_social">
 							<a href="javascript:void(0);" title="새창열림" onclick="loginWithKakao(); return false;">
-								<span class="icon kakao"><img src="/images/common/content/member/kakao.png" alt=""></span>
+								<span class="icon kakao"><img src="Resources/img/kakao.png" alt=""></span>
 								<span class="so_txt">카카오 아이디로 로그인</span>
 							</a> <a href="javascript:void(0);" onclick="loginWithNaver(); return false;">
-								<span class="icon naver"><img src="/images/common/content/member/naver.png" alt=""></span>
+								<span class="icon naver"><img src="Resources/img/naver.png" alt=""></span>
 								<span class="so_txt1">네이버 아이디로 로그인</span>
 							</a>
 							<button type="button" id="naver_id_login" style="display: none;"></button>
