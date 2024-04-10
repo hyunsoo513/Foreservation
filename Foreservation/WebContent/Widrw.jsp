@@ -96,7 +96,7 @@
 	            	</div>
 				</div>
 				<div class="text-center mt-5">
-          			<a href="#" class="widrw-btn btn-default">회원탈퇴</a>
+          			<a href="ForeservationInfo.jsp" class="widrw-btn btn-default">회원탈퇴</a>
        			</div>
 			</div>
        	</div>

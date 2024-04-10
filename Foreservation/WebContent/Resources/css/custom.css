@@ -2332,6 +2332,10 @@ caption {
     white-space: nowrap;
 }
 
+.file_add_p>span {
+	font-size: 13px;
+}
+
 /* footer.jsp */
 .footer-txt p {
     margin-bottom: 2px;
