@@ -2341,3 +2341,66 @@ caption {
     margin-bottom: 2px;
     width: 800px;
 }
+
+#footer * {
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.ft_top {
+    height: 50px;
+    background: #5b6077;
+}
+
+#footer .layout, .layout {
+    display: flex;
+    height: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#footer .foot_left {
+    display: flex;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    width: 85%;
+}
+
+#footer .ft_top .foot_list {
+    overflow: hidden;
+    padding: 15px 0 0 40px;
+}
+
+#footer .ft_top .foot_list li:first-child {
+    padding-left: 0;
+    background: none;
+}
+
+#footer .ft_top .foot_list li {
+    float: left;
+    padding: 0 13px;
+    position: relative;
+}
+
+#footer .ft_top .dropdown {
+    border: 1px solid #797e8a;
+    text-align: left;
+    width: 216px;
+    height: 100%;
+    margin-bottom: 25px;
+}
+
+#footer .ft_top .dropdown>.btn {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 10px 16px;
+    background: url(../img/footer_dropdown.png) no-repeat 92% center;
+}
+
+#footer .ft_top .dropdown .dropdown-menu {
+    bottom: 40px;
+    top: auto;
+    position: absolute;
+}

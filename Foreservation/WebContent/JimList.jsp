@@ -60,7 +60,7 @@
 
 
 	<!-- JimList Start -->
-	<div class="container-fluid py-3">
+	<div class="container-fluid py-3 mb-5">
         <div class="container">
         	<div class="list-st">
         		<div class="list-img">
@@ -125,7 +125,7 @@
 	<!-- JimList End -->
 
 
-    <!-- SiteLocation Start -->
+    <!-- SiteLocation Start
     <div class="container-fluid newsletter bg-primary py-5 my-5">
         <div class="container py-5">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -144,7 +144,7 @@
             </div>
         </div>
     </div>
-    <!-- SiteLocation End -->
+   SiteLocation End -->
 
 
     <!-- Footer Start -->

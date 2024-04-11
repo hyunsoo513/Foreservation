@@ -34,14 +34,45 @@
 </head>
 
 <body>
+	<!-- Footer bar Start -->
+	<div id="footer" class="mb-3 mt-5">
+		<div class="ft_top">
+			<div class="layout mb-0">
+				<!--foot_left-->
+	       		<div class="foot_left">
+		            <ul class="foot_list">
+		            	<li><a href="#">시설 이용약관</a></li>
+		        		<li><a href="#"><span style="color:steelblue;font-weight:bold;text-decoration: underline;">개인정보처리방침</span></a></li>
+		                <li><a href="#">민감정보 수집 및 이용약관</a></li>
+					</ul>
+				</div>
+				<div class="dropdown">
+					<button class="btn dropdown-toggle mb-0" type="button" data-toggle="dropdown">관련사이트 바로가기</button>
+				<!-- 
+					<ul class="dropdown-menu">
+						<li><a href="#" target="_blank" title="산림청">산림청</a></li>
+						<li><a href="#" target="_blank" title="대한민국">대한민국</a></li>
+						<li><a href="#" target="_blank" title="복권위원회">복권위원회</a></li>
+						<li><a href="#" target="_blank" title="채용비리">채용비리</a></li>
+						<li><a href="#" target="_blank" title="국민참여예산">국민참여예산</a></li>
+					</ul>
+				 -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer bar Start -->
+	
      <!-- Footer Start -->
-    <div class="container-fluid bg-white footer">
-        <div class="container">
+    <div class="bg-white footer">
+        <div class="layout ps-4">
             <div class="row">
                 <div class="footer-txt col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                	<!-- 
                     <a href="index.html" class="d-inline-block mb-2">
                         <h1 class="text-primary">Foreservation</h1>
                     </a>
+                     -->
                     <p><i class="fa fa-map-marker-alt me-1"></i>경북 칠곡군 석적읍 유학로 532</p>
                     <p><i class="fa fa-phone-alt me-1"></i>054-977-8773</p>
                     <p><i class="fa fa-envelope me-1"></i>foreservation@soopchewon.com</p>
@@ -49,8 +80,8 @@
                 </div>
             </div>
         </div>
-        <div class="container wow fadeIn" data-wow-delay="0.1s">
-            <div class="copyright">
+        <div class="wow fadeIn copyright" data-wow-delay="0.1s">
+            <div class="layout ps-4">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                         &copy; <a class="border-bottom" href="#">Foreservation</a>, All Right Reserved.
