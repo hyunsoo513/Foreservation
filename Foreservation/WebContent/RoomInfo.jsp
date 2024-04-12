@@ -65,125 +65,102 @@
 
 
     <!-- RoomList Start -->
-    <div class="container-fluid">
-        <div class="container">
-            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px; font-weight: bold;">
-                <p>시설명을 클릭하시면 상세내용을 확인 하실 수 있습니다.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="product-item text-center border h-100 p-4">
-                        <img class="img-fluid mb-4" src="Resources/img/room100.jpg" alt="">
-                        <h5><a href="" class="text-primary mb-3">101(제비꽃)</a></h5>
-                        <p class="h7 d-inline-block mb-0">기준 인원: 10명</p>
-                        <p class="h7 d-inline-block mb-2">최대 인원 : 13명</p>
-                        <a href="" class="btn btn-outline-primary px-3"><i class="fa fa-search-plus me-1" aria-hidden="true"></i>상세보기</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="product-item text-center border h-100 p-4">
-                        <img class="img-fluid mb-4" src="Resources/img/room100.jpg" alt="">
-                        <h5><a href="" class="text-primary mb-3">102(노루귀)</a></h5>
-                        <p class="h7 d-inline-block mb-0">기준 인원: 10명</p>
-                        <p class="h7 d-inline-block mb-2">최대 인원 : 13명</p>
-                        <a href="" class="btn btn-outline-primary px-3"><i class="fa fa-search-plus me-1" aria-hidden="true"></i>상세보기</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="product-item text-center border h-100 p-4">
-                        <img class="img-fluid mb-4" src="Resources/img/room100.jpg" alt="">
-                        <h5><a href="" class="text-primary mb-3">103(애기나리)</a></h5>
-                        <p class="h7 d-inline-block mb-0">기준 인원: 10명</p>
-                        <p class="h7 d-inline-block mb-2">최대 인원 : 13명</p>
-                        <a href="" class="btn btn-outline-primary px-3"><i class="fa fa-search-plus me-1" aria-hidden="true"></i>상세보기</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="product-item text-center border h-100 p-4">
-                        <img class="img-fluid mb-4" src="Resources/img/room100.jpg" alt="">
-                        <h5><a href="" class="text-primary mb-3">104(은방울꽃)</a></h5>
-                        <p class="h7 d-inline-block mb-0">기준 인원: 10명</p>
-                        <p class="h7 d-inline-block mb-2">최대 인원 : 13명</p>
-                        <a href="" class="btn btn-outline-primary px-3"><i class="fa fa-search-plus me-1" aria-hidden="true"></i>상세보기</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="product-item text-center border h-100 p-4">
-                        <img class="img-fluid mb-4" src="Resources/img/room100.jpg" alt="">
-                        <h5><a href="" class="text-primary mb-3">105(양지꽃)</a></h5>
-                        <p class="h7 d-inline-block mb-0">기준 인원: 10명</p>
-                        <p class="h7 d-inline-block mb-2">최대 인원 : 13명</p>
-                        <a href="" class="btn btn-outline-primary px-3"><i class="fa fa-search-plus me-1" aria-hidden="true"></i>상세보기</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="product-item text-center border h-100 p-4">
-                        <img class="img-fluid mb-4" src="Resources/img/room200.jpg" alt="">
-                        <h5><a href="" class="text-primary mb-3">201(비목나무)</a></h5>
-                        <p class="h7 d-inline-block mb-0">기준 인원: 16명</p>
-                        <p class="h7 d-inline-block mb-2">최대 인원 : 20명</p>
-                        <a href="" class="btn btn-outline-primary px-3"><i class="fa fa-search-plus me-1" aria-hidden="true"></i>상세보기</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="product-item text-center border h-100 p-4">
-                        <img class="img-fluid mb-4" src="Resources/img/room200.jpg" alt="">
-                        <h5><a href="" class="text-primary mb-3">202(굴참나무)</a></h5>
-                        <p class="h7 d-inline-block mb-0">기준 인원: 16명</p>
-                        <p class="h7 d-inline-block mb-2">최대 인원 : 20명</p>
-                        <a href="" class="btn btn-outline-primary px-3"><i class="fa fa-search-plus me-1" aria-hidden="true"></i>상세보기</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="product-item text-center border h-100 p-4">
-                        <img class="img-fluid mb-4" src="Resources/img/room200.jpg" alt="">
-                        <h5><a href="" class="text-primary mb-3">203(느릅나무)</a></h5>
-                        <p class="h7 d-inline-block mb-0">기준 인원: 16명</p>
-                        <p class="h7 d-inline-block mb-2">최대 인원 : 20명</p>
-                        <a href="" class="btn btn-outline-primary px-3"><i class="fa fa-search-plus me-1" aria-hidden="true"></i>상세보기</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="product-item text-center border h-100 p-4">
-                        <img class="img-fluid mb-4" src="Resources/img/room200.jpg" alt="">
-                        <h5><a href="" class="text-primary mb-3">204(노간주나무)</a></h5>
-                        <p class="h7 d-inline-block mb-0">기준 인원: 16명</p>
-                        <p class="h7 d-inline-block mb-2">최대 인원 : 20명</p>
-                        <a href="" class="btn btn-outline-primary px-3"><i class="fa fa-search-plus me-1" aria-hidden="true"></i>상세보기</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="product-item text-center border h-100 p-4">
-                        <img class="img-fluid mb-4" src="Resources/img/room200.jpg" alt="">
-                        <h5><a href="" class="text-primary mb-3">205(소나무)</a></h5>
-                        <p class="h7 d-inline-block mb-0">기준 인원: 16명</p>
-                        <p class="h7 d-inline-block mb-2">최대 인원 : 20명</p>
-                        <a href="" class="btn btn-outline-primary px-3"><i class="fa fa-search-plus me-1" aria-hidden="true"></i>상세보기</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="product-item text-center border h-100 p-4">
-                        <img class="img-fluid mb-4" src="Resources/img/room300.jpg" alt="">
-                        <h5><a href="" class="text-primary mb-3">301(고라니)</a></h5>
-                        <p class="h7 d-inline-block mb-0">기준 인원: 8명</p>
-                        <p class="h7 d-inline-block mb-2">최대 인원 : 11명</p>
-                        <a href="" class="btn btn-outline-primary px-3"><i class="fa fa-search-plus me-1" aria-hidden="true"></i>상세보기</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="product-item text-center border h-100 p-4">
-                        <img class="img-fluid mb-4" src="Resources/img/room300.jpg" alt="">
-                        <h5><a href="" class="text-primary mb-3">302(산토끼)</a></h5>
-                        <p class="h7 d-inline-block mb-0">기준 인원: 8명</p>
-                        <p class="h7 d-inline-block mb-2">최대 인원 : 11명</p>
-                        <a href="" class="btn btn-outline-primary px-3"><i class="fa fa-search-plus me-1" aria-hidden="true"></i>상세보기</a>
-                    </div>
-                </div>
-                <div class="col-12 text-center">
-                    <a class="btn btn-primary py-2 px-4" href="">더보기<i class="fa fa-chevron-down left-icon" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
+    <div class="container">
+	    <div id="infoWrap">
+			<h3 class="room_txt">시설명을 클릭하시면 상세내용을 확인 하실 수 있습니다.</h3>
+	        <div class="multi_search_body layout" style="min-height: 950px;">
+				<div class="search_map api_map">
+					<!-- kakao api -->
+					<div id="map" style="width: 100%; height: 950px; position: relative; overflow: hidden;"></div>
+				</div>
+				<!--전국시설 지도 content 닫기-->
+	            <div class="search_content">
+	                <div class="content_item">
+	                    <div class="item_pt">
+	                        <div class="pt_bodo" id="tr_1">
+	                            <div class="bodo_thumb">
+	                                <img class="thumb_img room_img" src="Resources/img/room100.jpg" alt="101(제비꽃)">
+	                            </div>
+	                            <div class="bodo_pt">
+	                                <div class="title01">
+	                                    <b>101(제비꽃)</b>
+	                                </div>
+	                                <div class="pt02">
+	                                    <ul>
+	                                        <li>기준 인원: 10명 / 최대 인원 : 13명(73m<sup>2</sup>)</li>
+	                                    </ul>
+	                                </div>
+	                            </div>
+	                            <div class="bodo_button">
+	                                <a href="#" class="modal-toggle">상세보기</a> 
+	                                
+	                            </div>
+	                        </div>
+	                        <div class="pt_bodo" id="tr_2">
+	                            <div class="bodo_thumb">
+	                                <img class="thumb_img room_img" src="Resources/img/room100.jpg" alt="102(노루귀)">
+	                            </div>
+	                            <div class="bodo_pt">
+	                                <div class="title01">
+	                                    <b>102(노루귀)</b>
+	                                </div>
+	                                <div class="pt02">
+	                                    <ul>
+	                                        <li>기준 인원: 10명 / 최대 인원 : 13명(73m<sup>2</sup>)</li>
+	                                    </ul>
+	                                </div>
+	                            </div>
+	                            <div class="bodo_button">
+	                                <a href="#" class="modal-toggle">상세보기</a> 
+	                            </div>
+	                        </div>
+	                        <div class="pt_bodo" id="tr_3">
+	                            <div class="bodo_thumb">
+	                                <img class="thumb_img room_img" src="Resources/img/room100.jpg" alt="103(애기나리)" onerror="this.src='/images/common/content/noimg.png'">
+	                            </div>
+	                            <div class="bodo_pt">
+	                                <div class="title01">
+	                                    <b>103(애기나리)</b>
+	                                </div>
+	                                <div class="pt02">
+	                                    <ul>
+	                                        <li>기준 인원: 10명 / 최대 인원 : 13명(73m<sup>2</sup>)</li>
+	                                    </ul>
+	                                </div>
+	                            </div>
+	                            <div class="bodo_button">
+	                                <a href="#" class="modal-toggle">상세보기</a> 
+	                            </div>
+	                        </div>
+	                        <div class="pt_bodo" id="tr_4">
+	                            <div class="bodo_thumb">
+	                                <img class="thumb_img room_img" src="Resources/img/room100.jpg" alt="104(은방울꽃)" onerror="this.src='/images/common/content/noimg.png'">
+	                            </div>
+	                            <div class="bodo_pt">
+	                                <div class="title01">
+	                                    <b>104(은방울꽃)</b>
+	                                </div>
+	                                <div class="pt02">
+	                                    <ul>
+	                                        <li>기준 인원: 10명 / 최대 인원 : 13명(73m<sup>2</sup>)</li>
+	                                    </ul>
+	                                </div>
+	                            </div>
+	                            <div class="bodo_button">
+	                                <a href="#" class="modal-toggle">상세보기</a> 
+	                            </div>
+	                        </div>
+	                    </div>
+						<!-- paging -->
+						<div class="page_list">
+							<a class="ds_number" onclick="return false;"><strong class="ds_number">1</strong></a><a class="ds_number" href="?pageIndex=2" onclick="fn_egov_select_list(2);return false; ">2</a><a class="ds_number" href="?pageIndex=3" onclick="fn_egov_select_list(3);return false; ">3</a><a class="ds_number" href="?pageIndex=4" onclick="fn_egov_select_list(4);return false; ">4</a><a class="ds_number" href="?pageIndex=5" onclick="fn_egov_select_list(5);return false; ">5</a><a class="ds_number" href="?pageIndex=6" onclick="fn_egov_select_list(6);return false; ">6</a>
+						</div>
+						<!-- //paging --> 
+	               	</div>
+				</div>
+	       	</div>
+			<!-- 끝 : .map_info -->
+		</div>
     </div>
     <!-- RoomList End -->
 
