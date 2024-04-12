@@ -2336,6 +2336,41 @@ caption {
 	font-size: 13px;
 }
 
+
+/* RoomInfo.jsp */
+#infoWrap {
+    padding-top: 30px;
+}
+
+#infoWrap h3:first-child {
+    margin-top: 0;
+}
+
+.room_txt {
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 0px;
+    position: relative;
+}
+
+.room_txt::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/Amenities_h3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 15px;
+    height: 16px;
+    left: 0;
+    top: 2px;
+}
+
+
+
+
+
 /* footer.jsp */
 .footer-txt p {
     margin-bottom: 2px;
