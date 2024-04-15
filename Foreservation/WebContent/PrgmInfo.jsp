@@ -51,7 +51,7 @@
 
 
     <!-- Hero Start -->
-    <div class="container-fluid bg-primary hero-header mb-5">
+    <div class="container-fluid bg-primary hero-header mb-1">
         <div class="container text-center">
             <h1 class="display-4 text-white mb-3 animated slideInDown">산림복지 프로그램</h1>
             <nav aria-label="breadcrumb">
@@ -65,7 +65,7 @@
 
 
     <!-- ProgramList Start -->
-    <div class="container py-5">
+    <div class="container py-3">
         <div id="container" class="layout">
         	<div id="infoWrap" class="infoWrap_pt">
             	<div class="pr_info_wrap">
@@ -78,7 +78,7 @@
 						</div>
 						<div class="pr_inner">
 						    <div class="pr_img_box">
-						        <img src="Resources/img/prgm_1.png" alt="숲 타이쿤">
+						        <img src="Resources/img/program1.jpg" alt="숲 타이쿤">
 						    </div>
 					    <div class="pr_inner_txt">
 					        <ul class="top_con">
@@ -124,7 +124,7 @@
 					</div>
 					<div class="pr_inner">
 					    <div class="pr_img_box">
-					        <img src="Resources/img/prgm_1.png" alt="산림복지 직업체험관(이론)">
+					        <img src="Resources/img/program1.jpg" alt="산림복지 직업체험관(이론)">
 					    </div>
 					    <div class="pr_inner_txt">
 					        <ul class="top_con">
@@ -169,7 +169,7 @@
 					</div>
 					<div class="pr_inner">
 					    <div class="pr_img_box">
-					        <img src="Resources/img/prgm_1.png" alt="[자율체험]메밀베개 만들기">
+					        <img src="Resources/img/program1.jpg" alt="[자율체험]메밀베개 만들기">
 					    </div>
 					    <div class="pr_inner_txt">
 					        <ul class="top_con">
@@ -212,7 +212,7 @@
 					</div>
 					<div class="pr_inner">
 					    <div class="pr_img_box">
-					        <img src="Resources/img/prgm_1.png" alt="돌봄의 숲">
+					        <img src="Resources/img/program1.jpg" alt="돌봄의 숲">
 					    </div>
 					    <div class="pr_inner_txt">
 					        <ul class="top_con">
@@ -258,7 +258,7 @@
 					</div>
 					<div class="pr_inner">
 					    <div class="pr_img_box">
-					        <img src="Resources/img/prgm_1.png" alt="오감빙고">
+					        <img src="Resources/img/program1.jpg" alt="오감빙고">
 					    </div>
 					    <div class="pr_inner_txt">
 					        <ul class="top_con">
@@ -313,7 +313,7 @@
 					</div>
 					<div class="pr_inner">
 					    <div class="pr_img_box">
-					        <img src="Resources/img/prgm_1.png" alt="자율형 산림복지 프로그램 키트(입소 시 3종 中 1종 선택)">
+					        <img src="Resources/img/program1.jpg" alt="자율형 산림복지 프로그램 키트(입소 시 3종 中 1종 선택)">
 					    </div>
 					    <div class="pr_inner_txt">
 					        <ul class="top_con">
@@ -360,7 +360,7 @@
 					</div>
 					<div class="pr_inner">
 					    <div class="pr_img_box">
-					        <img src="Resources/img/prgm_1.png" alt="[선택] 특성화 캠프(몸풀림)">
+					        <img src="Resources/img/program1.jpg" alt="[선택] 특성화 캠프(몸풀림)">
 					    </div>
 					    <div class="pr_inner_txt">
 					        <ul class="top_con">
@@ -405,8 +405,8 @@
 		</div>
     </div>
     <!-- ProgramList End -->
-
-
+    
+    
     <!-- Footer Start -->
    	<jsp:include page="./Footer.jsp"></jsp:include>
     <!-- Footer End -->

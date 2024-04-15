@@ -2553,15 +2553,15 @@ caption {
 
 .pr_info {
     width: 100%;
-    height: 350px;
+    height: 330px;
     border-bottom: 1px solid #e2e2e2;
     position: relative;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .pr_top_txt {
     width: 100%;
-    height: 60px;
+    height: 40px;
     position: relative;
 }
 
@@ -2700,7 +2700,7 @@ caption {
 }
 
 .pr_inner_txt .top_con02 > li > p {
-    line-height: 1.3;
+    line-height: 1.8;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
