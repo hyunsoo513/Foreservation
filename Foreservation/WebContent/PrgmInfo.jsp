@@ -33,7 +33,6 @@
     <!-- Template Stylesheet -->
     <link href="Resources/css/style.css" rel="stylesheet">
 </head>
-
 <body>
     <!-- Spinner Start -->
     <div id="spinner"
@@ -74,7 +73,7 @@
 							<h3>
 								<span class="pro_span">[산림교육]</span>숲 타이쿤
 							</h3>
-							<a href="#" class="modal-toggle"> 자세히 보기 </a>
+							<a href="#" class="modal-toggle modal_btn"> 자세히 보기 </a>
 						</div>
 						<div class="pr_inner">
 						    <div class="pr_img_box">
@@ -401,10 +400,22 @@
 		           </div>
 				</div>
 			</div>
-		<!-- //container-->
 		</div>
     </div>
     <!-- ProgramList End -->
+    
+    
+    <!-- popup Start -->
+    <div id="popup_layer">
+    	<div class="modal">
+		    <div class="modal_popup">
+		        <h3>모달 팝업 타이틀 입니다!</h3>
+		        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, ut facere id ullam ea adipisci et ipsam est quidem commodi ducimus nostrum cum optio non dolor! Quam ipsum nam rem!</p>
+		        <button type="button" class="close_btn">닫기</button>
+		    </div>
+		</div>
+    </div>
+    <!-- popup End -->
     
     
     <!-- Footer Start -->
