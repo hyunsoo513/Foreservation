@@ -32,6 +32,17 @@
 
     <!-- Template Stylesheet -->
     <link href="Resources/css/style.css" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- modal popup script -->
+    <script>
+		$(document).ready(function(){
+		    $("#modal_btn").click(function(){
+		        $("#myModal").modal();
+		    });
+		});
+	</script>
 </head>
 <body>
     <!-- Spinner Start -->
@@ -73,7 +84,7 @@
 							<h3>
 								<span class="pro_span">[산림교육]</span>숲 타이쿤
 							</h3>
-							<a href="#" class="modal-toggle modal_btn"> 자세히 보기 </a>
+							<a href="#moaModal" class="modal-toggle" id="modal_btn" data-toggle="modal"> 자세히 보기 </a>
 						</div>
 						<div class="pr_inner">
 						    <div class="pr_img_box">
@@ -406,6 +417,7 @@
     
     
     <!-- popup Start -->
+    <!-- 
     <div id="popup_layer">
     	<div class="modal">
 		    <div class="modal_popup">
@@ -415,6 +427,25 @@
 		    </div>
 		</div>
     </div>
+     -->
+	<div class="modal fade" id="moaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Ready to test</h5>
+					<button class="close" type="button" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">x</span>
+					</button>
+				</div>
+				<div class="modal-body">
+				 	test
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-primary" type="button" data-dismiss="modal">Cancel</button>
+				</div>
+			</div>
+		</div>
+	</div>
     <!-- popup End -->
     
     
