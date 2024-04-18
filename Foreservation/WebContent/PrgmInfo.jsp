@@ -33,16 +33,6 @@
     <!-- Template Stylesheet -->
     <link href="Resources/css/style.css" rel="stylesheet">
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- modal popup script -->
-    <script>
-		$(document).ready(function(){
-		    $("#modal_btn").click(function(){
-		        $("#myModal").modal();
-		    });
-		});
-	</script>
 </head>
 <body>
     <!-- Spinner Start -->
@@ -460,6 +450,7 @@
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
