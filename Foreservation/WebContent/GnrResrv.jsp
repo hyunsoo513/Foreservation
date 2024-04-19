@@ -269,7 +269,7 @@
 												<li>
 													<span>조식</span>
 													<div class="meal-dropdown ms-2 me-4">
-														<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														<button class="mealnum-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 															인원 <span>0</span> 명
 														</button>
 													</div>
@@ -277,7 +277,7 @@
 												<li>
 													<span>중식</span>
 													<div class="meal-dropdown ms-2 me-4">
-														<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														<button class="mealnum-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 															인원 <span>0</span> 명
 														</button>
 													</div>
@@ -285,7 +285,7 @@
 												<li>
 													<span>석식</span>
 													<div class="meal-dropdown ms-2">
-														<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														<button class="mealnum-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 															인원 <span>0</span> 명
 														</button>
 													</div>
@@ -300,7 +300,7 @@
 												<li>
 													<span>조식</span>
 													<div class="meal-dropdown ms-2 me-4">
-														<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														<button class="mealnum-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 															인원 <span>0</span> 명
 														</button>
 													</div>
@@ -308,7 +308,7 @@
 												<li>
 													<span>중식</span>
 													<div class="meal-dropdown ms-2 me-4">
-														<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														<button class="mealnum-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 															인원 <span>0</span> 명
 														</button>
 													</div>
@@ -316,7 +316,7 @@
 												<li>
 													<span>석식</span>
 													<div class="meal-dropdown ms-2">
-														<button class="mealnum_btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														<button class="mealnum-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 															인원 <span>0</span> 명
 														</button>
 													</div>
@@ -362,11 +362,11 @@
 	        								</div>
         									 -->
         							</div>
-        							<ul class="choice_result">
+        							<ul class="choice-result">
 										<li class="pt-3">
 											<strong>
 												객실
-												<a href="#" class="fold_btn rotate"><i class="fa fa-chevron-up font-blue" aria-hidden="true"></i><span class="hide">접기</span></a>
+												<a href="#" class="fold-btn rotate"><i class="fa fa-chevron-up font-blue" aria-hidden="true"></i><span class="hide">접기</span></a>
 											</strong>
 											<div class="choice_con" style="display: block;">
 												<p>
@@ -383,7 +383,7 @@
 										<li class="pt-3">
 											<strong>
 												프로그램
-												<a href="#" class="fold_btn"><i class="fa fa-chevron-up font-blue" aria-hidden="true"></i><span class="hide">접기</span></a>
+												<a href="#" class="fold-btn"><i class="fa fa-chevron-up font-blue" aria-hidden="true"></i><span class="hide">접기</span></a>
 											</strong>
 											<div class="choice_con" id="prgrmChoiceList">
 												<p>
@@ -395,7 +395,7 @@
 										<li class="pt-3">
 											<strong>
 												식사
-												<a href="#" class="fold_btn"><i class="fa fa-chevron-up font-blue" aria-hidden="true"></i><span class="hide">접기</span></a>
+												<a href="#" class="fold-btn"><i class="fa fa-chevron-up font-blue" aria-hidden="true"></i><span class="hide">접기</span></a>
 											</strong>
 											<div class="choice_con" id="mealChoiceList">
 												<p>
@@ -414,7 +414,7 @@
 										</li>
 										<li class="total pt-3">
 											<strong>합계금액</strong>
-											<p class="total_price" id="totAmt">70,000원</p>
+											<p class="total-price" id="totAmt">70,000원</p>
 										</li>
 									</ul>
 									<ul class="terms">
@@ -443,7 +443,7 @@
 											</div>
 										</li>
 									</ul>
-									<div class="res_btn" onclick="javascript:fn_makeRsrvt();">
+									<div class="res-btn" onclick="javascript:fn_makeRsrvt();">
 										<a href="javascript:void(0);" class="a_link"><img src="/images/common/content/calendar.png" alt="">예약하기</a>
 									</div>
         						</div>

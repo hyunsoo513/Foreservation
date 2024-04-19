@@ -36,11 +36,11 @@
 <body>
 	<!-- Footer bar Start -->
 	<div id="footer" class="mb-3 mt-5">
-		<div class="ft_top">
+		<div class="ft-top">
 			<div class="layout mb-0">
-				<!--foot_left-->
-	       		<div class="foot_left">
-		            <ul class="foot_list">
+				<!--foot-left-->
+	       		<div class="foot-left">
+		            <ul class="foot-list">
 		            	<li><a href="#">시설 이용약관</a></li>
 		        		<li><a href="#"><span style="color:steelblue;font-weight:bold;text-decoration: underline;">개인정보처리방침</span></a></li>
 		                <li><a href="#">민감정보 수집 및 이용약관</a></li>

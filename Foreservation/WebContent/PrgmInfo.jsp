@@ -68,20 +68,20 @@
     <div class="container py-3">
         <div id="container" class="layout">
         	<div id="infoWrap" class="infoWrap_pt">
-            	<div class="pr_info_wrap">
-					<div class="pr_info">
-						<div class="pr_top_txt">
+            	<div class="pr-info-wrap">
+					<div class="pr-info">
+						<div class="pr-top-txt">
 							<h3>
-								<span class="pro_span">[산림교육]</span>숲 타이쿤
+								<span class="pro-span">[산림교육]</span>숲 타이쿤
 							</h3>
-							<a href="#moaModal" class="modal-toggle" id="modal_btn" data-toggle="modal"> 자세히 보기 </a>
+							<a href="#" class="modal-toggle"> 자세히 보기 </a>
 						</div>
-						<div class="pr_inner">
-						    <div class="pr_img_box">
+						<div class="pr-inner">
+						    <div class="pr-img-box">
 						        <img src="Resources/img/program1.jpg" alt="숲 타이쿤">
 						    </div>
-					    <div class="pr_inner_txt">
-					        <ul class="top_con">
+					    <div class="pr-inner-txt">
+					        <ul class="top-con">
 			        			<li>교육</li>
 			        			<li>가족</li>
 			        			<li>친구</li>
@@ -90,7 +90,7 @@
 				            	<li>아동청소년</li>	
 				            	<li>청년</li>	
 					        </ul>
-					        <ul class="top_con02">
+					        <ul class="top-con02">
 					            <li>
 				            	    <strong>진행장소</strong>
 							                  진행장소 (국립칠곡숲체원)
@@ -115,19 +115,19 @@
 					    </div>
 					</div>
 				</div>
-				<div class="pr_info">
-					<div class="pr_top_txt">
+				<div class="pr-info">
+					<div class="pr-top-txt">
 						<h3>
-							<span class="pro_span">[진로교육]</span>산림복지 직업체험관(이론)
+							<span class="pro-span">[진로교육]</span>산림복지 직업체험관(이론)
 						</h3>
 						<a href="#" class="modal-toggle"> 자세히 보기 </a>
 					</div>
-					<div class="pr_inner">
-					    <div class="pr_img_box">
+					<div class="pr-inner">
+					    <div class="pr-img-box">
 					        <img src="Resources/img/program1.jpg" alt="산림복지 직업체험관(이론)">
 					    </div>
-					    <div class="pr_inner_txt">
-					        <ul class="top_con">
+					    <div class="pr-inner-txt">
+					        <ul class="top-con">
 			        			<li class="circle_green">교육</li>
 			        			<li class="circle_blue">개인</li>
 			        			<li class="circle_blue">친구</li>
@@ -135,7 +135,7 @@
 				            	<li class="circle_orange">아동청소년</li>	
 				            	<li class="circle_orange">청년</li>	
 					        </ul>
-					        <ul class="top_con02">
+					        <ul class="top-con02">
 					            <li>
 					                <strong>진행장소</strong>
 								         진행장소 (국립칠곡숲체원)
@@ -160,25 +160,25 @@
 					    </div>
 					</div>
 				</div>
-				<div class="pr_info">
-					<div class="pr_top_txt">
+				<div class="pr-info">
+					<div class="pr-top-txt">
 						<h3>
-							<span class="pro_span">[산림치유]</span>[자율체험]메밀베개 만들기
+							<span class="pro-span">[산림치유]</span>[자율체험]메밀베개 만들기
 						</h3>
 						<a href="#" class="modal-toggle"> 자세히 보기 </a>
 					</div>
-					<div class="pr_inner">
-					    <div class="pr_img_box">
+					<div class="pr-inner">
+					    <div class="pr-img-box">
 					        <img src="Resources/img/program1.jpg" alt="[자율체험]메밀베개 만들기">
 					    </div>
-					    <div class="pr_inner_txt">
-					        <ul class="top_con">
+					    <div class="pr-inner-txt">
+					        <ul class="top-con">
 			        			<li class="circle_green">휴식</li>
 			        			<li class="circle_blue">개인</li>
 			        			<li class="circle_blue">가족</li>
 				            	<li class="circle_orange">전연령</li>	
 					        </ul>
-					        <ul class="top_con02">
+					        <ul class="top-con02">
 					            <li>
 					                <strong>진행장소</strong>
 					                	진행장소 (국립칠곡숲체원)
@@ -203,19 +203,19 @@
 					    </div>
 					</div>
 				</div>
-				<div class="pr_info no">
-					<div class="pr_top_txt">
+				<div class="pr-info no">
+					<div class="pr-top-txt">
 						<h3>
-							<span class="pro_span">[숲체험]</span>돌봄의 숲
+							<span class="pro-span">[숲체험]</span>돌봄의 숲
 						</h3>
 						<a href="#" class="modal-toggle"> 자세히 보기 </a>
 					</div>
-					<div class="pr_inner">
-					    <div class="pr_img_box">
+					<div class="pr-inner">
+					    <div class="pr-img-box">
 					        <img src="Resources/img/program1.jpg" alt="돌봄의 숲">
 					    </div>
-					    <div class="pr_inner_txt">
-					        <ul class="top_con">
+					    <div class="pr-inner-txt">
+					        <ul class="top-con">
 			        			<li class="circle_green">휴식</li>
 			        			<li class="circle_green">교육</li>
 			        			<li class="circle_blue">개인</li>
@@ -224,7 +224,7 @@
 			        			<li class="circle_blue">단체</li>
 				            	<li class="circle_orange">아동청소년</li>	
 					        </ul>
-					        <ul class="top_con02">
+					        <ul class="top-con02">
 					            <li>
 					                <strong>진행장소</strong>
 					                	진행장소 (국립칠곡숲체원)
@@ -249,19 +249,19 @@
 					    </div>
 					</div>
 				</div>
-				<div class="pr_info no">
-					<div class="pr_top_txt">
+				<div class="pr-info no">
+					<div class="pr-top-txt">
 						<h3>
-							<span class="pro_span">[숲체험]</span>오감빙고
+							<span class="pro-span">[숲체험]</span>오감빙고
 						</h3>
 						<a href="#" class="modal-toggle"> 자세히 보기 </a>
 					</div>
-					<div class="pr_inner">
-					    <div class="pr_img_box">
+					<div class="pr-inner">
+					    <div class="pr-img-box">
 					        <img src="Resources/img/program1.jpg" alt="오감빙고">
 					    </div>
-					    <div class="pr_inner_txt">
-					        <ul class="top_con">
+					    <div class="pr-inner-txt">
+					        <ul class="top-con">
 			        			<li class="circle_green">휴식</li>
 			        			<li class="circle_green">건강</li>
 			        			<li class="circle_green">교육</li>
@@ -279,7 +279,7 @@
 				            	<li class="circle_orange">중장년</li>	
 				            	<li class="circle_orange">노년</li>	
 					        </ul>
-					        <ul class="top_con02">
+					        <ul class="top-con02">
 					            <li>
 					                <strong>진행장소</strong>
 					                	진행장소 (실외)
@@ -304,19 +304,19 @@
 					    </div>
 					</div>
 				</div>
-				<div class="pr_info no">
-					<div class="pr_top_txt">
+				<div class="pr-info no">
+					<div class="pr-top-txt">
 						<h3>
-							<span class="pro_span">[산림문화]</span>자율형 산림복지 프로그램 키트(입소 시 3종 中 1종 선택)
+							<span class="pro-span">[산림문화]</span>자율형 산림복지 프로그램 키트(입소 시 3종 中 1종 선택)
 						</h3>
 						<a href="#" class="modal-toggle"> 자세히 보기 </a>
 					</div>
-					<div class="pr_inner">
-					    <div class="pr_img_box">
+					<div class="pr-inner">
+					    <div class="pr-img-box">
 					        <img src="Resources/img/program1.jpg" alt="자율형 산림복지 프로그램 키트(입소 시 3종 中 1종 선택)">
 					    </div>
-					    <div class="pr_inner_txt">
-					        <ul class="top_con">
+					    <div class="pr-inner-txt">
+					        <ul class="top-con">
 			        			<li class="circle_green">휴식</li>
 			        			<li class="circle_green">교육</li>
 			        			<li class="circle_green">문화</li>
@@ -326,7 +326,7 @@
 			        			<li class="circle_blue">친구</li>
 				            	<li class="circle_orange">전연령</li>	
 					        </ul>
-					        <ul class="top_con02">
+					        <ul class="top-con02">
 					            <li>
 					                <strong>진행장소</strong>
 					                	진행장소 (실내, 실외)
@@ -351,25 +351,25 @@
 					    </div>
 					</div>
 				</div>
-				<div class="pr_info no">
-					<div class="pr_top_txt">
+				<div class="pr-info no">
+					<div class="pr-top-txt">
 						<h3>
-							<span class="pro_span">[숲 휴식]</span>[선택] 특성화 캠프(몸풀림)
+							<span class="pro-span">[숲 휴식]</span>[선택] 특성화 캠프(몸풀림)
 						</h3>
 						<a href="#" class="modal-toggle"> 자세히 보기 </a>
 					</div>
-					<div class="pr_inner">
-					    <div class="pr_img_box">
+					<div class="pr-inner">
+					    <div class="pr-img-box">
 					        <img src="Resources/img/program1.jpg" alt="[선택] 특성화 캠프(몸풀림)">
 					    </div>
-					    <div class="pr_inner_txt">
-					        <ul class="top_con">
+					    <div class="pr-inner-txt">
+					        <ul class="top-con">
 			        			<li class="circle_green">휴식</li>
 			        			<li class="circle_blue">개인</li>
 			        			<li class="circle_blue">가족</li>
 				            	<li class="circle_orange">전연령</li>	
 					        </ul>
-					        <ul class="top_con02">
+					        <ul class="top-con02">
 					            <li>
 					                <strong>진행장소</strong>
 					                	진행장소 (실내)
@@ -394,7 +394,7 @@
 					    </div>
 					</div>
 				</div>
-		           <div class="pro_more" id="plus">
+		           <div class="pro-more" id="plus">
 			           	<a href="javascript:void(0);" class="more1">더보기
 			               	<i class="fas fa-chevron-down" aria-hidden="true" id="upDown"></i>
 			           	</a>
@@ -417,7 +417,6 @@
 		    </div>
 		</div>
     </div>
-     -->
 	<div class="modal fade" id="moaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -436,6 +435,27 @@
 			</div>
 		</div>
 	</div>
+     -->
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        ...
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
     <!-- popup End -->
     
     
@@ -450,7 +470,6 @@
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>

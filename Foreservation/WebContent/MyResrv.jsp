@@ -121,8 +121,8 @@
 				</div>
 				<div class="state">
 	            	<p>신청날짜 : 2024-03-07</p>
-	            	<p>예약상태 : <span class="state_red">취소</span></p>
-	            	<p>식사이용여부 : <span class="state_green">미이용</span></p>
+	            	<p>예약상태 : <span class="state-red">취소</span></p>
+	            	<p>식사이용여부 : <span class="state-green">미이용</span></p>
 	            	<p>결제만기일 : <span style="color: red;">2024.03.08 17:00:00까지</span></p>
 				</div>
 			</div>

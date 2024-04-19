@@ -67,21 +67,21 @@
     <!-- RoomList Start -->
     <div class="container">
 	    <div id="infoWrap">
-			<h3 class="room_txt">시설명을 클릭하시면 상세내용을 확인 하실 수 있습니다.</h3>
-	        <div class="multi_search_body layout" style="min-height: 950px;">
-				<div class="search_map api_map">
+			<h3 class="room-txt">시설명을 클릭하시면 상세내용을 확인 하실 수 있습니다.</h3>
+	        <div class="multi-search-body layout" style="min-height: 950px;">
+				<div class="search-map api_map">
 					<!-- kakao api -->
 					<div id="map" style="width: 100%; height: 950px; position: relative; overflow: hidden;"></div>
 				</div>
 				<!--전국시설 지도 content 닫기-->
-	            <div class="search_content">
-	                <div class="content_item">
-	                    <div class="item_pt">
-	                        <div class="pt_bodo" id="tr_1">
-	                            <div class="bodo_thumb">
+	            <div class="search-content">
+	                <div class="content-item">
+	                    <div class="item-pt">
+	                        <div class="pt-bodo" id="tr_1">
+	                            <div class="bodo-thumb">
 	                                <img class="thumb_img room_img" src="Resources/img/room100.jpg" alt="101(제비꽃)">
 	                            </div>
-	                            <div class="bodo_pt">
+	                            <div class="bodo-pt">
 	                                <div class="title01">
 	                                    <b>101(제비꽃)</b>
 	                                </div>
@@ -91,16 +91,16 @@
 	                                    </ul>
 	                                </div>
 	                            </div>
-	                            <div class="bodo_button">
+	                            <div class="bodo-button">
 	                                <a href="#" class="modal-toggle">상세보기</a> 
 	                                
 	                            </div>
 	                        </div>
-	                        <div class="pt_bodo" id="tr_2">
-	                            <div class="bodo_thumb">
+	                        <div class="pt-bodo" id="tr_2">
+	                            <div class="bodo-thumb">
 	                                <img class="thumb_img room_img" src="Resources/img/room100.jpg" alt="102(노루귀)">
 	                            </div>
-	                            <div class="bodo_pt">
+	                            <div class="bodo-pt">
 	                                <div class="title01">
 	                                    <b>102(노루귀)</b>
 	                                </div>
@@ -110,15 +110,15 @@
 	                                    </ul>
 	                                </div>
 	                            </div>
-	                            <div class="bodo_button">
+	                            <div class="bodo-button">
 	                                <a href="#" class="modal-toggle">상세보기</a> 
 	                            </div>
 	                        </div>
-	                        <div class="pt_bodo" id="tr_3">
-	                            <div class="bodo_thumb">
+	                        <div class="pt-bodo" id="tr_3">
+	                            <div class="bodo-thumb">
 	                                <img class="thumb_img room_img" src="Resources/img/room100.jpg" alt="103(애기나리)" onerror="this.src='/images/common/content/noimg.png'">
 	                            </div>
-	                            <div class="bodo_pt">
+	                            <div class="bodo-pt">
 	                                <div class="title01">
 	                                    <b>103(애기나리)</b>
 	                                </div>
@@ -128,15 +128,15 @@
 	                                    </ul>
 	                                </div>
 	                            </div>
-	                            <div class="bodo_button">
+	                            <div class="bodo-button">
 	                                <a href="#" class="modal-toggle">상세보기</a> 
 	                            </div>
 	                        </div>
-	                        <div class="pt_bodo" id="tr_4">
-	                            <div class="bodo_thumb">
+	                        <div class="pt-bodo" id="tr_4">
+	                            <div class="bodo-thumb">
 	                                <img class="thumb_img room_img" src="Resources/img/room100.jpg" alt="104(은방울꽃)" onerror="this.src='/images/common/content/noimg.png'">
 	                            </div>
-	                            <div class="bodo_pt">
+	                            <div class="bodo-pt">
 	                                <div class="title01">
 	                                    <b>104(은방울꽃)</b>
 	                                </div>
@@ -146,13 +146,13 @@
 	                                    </ul>
 	                                </div>
 	                            </div>
-	                            <div class="bodo_button">
+	                            <div class="bodo-button">
 	                                <a href="#" class="modal-toggle">상세보기</a> 
 	                            </div>
 	                        </div>
 	                    </div>
 						<!-- paging -->
-						<div class="page_list">
+						<div class="page-list">
 							<a class="ds_number" onclick="return false;"><strong class="ds_number">1</strong></a><a class="ds_number" href="?pageIndex=2" onclick="fn_egov_select_list(2);return false; ">2</a><a class="ds_number" href="?pageIndex=3" onclick="fn_egov_select_list(3);return false; ">3</a><a class="ds_number" href="?pageIndex=4" onclick="fn_egov_select_list(4);return false; ">4</a><a class="ds_number" href="?pageIndex=5" onclick="fn_egov_select_list(5);return false; ">5</a><a class="ds_number" href="?pageIndex=6" onclick="fn_egov_select_list(6);return false; ">6</a>
 						</div>
 						<!-- //paging --> 

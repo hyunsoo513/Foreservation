@@ -78,19 +78,19 @@
 					<input type="hidden" name="hmpgId" value="FA00003">
 					<input type="hidden" name="bbsId" value="BBSMSTR_000000000224">
 					<input type="hidden" name="mmberEmail" id="mmberEmail" value="">
-				    <div class="board_write">
-				        <div class="b_info">
-				            <dl class="b_full">
+				    <div class="board-write">
+				        <div class="b-info">
+				            <dl class="b-full">
 				                <dt>
-				                    <label for="n_title">제목<span class="font-red">*</span></label>
+				                    <label for="n-title">제목<span class="font-red">*</span></label>
 				                </dt>
 				                <dd>
-				                    <div class="n_title">
+				                    <div class="n-title">
 				                        <input id="nttSj" name="nttSj" type="text" value="">
 				                    </div>
 				                </dd>
 				            </dl>
-				            <dl class="b_full">
+				            <dl class="b-full">
 				                <dt>
 				                    <label for="n_writer">작성자<span class="font-red">*</span> </label>
 				                </dt>
@@ -100,12 +100,12 @@
 				                    </div>
 				                </dd>
 				            </dl>
-				            <dl class="b_full">
+				            <dl class="b-full">
 				                <dt>
 				                    <label for="str_email01"> 이메일<span class="font-red">*</span></label>
 				                </dt>
 				                <dd>
-				                    <div class="n_mail">
+				                    <div class="n-mail">
 				                        <input type="text" class="mail_01">
 				                        <span class="mid">@</span>
 				                        <input type="text" title="이메일 두번째" class="mail_02">
@@ -131,7 +131,7 @@
 			                        </label>
 				                </dd>
 				            </dl>
-				            <dl class="b_full">
+				            <dl class="b-full">
 				                <dt>
 				                    <label for="p_call">질문유형<span class="font-red">*</span></label>
 				                </dt>
@@ -149,21 +149,21 @@
 				                    </select>
 				                </dd>
 				            </dl>
-				            <dl class="b_full">
+				            <dl class="b-full">
 				                <dt class="text_w">
 				                	내용 <span class="font-red">*</span>
 				                </dt>
-				                <dd class="w_cont">
-				                    <textarea name="nttCn" id="nttCn" class="w_cont" cols="15" rows="15" title="내용을 입력하세요"></textarea>
+				                <dd class="w-cont">
+				                    <textarea name="nttCn" id="nttCn" class="w-cont" cols="15" rows="15" title="내용을 입력하세요"></textarea>
 				                </dd>
 				            </dl>
-				            <dl class="b_full fileWrap">
+				            <dl class="b-full fileWrap">
 				                <dt>
 				                    <label for="ex_filename1">첨부파일</label>
 				                </dt>
 				                <dd>
 				                    <div class="filebox fb01" style="margin-left: 0px;">
-				                        <span class="file_name fn_01"></span>
+				                        <span class="file-name fn_01"></span>
 			                        	<a href="javascript:void(0);" id="file_0_del">
 			                        		<span class="hide">삭제</span>
 			                        		<img src="Resources/img/filie-close.png" alt="파일삭제버튼" onclick="deleteFile('file_0', 'fn_01')">
@@ -172,7 +172,7 @@
 				                        <label for="file_0" class="upload btn">파일첨부</label>
 				                    </div>
 				                    <div class="filebox fb02" style="margin-left: 0px;">
-				                        <span class="file_name fn_02"></span>
+				                        <span class="file-name fn_02"></span>
 				                        <a href="javascript:void(0);" id="file_1_del">
 				                        	<span class="hide">삭제</span>
 				                            <img src="Resources/img/filie-close.png" alt="파일삭제버튼" onclick="deleteFile('file_1', 'fn_02')">
@@ -181,7 +181,7 @@
 				                        <input type="file" id="file_1" name="file_1" class="upload-hidden fl_02" onchange="checkFile(this)">
 				                    </div>
 				                    <div class="filebox fb03" style="margin-left: 0px;">
-				                        <span class="file_name fn_03"></span>
+				                        <span class="file-name fn_03"></span>
 				                        <a href="javascript:void(0);" id="file_3_del">
 				                        	<span class="hide">삭제</span>
 				                        	<img src="Resources/img/filie-close.png" alt="파일삭제버튼" onclick="deleteFile('file_3', 'fn_03')">
@@ -189,7 +189,7 @@
 				                        <label for="file_3" class="upload btn">파일첨부</label>
 				                        <input type="file" id="file_3" name="file_2" class="upload-hidden fl_03" onchange="checkFile(this)">
 				                    </div>
-				                    <p class="mt-1 mb-0 file_add_p">
+				                    <p class="mt-1 mb-0 file-add-p">
 				                        <span class="font-red">*</span> 최대 3개까지 업로드 할 수 있으며, 각 4MB이하 파일을 업로드 할 수 있습니다. <br>
 				                        <span class="font-red">*</span> jpg, jpeg, png, gif, pdf 확장자만 추가 가능합니다.
 				                    </p>

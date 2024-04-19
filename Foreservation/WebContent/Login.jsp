@@ -61,26 +61,26 @@
 
 	<!-- Login Start -->
 	<div id="container_wrap">
-		<div class="login_page pb-5 mb-5">
-			<div class="login_txt">
-				<div class="l_Top">
+		<div class="login-page pb-5 mb-5">
+			<div class="login-txt">
+				<div class="l-Top">
 					<img src="Resources/img/login.png" alt=""> <span>로그인 하신 후에 모든 서비스를 더욱 편리하게 이용하실 수 있습니다.</span>
 				</div>
 				<div class="loginType">
 					<div class="loginItem log1">
-						<strong class="login_tit">아이디/비밀번호</strong>
-						<div class="login_form">
+						<strong class="login-tit">아이디/비밀번호</strong>
+						<div class="login-form">
 							<input type="text" name="id" id="id" maxlength="20" title=" " placeholder="아이디" onkeyup="enterkey();">
 							<input type="password" name="password" id="password" maxlength="20" title=" " placeholder="비밀번호" onkeyup="enterkey();">
 						</div>
-						<div class="login_check">
+						<div class="login-check">
 							<label><input type="checkbox" name="checkId" onclick="javascript:saveid(document.loginForm);">&nbsp;아이디저장</label>
 							<label><input type="checkbox" name="checkPw" onclick="javascript:showPw();">&nbsp;비밀번호표시</label>
 						</div>
-						<div class="login_button">
+						<div class="login-button">
 							<a href="#" onclick="actionLogin()">로그인</a>
 						</div>
-						<div class="login_modify">
+						<div class="login-modify">
 							<ul>
 								<li><a href="/pot/mc/ms/insertTrmsAgreeView.do?hmpgId=FA00003">회원가입</a></li>
 								<li><a href="/pot/mc/se/selectSelfCrtfcView.do?hmpgId=FA00003">아이디찾기</a></li>
@@ -95,17 +95,17 @@
 						</span>
 					</div>
 					<div class="loginItem">
-						<strong class="login_tit log_mr">SNS 로그인</strong>
-						<div class="sns_log">
+						<strong class="login-tit log_mr">SNS 로그인</strong>
+						<div class="sns-log">
 							<div style="line-height: 1.6; font-size: 13.5px;">먼저 숲e랑 <span class="font-red">회원가입 후</span> 사용이 가능합니다.</div>
 						</div>
-						<div class="other_social">
+						<div class="other-social">
 							<a href="javascript:void(0);" title="새창열림" onclick="loginWithKakao(); return false;">
 								<span class="icon kakao"><img src="Resources/img/kakao.png" alt=""></span>
-								<span class="so_txt">카카오 아이디로 로그인</span>
+								<span class="so-txt">카카오 아이디로 로그인</span>
 							</a> <a href="javascript:void(0);" onclick="loginWithNaver(); return false;">
 								<span class="icon naver"><img src="Resources/img/naver.png" alt=""></span>
-								<span class="so_txt1">네이버 아이디로 로그인</span>
+								<span class="so-txt1">네이버 아이디로 로그인</span>
 							</a>
 							<button type="button" id="naver_id_login" style="display: none;"></button>
 							<script type="text/javascript">

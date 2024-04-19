@@ -107,8 +107,8 @@
         		</div>
        		</div>
        		<div class="pgresrv-txt mt-5 mb-2">※ 해당 프로그램은 현장의 기상 상황 및 시설의 운영 사정 등에 따라 타 프로그램으로 대체 운영될 수 있습니다.</div>
-       		<div class="res_wrap">
-	       		<div class="res_left">
+       		<div class="res-wrap">
+	       		<div class="res-left">
 					<!-- 달력 -->
 					<div class="calendar-box">
 						<div class="calendar-top">
@@ -393,85 +393,85 @@
 					<!-- //달력 -->
 
 					<!-- 프로그램 아이콘 -->
-					<div class="icon_wrap">
+					<div class="icon-wrap">
 						<ul>
 							<li>
-								<div class="icon_img">
+								<div class="icon-img">
 									<img src="Resources/img/prg1.png" alt="">
 								</div>
-								<div class="icon_info">
+								<div class="icon-info">
 									<strong>산림복지테마</strong>
 									<span>휴식</span>
 								</div>
 							</li>
 							<li>
-								<div class="icon_img">
+								<div class="icon-img">
 									<img src="Resources/img/prg2.png" alt="">
 								</div>
-								<div class="icon_info">
+								<div class="icon-info">
 									<strong>이용기준</strong>
 									<span>당일</span>
 								</div>
 							</li>
 							<li>
-								<div class="icon_img">
+								<div class="icon-img">
 									<img src="Resources/img/prg3.png" alt="">
 								</div>
-								<div class="icon_info">
+								<div class="icon-info">
 									<strong>대상</strong>
 									<span>개인, 가족, 친구, 직장, 단체</span>
 								</div>
 							</li>
 							<li>
-								<div class="icon_img">
+								<div class="icon-img">
 									<img src="Resources/img/prg4.png" alt="">
 								</div>
-								<div class="icon_info">
+								<div class="icon-info">
 									<strong>이용계절</strong>
 									<span>봄, 여름, 가을</span>
 								</div>
 							</li>
 							<li>
-								<div class="icon_img">
+								<div class="icon-img">
 									<img src="Resources/img/prg5.png" alt="">
 								</div>
-								<div class="icon_info">
+								<div class="icon-info">
 									<strong>이용연령</strong>
 									<span>전연령</span>
 								</div>
 							</li>
 							<li>
-								<div class="icon_img">
+								<div class="icon-img">
 									<img src="Resources/img/prg6.png" alt="">
 								</div>
-								<div class="icon_info">
+								<div class="icon-info">
 									<strong>이용장소</strong>
 									<span>국립칠곡숲체원</span>
 								</div>
 							</li>
 							<li>
-								<div class="icon_img">
+								<div class="icon-img">
 									<img src="Resources/img/prg7.png" alt="">
 								</div>
-								<div class="icon_info">
+								<div class="icon-info">
 									<strong>진행기관</strong>
 									<span>국립칠곡숲체원</span>
 								</div>
 							</li>
 							<li>
-								<div class="icon_img">
+								<div class="icon-img">
 									<img src="Resources/img/prg8.png" alt="">
 								</div>
-								<div class="icon_info">
+								<div class="icon-info">
 									<strong>소요시간</strong>
 									<span>60</span>
 								</div>
 							</li>
 							<li>
-								<div class="icon_img">
+								<div class="icon-img">
 									<img src="Resources/img/prg9.png" alt="">
 								</div>
-								<div class="icon_info">
+								<div class="icon-info">
 									<strong>효과</strong>
 									<span>숲에서 즐길 수 있는 다양한 놀이가 있음을 알 수 있다.</span>
 								</div>
@@ -481,9 +481,9 @@
 					<!-- //프로그램 아이콘 -->
 
 					<!-- 상세설명 -->
-					<div class="detail_info">
-						<div class="info_tab_con">
-							<ul class="info_tab">
+					<div class="detail-info">
+						<div class="info-tab-con">
+							<ul class="info-tab">
 								<li class="active" data-tab="tab1">
 									<a href="javascript:void(0);" onclick="javascript:fn_tabToggle('tab1');">상세설명</a>
 								</li>
@@ -491,7 +491,7 @@
 									<a href="javascript:void(0);" onclick="javascript:fn_tabToggle('tab2');">위치</a>
 								</li>
 							</ul>
-							<div id="tab1" class="item info_txt active" style="width:100%; min-height: 350px;">
+							<div id="tab1" class="item info-txt active" style="width:100%; min-height: 350px;">
 								토리유아숲체험원에서 즐길 수 있는 6종의 숲놀이 안내서와 준비물이 담긴 키트를 들고 들고 떠나는 자율 숲놀이 프로그램<br>
 								* 토리유아숲체험원에서 자율적으로 체험하는 프로그램<br>
 								&nbsp;
@@ -500,22 +500,22 @@
 						</div>
 					</div>
 				</div>
-				<div class="res_right">
-					<div class="res_con" style="position: relative;">
-						<div class="edit_area">
+				<div class="res-right">
+					<div class="res-con" style="position: relative;">
+						<div class="edit-area">
 							<div class="edit-date">
 								<span class="edit-tit">이용일</span>
-								<span class="plain_txt" id="smmarUseDt">2024.04.09</span>
+								<span class="plain-txt" id="smmarUseDt">2024.04.09</span>
 							</div>
-							<div class="edit_none">
+							<div class="edit-none">
 								<span class="edit-tit">이용금액</span>
-								<span class="plain_txt">5,000원</span>
+								<span class="plain-txt">5,000원</span>
 							</div>
-							<div class="edit_num edit_row">
+							<div class="edit-num edit-row">
 								<span class="edit-tit">이용회차</span>
 								<select onchange="javascript:fn_notmChange(this);" id="notmSelectBox" style="font-size: 14px;"><option value="928">1회차(10:00~11:00)</option></select>
 							</div>
-							<div class="edit_num edit_row">
+							<div class="edit-num edit-row">
 								<span class="edit-tit">신청인원</span>
 								<div class="spinner-wrap">
 									<label for="spinner">
@@ -524,7 +524,7 @@
 								</div>
 							</div>
 						</div>
-						<ul class="choice_result">
+						<ul class="choice-result">
 							<li class="total">
 								<strong>합계금액</strong>
 								<p class="total_price" id="smmarSumAmt">5,000원</p>
@@ -558,7 +558,7 @@
 								</div>
 							</li>
 						</ul>
-						<div class="res_btn">
+						<div class="res-btn">
 							<a href="javascript:void(0);" onclick="javascript:fn_prgrmRsrvt();" class="a_link"><img src="/images/common/content/calendar.png" alt="">예약하기</a>
 						</div>
 					<div dir="ltr" class="resize-sensor" style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;"><div class="resize-sensor-expand" style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;"><div style="position: absolute; left: 0px; top: 0px; transition: all 0s ease 0s; width: 390px; height: 666px;"></div></div><div class="resize-sensor-shrink" style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;"><div style="position: absolute; left: 0px; top: 0px; transition: all 0s ease 0s; width: 200%; height: 200%;"></div></div></div></div>
