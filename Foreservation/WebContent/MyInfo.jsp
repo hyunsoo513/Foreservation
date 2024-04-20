@@ -65,7 +65,7 @@
         	<div class="mb-5">
 	            <div class="myinfo-box mx-auto title-color mb-3">
            			<p class="sub-txt">* 회원정보 확인 및 수정 하시려면 비밀번호를 재입력 하셔야 합니다.</p>
-            		<div class="display-flex justify-content-center mt-4">
+            		<div class="display-flex justify-content-center mt-4 mb-4">
 	           			<p class="mt-1">비밀번호</p>
 	           			<input type="password" class="myinfo-pw ms-4">
             		</div>

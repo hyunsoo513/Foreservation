@@ -28,6 +28,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="Resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Resources/css/custom.css?after" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="Resources/css/style.css" rel="stylesheet">

@@ -909,14 +909,14 @@ PrgmSrch.jsp
 }
 
 
-.content-item ul {
+.edu-content .content-item ul {
 	display: flex;
 	width: 100%;
 	padding-left: 0;
 	flex-wrap: wrap;
 }
 	
-.content-item ul li {
+.edu-content .content-item ul li {
 	background: #f8f8f8;
     border: 1px solid #e2e2e2;
     border-radius: 10px;
@@ -928,23 +928,23 @@ PrgmSrch.jsp
 	margin: 7px 0;
 }	
 
-.content-item ul li div p {
+.edu-content .content-item ul li div p {
 	font-size: 12px;
 	margin-bottom: 0;
     padding-left: .6rem !important;
 }
 	
-.content-item ul li p span {
+.edu-content .content-item ul li p span {
 	font-weight: 700;
 }
 	
-.content-item ul.col-3 li {
+.edu-content .content-item ul.col-3 li {
 	width: calc((100% - 100px) / 3);
     margin: 7px 25px 7px 0;
 	align-items: center;
 }	
 
-.content-item ul.col-3 li:last-of-type {
+.edu-content .content-item ul.col-3 li:last-of-type {
     margin: 7px 0;
 }	
 	
@@ -965,17 +965,17 @@ PrgmSrch.jsp
 	text-align: left;
 }
 
-.content-item .col6 li {
+.edu-content .content-item .col6 li {
     width: calc((100% - 100px) / 6);
     display: block;
     margin-right: 10px;
 }
 
-.content-item .col6 li:last-of-type {
+.edu-content .content-item .col6 li:last-of-type {
     margin-right: 0;
 }
 
-.content-item ul li .up {
+.edu-content .content-item ul li .up {
     background: url(../img/increase.png);
     width: 100px;
     height: 100px;
@@ -984,7 +984,7 @@ PrgmSrch.jsp
     vertical-align: bottom;
 }
 
-.content-item ul li .down {
+.edu-content .content-item ul li .down {
     background: url(../img/decrease.png);
     width: 100px;
     height: 100px;
@@ -993,7 +993,7 @@ PrgmSrch.jsp
     vertical-align: bottom;
 }
 
-.content-item ul li .updown .eft-num {
+.edu-content .content-item ul li .updown .eft-num {
     font-size: 20px;
     font-weight: 700;
     position: absolute;
@@ -1004,15 +1004,15 @@ PrgmSrch.jsp
     width: 100%;
 }
 
-.content-item ul li .down .eft-num {
+.edu-content .content-item ul li .down .eft-num {
     color: #4877cd;
 }
 
-.content-item ul li .up .eft-num {
+.edu-content .content-item ul li .up .eft-num {
     color: #04a676;
 }
 
-.content-item ul li .updown .eft-txt {
+.edu-content .content-item ul li .updown .eft-txt {
 	color: #000;
     font-size: 14px;
     font-weight: 700;
@@ -1022,7 +1022,7 @@ PrgmSrch.jsp
     transform: translateX(-50%);
 }
 
-.content-item ul li .eft-tit {
+.edu-content .content-item ul li .eft-tit {
 	font-size: 14px;
     font-weight: 600;
     color: #000;
@@ -2605,7 +2605,7 @@ caption {
 .pr-top-txt > a::after {
     content: "";
     position: absolute;
-    background-image: url(../img/pro-more.png);
+    background-image: url(../img/pro_more.png);
     background-repeat: no-repeat;
     background-position: right right;
     background-size: 100% 100%;
