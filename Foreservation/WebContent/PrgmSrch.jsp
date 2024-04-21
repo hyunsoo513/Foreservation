@@ -174,9 +174,9 @@
 	<!-- PrgmSrch End -->
 
 
-    <!-- CheckList Start -->
+    <!-- EduInfo Start -->
     <jsp:include page="./ForestEdu.jsp"></jsp:include>
-    <!-- CheckList End -->
+    <!-- EduInfo End -->
 
 
 

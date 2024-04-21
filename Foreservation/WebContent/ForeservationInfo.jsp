@@ -60,7 +60,7 @@
                     </h1>
                     <br/>
                     <!-- <p class="text-white mb-4 animated slideInRight">숲을 통해 국민이 함께 누리는 산림복지서비스 제공 국립OO숲체원</p> -->
-                    <a href="" class="btn btn-outline-dark py-2 px-4 me-3 animated slideInRight">예약하기</a>
+                    <a href="./GnrSrch.jsp" class="btn btn-outline-dark py-2 px-4 me-3 animated slideInRight">예약하기</a>
                 </div>
                 <div class="col-lg-6">
                     <img class="img-fluid animated pulse infinite" src="Resources/img/main_fowi.png" alt="">
@@ -74,7 +74,7 @@
     <!-- Feature Start -->
     <div class="container-fluid py-5">
         <div class="container">
-            <div class="row g-4">
+            <div class="row g-4 pb-3">
                 <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                     <div class="feature-item position-relative bg-primary text-center p-3">
                         <div class="border py-5 px-3">
@@ -103,6 +103,74 @@
         </div>
     </div>
     <!-- Feature End -->
+    
+    <!-- SiteInfo Start -->
+    <div class="container-fluid py-3">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="Resources/img/soopchewon.jpg">
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-primary mt-3 mb-3">국립칠곡숲체원
+	                   	<span class="fw-light text-dark">은 대한민국의 녹색문화를 이끄는 첫번째 산림교육전문 휴양시설로써 다양한 친환경교육 시설과 체험공간을 운영하고 있습니다.</span>
+                    </h5>
+                    <p class="mb-4"><img class="info-icon me-3" src="Resources/img/ico_01.png">면      적: 33.0ha</p>
+                    <p class="mb-4"><img class="info-icon me-3" src="Resources/img/ico_02.png">조성기간: 2013~ 2014</p>
+                    <p class="mb-4"><img class="info-icon me-3" src="Resources/img/ico_03.png">주요수종: 굴참나무, 소나무, 상수리나무 등</p>
+                    <p class="mb-4"><img class="info-icon me-3" src="Resources/img/ico_04.png">수용인원: 최대188명(숙박기준)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SiteInfo End -->
+    
+    <!-- EduInfo Start -->
+    <jsp:include page="./ForestEdu.jsp"></jsp:include>
+    <!-- EduInfo End -->
+
+    <!-- SiteLocation Start -->
+    <div class="container-fluid newsletter bg-primary">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h3 class="text-white mb-3">오시는 길</h3>
+                <p class="text-dark mb-4">주소: (구) 경상북도 칠곡군 성곡리 산73-13 / (신) 경상북도 칠곡군 유학로 532</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-7 wow fadeIn" data-wow-delay="0.5s">
+	                <!-- kakao map -->
+	                <div id="map" style="width:100%; height:400px;"></div>
+					<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=fc0ac53d0aa28ed147043fd704ffc87e"></script>
+					<script>
+						var container = document.getElementById('map');
+						var options = {
+							center: new kakao.maps.LatLng(36.0638727377474, 128.466016323253),
+							level: 3
+						};
+						var map = new kakao.maps.Map(container, options);
+						
+						var imageSrc = 'Resources/img/favicon.ico', // 마커이미지의 주소입니다    
+					    imageSize = new kakao.maps.Size(48, 48), // 마커이미지의 크기입니다
+					    imageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+					      
+						// 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
+						var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
+						    markerPosition = new kakao.maps.LatLng(36.0638727377474, 128.466016323253); // 마커가 표시될 위치입니다
+	
+						// 마커를 생성합니다
+						var marker = new kakao.maps.Marker({
+						    position: markerPosition, 
+						    image: markerImage // 마커이미지 설정 
+						});
+	
+						// 마커가 지도 위에 표시되도록 설정합니다
+						marker.setMap(map);  
+					</script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SiteLocation End -->
 
 
     <!-- Footer Start -->
