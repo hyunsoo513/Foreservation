@@ -65,15 +65,45 @@
 
 
     <!-- RoomList Start -->
-    <div class="container">
-	    <div id="infoWrap">
+    <div class="container pb-5">
+	    <div id="infoWrap" class="pb-5 mb-5">
 			<h3 class="room-txt">시설명을 클릭하시면 상세내용을 확인 하실 수 있습니다.</h3>
 	        <div class="multi-search-body layout" style="min-height: 950px;">
 				<div class="search-map api_map">
-					<!-- kakao api -->
-					<div id="map" style="width: 100%; height: 950px; position: relative; overflow: hidden;"></div>
+	                <!-- kakao map api -->
+	                <div id="map" style="width:100%; height:100%;"></div>
+					<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=fc0ac53d0aa28ed147043fd704ffc87e"></script>
+					<script>
+					var mapContainer = document.getElementById('map'),
+					    mapOption = { 
+					        center: new kakao.maps.LatLng(36.0638727377474, 128.466016323253), // 지도의 중심좌표
+					        level: 3 // 지도의 확대 레벨
+					    };
+					
+					var map = new kakao.maps.Map(mapContainer, mapOption); // 지도 생성
+					var markerPosition  = new kakao.maps.LatLng(36.0638727377474, 128.466016323253); 
+
+					// 마커를 생성합니다
+					var marker = new kakao.maps.Marker({
+					    position: markerPosition
+					});
+
+					// 마커가 지도 위에 표시되도록 설정합니다
+					marker.setMap(map);
+					
+					// 일반 지도와 스카이뷰로 지도 타입을 전환할 수 있는 지도타입 컨트롤 생성
+					var mapTypeControl = new kakao.maps.MapTypeControl();
+					
+					// 지도에 컨트롤을 추가해야 지도위에 표시
+					// kakao.maps.ControlPosition은 컨트롤이 표시될 위치를 정의하는데 TOPRIGHT는 오른쪽 위 의미
+					map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
+					
+					// 지도 확대 축소를 제어할 수 있는  줌 컨트롤 생성
+					var zoomControl = new kakao.maps.ZoomControl();
+					map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
+					</script>
+	                <!-- kakao map api -->
 				</div>
-				<!--전국시설 지도 content 닫기-->
 	            <div class="search-content">
 	                <div class="content-item">
 	                    <div class="item-pt">
@@ -163,28 +193,6 @@
 		</div>
     </div>
     <!-- RoomList End -->
-
-
-    <!-- Newsletter Start -->
-    <div class="container-fluid newsletter bg-primary py-5 my-5">
-        <div class="container py-5">
-            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h3 class="text-white mb-3"><span class="fw-light text-dark">숙박시설</span> 위치</h3>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-7 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="position-relative w-100 mt-3 mb-2">
-                        <input class="form-control w-100 py-4 ps-4 pe-5" type="text" style="height: 48px;">
-                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2">
-                        	<i class="fa fa-location-arrow text-white fs-4" aria-hidden="true"></i>
-                       	</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Newsletter End -->
-
 
     <!-- Footer Start -->
    	<jsp:include page="./Footer.jsp"></jsp:include>

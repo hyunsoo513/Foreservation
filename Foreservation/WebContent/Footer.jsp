@@ -67,7 +67,7 @@
     <div class="bg-white footer">
         <div class="layout ps-4">
             <div class="row">
-                <div class="footer-txt col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="footer-txt col-md-6">
                 	<!-- 
                     <a href="index.html" class="d-inline-block mb-2">
                         <h1 class="text-primary">Foreservation</h1>
@@ -80,7 +80,7 @@
                 </div>
             </div>
         </div>
-        <div class="wow fadeIn copyright" data-wow-delay="0.1s">
+        <div class="copyright">
             <div class="layout ps-4">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">

@@ -138,34 +138,47 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-7 wow fadeIn" data-wow-delay="0.5s">
-	                <!-- kakao map -->
+	                <!-- kakao map api -->
 	                <div id="map" style="width:100%; height:400px;"></div>
 					<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=fc0ac53d0aa28ed147043fd704ffc87e"></script>
 					<script>
-						var container = document.getElementById('map');
-						var options = {
-							center: new kakao.maps.LatLng(36.0638727377474, 128.466016323253),
-							level: 3
-						};
-						var map = new kakao.maps.Map(container, options);
-						
-						var imageSrc = 'Resources/img/favicon.ico', // 마커이미지의 주소입니다    
-					    imageSize = new kakao.maps.Size(48, 48), // 마커이미지의 크기입니다
-					    imageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
-					      
-						// 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
-						var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
-						    markerPosition = new kakao.maps.LatLng(36.0638727377474, 128.466016323253); // 마커가 표시될 위치입니다
-	
-						// 마커를 생성합니다
-						var marker = new kakao.maps.Marker({
-						    position: markerPosition, 
-						    image: markerImage // 마커이미지 설정 
-						});
-	
-						// 마커가 지도 위에 표시되도록 설정합니다
-						marker.setMap(map);  
+					var mapContainer = document.getElementById('map'),
+					    mapOption = { 
+					        center: new kakao.maps.LatLng(36.0638727377474, 128.466016323253), // 지도의 중심좌표
+					        level: 3 // 지도의 확대 레벨
+					    };
+					
+					var map = new kakao.maps.Map(mapContainer, mapOption); // 지도 생성
+					
+					var imageSrc = 'Resources/img/favicon.ico', // 마커이미지의 주소
+					imageSize = new kakao.maps.Size(48, 48), // 마커이미지의 크기
+					imageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션. 마커의 좌표와 일치시킬 이미지 안에서의 좌표 설정
+					  
+					// 마커의 이미지정보를 가지고 있는 마커이미지 생성
+					var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
+					    markerPosition = new kakao.maps.LatLng(36.0638727377474, 128.466016323253); // 마커가 표시될 위치
+
+					// 마커 생성
+					var marker = new kakao.maps.Marker({
+					    position: markerPosition, 
+					    image: markerImage // 마커이미지 설정 
+					});
+
+					// 마커가 지도 위에 표시되도록 설정
+					marker.setMap(map);  
+					
+					// 일반 지도와 스카이뷰로 지도 타입을 전환할 수 있는 지도타입 컨트롤 생성
+					var mapTypeControl = new kakao.maps.MapTypeControl();
+					
+					// 지도에 컨트롤을 추가해야 지도위에 표시
+					// kakao.maps.ControlPosition은 컨트롤이 표시될 위치를 정의하는데 TOPRIGHT는 오른쪽 위 의미
+					map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
+					
+					// 지도 확대 축소를 제어할 수 있는  줌 컨트롤 생성
+					var zoomControl = new kakao.maps.ZoomControl();
+					map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
 					</script>
+	                <!-- kakao map api -->
                 </div>
             </div>
         </div>

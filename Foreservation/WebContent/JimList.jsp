@@ -124,29 +124,6 @@
 	</div>
 	<!-- JimList End -->
 
-
-    <!-- SiteLocation Start
-    <div class="container-fluid newsletter bg-primary py-5 my-5">
-        <div class="container py-5">
-            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h3 class="text-white mb-3">오시는 길</h3>
-                <p class="text-dark mb-4">주소: (구) 경상북도 칠곡군 성곡리 산73-13 / (신) 경상북도 칠곡군 유학로 532</p>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-7 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="position-relative w-100 mt-3 mb-2">
-                        <input class="form-control w-100 py-4 ps-4 pe-5" type="text" placeholder="경상북도 칠곡군 유학로 532" style="height: 48px;">
-                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2">
-                        	<i class="fa fa-location-arrow text-white fs-4" aria-hidden="true"></i>
-                       	</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-   SiteLocation End -->
-
-
     <!-- Footer Start -->
    	<jsp:include page="./Footer.jsp"></jsp:include>
     <!-- Footer End -->
