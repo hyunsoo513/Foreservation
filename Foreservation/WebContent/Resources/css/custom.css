@@ -2512,6 +2512,110 @@ caption {
     top: 31%;
 }
 
+/* kakao map info */
+.api_map .info_wrap {
+    position: relative;
+    padding: 28px 29px;
+}
+
+.api_map .info_wrap .info_close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.api_map .info_wrap .info_close a {
+    display: block;
+    width: 15px;
+    height: 15px;
+    line-height: 100%;
+}
+
+.api_map .thumb {
+    overflow: hidden;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 2px 3px 9.8px 0.2px rgb(0 0 0 / 25%);
+    position: relative;
+    margin: 0 auto;
+}
+
+.api_map .thumb > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    max-width: none;
+}
+
+.api_map .info_title {
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000;
+    padding-top: 15px;
+}
+
+.api_map .info_text {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.api_map .info_text .pt > li {
+    padding-left: 25px;
+    font-size: 13px;
+    margin-bottom: 3px;
+    white-space: normal;
+    word-break: keep-all;
+    position: relative;
+    line-height: 19px;
+}
+
+.api_map .info_text .pt .icon_04::before {
+    content: '#';
+}
+
+.api_map .info_text .pt > li::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    width: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #5dacd1;
+}
+
+.api_map .info_button {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.api_map .info_button a {
+    display: block;
+    border: 1px solid #3565d1;
+    background: #485CB5;
+    padding: 10px 20px;
+    font-size: 13px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.api_map .info_button a span {
+    padding-right: 15px;
+    background: url(../img/reserve_btn.png) no-repeat 100% center;
+}
+
+
+
 /* paging */
 .page-list {
     text-align: center;
