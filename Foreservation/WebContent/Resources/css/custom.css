@@ -2525,7 +2525,7 @@ caption {
 }
 
 .api_map .info_wrap .info_close a {
-    display: block;
+    display: none;
     width: 15px;
     height: 15px;
     line-height: 100%;
@@ -2576,10 +2576,14 @@ caption {
     line-height: 19px;
 }
 
-.api_map .info_text .pt .icon_04::before {
-    content: '#';
+.api_map .info_text .pt .icon_04{
+    padding-left: 0;
 }
 
+.api_map .info_text .pt .icon_04>i{
+    padding-right: 5px;
+}
+	
 .api_map .info_text .pt > li::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;

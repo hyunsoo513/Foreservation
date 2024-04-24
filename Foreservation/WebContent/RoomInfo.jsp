@@ -94,7 +94,7 @@
 					marker.setMap(map);
 					// 마커를 클릭했을 때 마커 위에 표시할 인포윈도우 생성
 					// var iwContent = '<div style="padding:5px;">Hello World!</div>',
-					var iwContent = '<div class="info_wrap"><div class="info_close"><a href="#" onclick=""><i class="fas fa-times" aria-hidden="true"></i></a></div><div class="thumb"><img class="thumb_img room_img" src="Resources/img/room100.jpg" alt="205(소나무)"></div><div class="info_title">205(소나무)</div><div class="info_text"><ul class="pt ps-0 mb-0"><li class="icon_04">최대 인원: 20명(108㎡)</li></ul></div><div class="info_button"><a href="#"><span>상세보기</span></a></div></div></div>',
+					var iwContent = '<div class="info_wrap"><div class="info_close"><a href="#" onclick=""><i class="fas fa-times" aria-hidden="true"></i></a></div><div class="thumb"><img class="thumb_img room_img" src="Resources/img/room100.jpg" alt="205(소나무)"></div><div class="info_title">205(소나무)</div><div class="info_text"><ul class="pt ps-0 mb-0"><li class="icon_04"><i class="fa fa-user" aria-hidden="true"></i>최대 인원: 20명(108㎡)</li></ul></div><div class="info_button"><a href="#"><span>상세보기</span></a></div></div></div>',
 					    iwRemoveable = true; // removeable 속성을 ture 로 설정하면 인포윈도우를 닫을 수 있는 x버튼이 표시
 					// 인포윈도우 생성
 					var infowindow = new kakao.maps.InfoWindow({
