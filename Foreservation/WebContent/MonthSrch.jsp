@@ -154,7 +154,7 @@
        				<tbody>
        					<tr>
        						<th scope="row" class="text-left">303(오소리)(5/7명)</th>
-       						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
+       						<td><a href="#" class="sch_btn"><img alt="예약완료" src="Resources/img/month-state-icon01.png"></a></td>
        						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
        						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
        						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
@@ -329,6 +329,81 @@
 	</div>
 	<!-- GnrSrch End -->
 
+	<!-- pop-up -->
+	<div class="eco_pop_wrap show">
+		<div class="eco_pop_bg"></div>
+		<div class="eco_pop_con">
+			<div class="eco_pop_tit">
+				<h3>예약일정</h3>
+				<a href="javascript:void(0);" class="eco_pop_close">
+					<i class="fas fa-times" aria-hidden="true"></i>
+					<span class="hide">팝업 닫기</span>
+				</a>
+			</div>
+			<div class="eco_pop_txt">
+				<p class="sb_tit">수령센터</p>
+				<div class="board_write">
+					<div class="b_info">
+						<dl class="b_full">
+							<dt>사용시작일</dt>
+							<dd class="b_plain_txt" id="rsrvtSelectDay">2024-05-12</dd>
+						</dl>
+						<dl class="b_full">
+							<dt>
+								<label for="stngDcntSlbx">박수입력</label>
+							</dt>
+							<dd class="n_single">
+								<select id="stngDcntSlbx" onchange="javascript:fn_changeDcnt(this);"><option value="1">1박2일</option><option value="2">2박3일</option><option value="3">3박4일</option></select>
+							</dd>
+						</dl>
+						<dl class="b_full">
+							<dt>이용기간</dt>
+							<dd class="b_plain_txt" id="useDtRange">2024-05-12 ~ 2024-05-13</dd>
+						</dl>
+						<dl class="b_full">
+							<dt>
+								<label for="stngNofprSb">입실인원 선택<br>(기준인원: <span id="mnCntSpan">5</span>명 /<br>최대인원: <span id="mxCntSpan">7</span>명)</label>
+							</dt>
+							<dd class="n_single">
+								<select id="stngNofprSb"><option value="1">1명</option><option value="2">2명</option><option value="3">3명</option><option value="4">4명</option><option value="5">5명</option></select>
+								<ul class="n_list">
+									<li class="orange">현재 사회적 거리두기 일환으로 예약가능 인원이 일시적으로 제한되었습니다.</li>
+									<li class="orange">영유아(36개월 미만)와 어린이(36개월 이상 만13세 미만)는 입실시 증빙서류를 제시해야 합니다.</li>
+									<li class="orange">가족관계증명서, 주민등록등본, 여권, 건강보험 등 생년월일을 확인할 수 있는 법정신분증 제시</li>
+								</ul>
+							</dd>
+						</dl>
+						<dl class="b_full">
+							<dt>
+								<label for="addNofprSb">추가인원수</label>
+							</dt>
+							<dd class="n_single">
+								<select id="addNofprSb"><option value="0">추가인원 없음</option><option value="1">1명</option><option value="2">2명</option></select>
+								<ul class="n_list">
+									<li class="orange">추가인원 선택 시 [인원수X1만원X박수]의 시설이용요금이 추가됩니다.</li>
+								</ul>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+
+			<!-- 하단 버튼 -->
+			<div class="eco_pop_btn ">
+				<a href="#" class="btn-default btn-line" onclick="javascript:fn_applyRsrvt();">적용하기</a>
+				<a href="#" class="btn-default btn-line eco_pop_close">닫기</a>
+			</div>
+		</div>
+	</div>
+	<script>
+		$(function(){
+			$(".sch_btn, .eco_pop_close").click(function(){
+				$(".eco_pop_wrap").toggleClass("show");
+				$("html, body").toggleClass("no_scroll");
+			});
+		});
+	</script>
+	<!-- pop-up -->
 
     <!-- CheckList Start -->
     <jsp:include page="./CheckList.jsp"></jsp:include>
