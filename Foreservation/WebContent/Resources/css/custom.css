@@ -325,13 +325,13 @@ label {
 
 .list-st>.list-link {
 	margin: 30px 10px 30px 0;
-    display: flex;
     justify-content: space-around;
     width: 40%;
 }
 
 .list-link .list-btn {
 	width: 85%;
+	height: 100%;
 	border: 1px solid #e2e2e2;
 	border-radius: 25px;
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
@@ -819,21 +819,27 @@ CheckList.jsp
 /*
 PrgmSrch.jsp
 */
-.list-link .prgm-btn {
-	width: 85%;
-	height: 70%;
+.list-st>.list-pgbtn {
+	margin: 30px 10px 30px 0;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.list-pgbtn .btn-inner {
+	width: 100%;
 	border: 1px solid #e2e2e2;
 	border-radius: 25px;
 }
 
-.list-link>.prgm-btn>ul {
+.list-pgbtn>.btn-inner>.prgm-btn>ul {
 	width: 100%;
     height: 80%;
     float: left;
     padding-left: 0;
+    margin-bottom: 0;
 }
 
-.list-link>.prgm-btn>ul li {
+.list-pgbtn>.btn-inner>.prgm-btn>ul li {
 	width: 85%;
 	height: 45px;
     margin: 18px auto;
@@ -842,6 +848,10 @@ PrgmSrch.jsp
     text-align: center;
     position: relative;
     padding-top: 12px;
+}
+
+.prgm-btn {
+	height: 80%;
 }
 
 .prgm-btn>ul li a p {
@@ -858,9 +868,36 @@ PrgmSrch.jsp
 	vertical-align: 0;
 }
 
-.prgm-btn>.srch-rsvbtn {
-	width: 100%;
+.prgminfo-btn > ul {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.prgminfo-btn > ul a {
+    color: white;
+}
+
+.prgminfo-btn > ul li:nth-child(1) {
+	width: 80%;
+    height: 100%;
+    background: #008F51;
+    border-radius: 0 0 0 25px;
+    padding-top: 17px;
+}
+
+.prgminfo-btn > ul li:nth-child(2) {
+    width: 20%;
+    height: 100%;
+    background: #067746;
+    border-radius: 0 0 25px 0;
+    display: block;
     position: relative;
+    padding-top: 15px;
 }
 
 .pl-mi {
@@ -870,6 +907,10 @@ PrgmSrch.jsp
 .pl-mi>p{
 	margin: 0 35px 0;
 }
+
+
+
+
 
 /* ForestEdu.jsp */
 .forest-edu {
@@ -1479,8 +1520,6 @@ PrgmSrch.jsp
 .prgminfo-btn {
 	font-size: 14px;
     width: 100%;
-    padding: 6px 0;
-    margin-top: 10px;
     margin-left: 0;
     display: inline-block;
     text-align: center;

@@ -143,25 +143,17 @@
 	        				</ul>
 	        			</div>
 	        		</div>
-	        		<div class="list-link">
-	        			<div class="prgm-btn">
-	        				<ul>
-	        					<li>
-	        						<a href="#">
-		        						<p>홈페이지 가기</p>	
-		        						<span><img alt="" src="Resources/img/arr.png"></span>
-	        						</a>
-	        					</li>
-	        					<li>
-	        						<a href="#">
-		        						<p>상세내역 보기</p>	
-		        						<span><img alt="" src="Resources/img/arr.png"></span>
-	        						</a>
-	        					</li>
-	        				</ul>
-		        			<div class="srch-rsvbtn">
+	        		<div class="list-pgbtn">
+	        			<div class="btn-inner">
+	        				<div class="prgm-btn">
+		        				<ul>
+		        					<li><a href="ForeservationInfo.jsp"><p>홈페이지 가기</p><span><img alt="" src="Resources/img/arr.png"></span></a></li>
+		        					<li><a href="PrgmInfo.jsp"><p>상세내역 보기</p><span><img alt="" src="Resources/img/arr.png"></span></a></li>
+		        				</ul>
+	        				</div>
+		        			<div class="prgminfo-btn">
 	        					<ul>
-	        						<li><a href="PrgmResrv.jsp"><img alt="" src="Resources/img/date.png" class="me-2">예약하기</a></li>
+	        						<li><a href="PrgmResrv.jsp"><img alt="" src="Resources/img/date.png" class="me-2 pb-1">예약하기</a></li>
 	        						<li><a><img alt="" src="Resources/img/heart.png"></a></li>
 	        					</ul>
 	        				</div>
