@@ -9,11 +9,96 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MainController{
 
-	@RequestMapping(value = "/test.action")
+	@RequestMapping(value = "/Foreservation.action")
 	public String mainForm(HttpServletRequest request, HttpServletResponse response)
 	{ 
 		String result = "/ForeservationInfo.jsp"; 
 		return result; 
 	}
+	
+	@RequestMapping(value = "/GnrSrch.action")
+	public String GnrSrchForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/GnrSrch.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/PrgmSrch.action")
+	public String PrgmSrchForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/PrgmSrch.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/MonthSrch.action")
+	public String MonthSrchForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/MonthSrch.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/SiteInfo.action")
+	public String SiteInfoForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/SiteInfo.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/RoomInfo.action")
+	public String RoomInfoForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/RoomInfo.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/PrgmInfo.action")
+	public String PrgmInfoForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/PrgmInfo.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/MyResrv.action")
+	public String MyResrvForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/MyResrv.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/JimList.action")
+	public String JimListForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/JimList.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/Qnalist.action")
+	public String QnalistForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/Qnalist.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/MyInfo.action")
+	public String MyInfoForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/MyInfo.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/Widrw.action")
+	public String WidrwForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/Widrw.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/Login.action")
+	public String LoginForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/Login.jsp"; 
+		return result; 
+	}
 
+	
 }

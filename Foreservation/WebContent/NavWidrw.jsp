@@ -38,7 +38,7 @@
     <div class="container-fluid bg-primary">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light p-0">
-                <a href="ForeservationInfo.jsp" class="navbar-brand">
+                <a href="Foreservation.action" class="navbar-brand">
                     <h2 class="text-white">Foreservation</h2>
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
@@ -48,28 +48,28 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                     	<div class="nav-item dropdown">
-                            <a href="GnrSrch.jsp" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">온라인예약</a>
+                            <a href="GnrSrch.action" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">온라인예약</a>
                             <div class="dropdown-menu bg-light mt-2">
-                                <a href="GnrSrch.jsp" class="dropdown-item">일반/숙박예약</a>
-                                <a href="PrgmSrch.jsp" class="dropdown-item">프로그램예약</a>
-                                <a href="MonthSrch.jsp" class="dropdown-item">월별예약조회</a>
+                                <a href="GnrSrch.action" class="dropdown-item">일반/숙박예약</a>
+                                <a href="PrgmSrch.action" class="dropdown-item">프로그램예약</a>
+                                <a href="MonthSrch.action" class="dropdown-item">월별예약조회</a>
                             </div>
                         </div>
-                        <a href="SiteInfo.jsp" class="nav-item nav-link">기관안내</a>
-                        <a href="RoomInfo.jsp" class="nav-item nav-link">시설안내</a>
-                        <a href="PrgmInfo.jsp" class="nav-item nav-link">프로그램안내</a>
+                        <a href="SiteInfo.action" class="nav-item nav-link">기관안내</a>
+                        <a href="RoomInfo.action" class="nav-item nav-link">시설안내</a>
+                        <a href="PrgmInfo.action" class="nav-item nav-link">프로그램안내</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">마이페이지</a>
                             <div class="dropdown-menu bg-light mt-2">
-                                <a href="MyResrv.jsp" class="dropdown-item">예약정보</a>
-                                <a href="JimList.jsp" class="dropdown-item">찜목록</a>
-                                <a href="Qnalist.jsp" class="dropdown-item">1:1문의</a>
-                                <a href="MyInfo.jsp" class="dropdown-item">나의정보</a>
-                                <a href="Widrw.jsp" class="dropdown-item active">회원탈퇴</a>
+                                <a href="MyResrv.action" class="dropdown-item">예약정보</a>
+                                <a href="JimList.action" class="dropdown-item">찜목록</a>
+                                <a href="Qnalist.action" class="dropdown-item">1:1문의</a>
+                                <a href="MyInfo.action" class="dropdown-item">나의정보</a>
+                                <a href="Widrw.action" class="dropdown-item active">회원탈퇴</a>
                             </div>
                         </div>
                     </div>
-                    <a href="Login.jsp" class="btn btn-outline-dark py-2 px-4 d-none d-lg-inline-block">로그인</a>
+                    <a href="Login.action" class="btn btn-outline-dark py-2 px-4 d-none d-lg-inline-block">로그인</a>
                 </div>
             </nav>
         </div>
