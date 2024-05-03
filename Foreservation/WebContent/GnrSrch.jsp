@@ -94,7 +94,7 @@
         					</div>
         					<div class="srch-txt">
         						<p class="font-bold">예약일정</p>
-        						<p>날짜</p>
+        						<p id="demo">날짜</p>
         					</div>
         				</div>
         				<div class="srch-item">
@@ -215,6 +215,48 @@
 
     <!-- Template Javascript -->
     <script src="Resources/js/main.js"></script>
+    
+    <!-- calendar -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	<script>
+		$('#demo').daterangepicker({
+			"minYear": 1000,    
+			"maxYear": 9999,    
+			"locale": { "format": 'YYYY-MM-DD',        
+						"separator": " ~ ",        
+						"applyLabel": "확인",         
+						"cancelLabel": "취소",         
+						"fromLabel": "From",         
+						"toLabel": "To",         
+						"customRangeLabel": "Custom",         
+						"weekLabel": "주",         
+						"daysOfWeek": [ "일",              
+										"월",              
+										"화",              
+										"수",              
+										"목",              
+										"금",              
+										"토" ],       
+						"monthNames": [ "1월",              
+										"2월",
+										"3월",            
+										"4월",              
+										"5월",              
+										"6월",              
+										"7월",              
+										"8월",              
+										"9월",              
+										"10월",              
+										"11월",              
+										"12월" ],         
+						"firstDay": 1 },
+					}, function(start, end, label) {  
+						console.log('New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')');});
+	</script>
+    
 </body>
 
 </html>
