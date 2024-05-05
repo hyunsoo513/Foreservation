@@ -94,7 +94,7 @@
         					</div>
         					<div class="srch-txt">
         						<p class="font-bold">예약일정</p>
-        						<p id="calendar"><input type="text" name="choicedate" value="" /></p>
+        						<input type="text" name="datefilter" value="" />
         					</div>
         				</div>
         				<div class="srch-item">
@@ -216,7 +216,7 @@
     <!-- Template Javascript -->
     <script src="Resources/js/main.js"></script>
     
-    <!-- calendar -->
+    <!-- date calendar -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
@@ -224,7 +224,7 @@
 	<script type="text/javascript">
 	$(function() {
 
-		$('#calendar').daterangepicker({
+		$('input[name="datefilter"]').daterangepicker({
 			"minYear": 1000,    
 			"maxYear": 9999,    
 			"locale": { "format": 'YYYY-MM-DD',        
@@ -240,16 +240,17 @@
 						"firstDay": 1 }
 		});
 
-		$('input[name="choicedate"]').on('apply.daterangepicker', function(ev, picker) {
+		$('input[name="datefilter"]').on('apply.daterangepicker', function(ev, picker) {
 		    $(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
 		});
 		
-		$('input[name="choicedate"]').on('cancel.daterangepicker', function(ev, picker) {
+		$('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
 		    $(this).val('');
 		});
 
 	});
 	</script>
+    <!-- date calendar -->
 </body>
 
 </html>
