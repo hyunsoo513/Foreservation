@@ -89,7 +89,7 @@
         					</div>
         					<div class="srch-txt">
         						<p class="font-bold">예약일정</p>
-        						<p>날짜</p>
+        						<input type="text" name="datefilter" value="" placeholder="날짜를 선택해주세요."/>
         					</div>
         				</div>
         				<div class="srch-item">
@@ -191,6 +191,42 @@
 
     <!-- Template Javascript -->
     <script src="Resources/js/main.js"></script>
+    
+    <!-- date calendar -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	<script type="text/javascript">
+	$(function() {
+
+		$('input[name="datefilter"]').daterangepicker({
+			"minYear": 1000,    
+			"maxYear": 9999,    
+			"locale": { "format": 'YYYY-MM-DD',        
+						"separator": " ~ ",        
+						"applyLabel": "확인",         
+						"cancelLabel": "취소",         
+						"fromLabel": "From",         
+						"toLabel": "To",         
+						"customRangeLabel": "Custom",         
+						"weekLabel": "주",         
+						"daysOfWeek": [ "일", "월", "화", "수", "목", "금", "토" ],       
+						"monthNames": [ "1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월" ],         
+						"firstDay": 1 }
+		});
+
+		$('input[name="datefilter"]').on('apply.daterangepicker', function(ev, picker) {
+		    $(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
+		});
+		
+		$('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
+		    $(this).val('');
+		});
+
+	});
+	</script>
+    <!-- date calendar -->
 </body>
 
 </html>

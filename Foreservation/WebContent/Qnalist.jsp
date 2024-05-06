@@ -67,9 +67,9 @@
 	            	<fieldset>
 	            		<legend>게시판검색</legend>
 	            		<div class="qna-srchDate">
-	            			<input type="text" title="시작일을 선택하세요" placeholder="시작일" readonly="readonly">
+	            			<input type="text" name="datefilter" title="시작일을 선택하세요" placeholder="시작일" readonly="readonly">
 	            			<span class="mid">~</span>
-	            			<input type="text" title="종료일을 선택하세요" placeholder="종료일" readonly="readonly">
+	            			<input type="text" name="datefilter" title="종료일을 선택하세요" placeholder="종료일" readonly="readonly">
 	            		</div>
 	            		<div class="qna-srchTitle">
 	            			<select>
@@ -118,6 +118,37 @@
 
     <!-- Template Javascript -->
     <script src="Resources/js/main.js"></script>
+    
+    <!-- date calendar -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	<script type="text/javascript">
+	$(function() {
+
+		$('input[name="datefilter"]').daterangepicker({
+			singleDatePicker: true,
+		    showDropdowns: true,
+			"minYear": 1000,    
+			"maxYear": 9999,    
+			"locale": { "format": 'YYYY-MM-DD',        
+						"applyLabel": "확인",         
+						"cancelLabel": "취소",         
+						"customRangeLabel": "Custom",         
+						"weekLabel": "주",         
+						"daysOfWeek": [ "일", "월", "화", "수", "목", "금", "토" ],       
+						"monthNames": [ "1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월" ],         
+						"firstDay": 1 }
+		});
+		
+		$('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
+		    $(this).val('');
+		});
+		
+	});
+	</script>
+    <!-- date calendar -->
 </body>
 
 </html>

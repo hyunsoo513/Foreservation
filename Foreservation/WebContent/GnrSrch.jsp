@@ -94,7 +94,7 @@
         					</div>
         					<div class="srch-txt">
         						<p class="font-bold">예약일정</p>
-        						<input type="text" name="datefilter" value="" />
+        						<input type="text" name="datefilter" value="" placeholder="날짜를 선택해주세요."/>
         					</div>
         				</div>
         				<div class="srch-item">
