@@ -38,7 +38,7 @@
     <div class="container-fluid sticky-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light p-0">
-                <a href="Foreservation.action" class="navbar-brand">
+                <a href="welcome.action" class="navbar-brand">
                     <h2 class="text-white">Foreservation</h2>
                 </a>
                 <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">

@@ -100,10 +100,10 @@
 							<div style="line-height: 1.6; font-size: 13.5px;">먼저 숲e랑 <span class="font-red">회원가입 후</span> 사용이 가능합니다.</div>
 						</div>
 						<div class="other-social">
-							<a href="javascript:void(0);" title="새창열림" onclick="loginWithKakao(); return false;">
+							<a href="klogin.action">
 								<span class="icon kakao"><img src="Resources/img/kakao.png" alt=""></span>
 								<span class="so-txt">카카오 아이디로 로그인</span>
-							</a> <a href="javascript:void(0);" onclick="loginWithNaver(); return false;">
+							</a> <a href="nlogin.action">
 								<span class="icon naver"><img src="Resources/img/naver.png" alt=""></span>
 								<span class="so-txt1">네이버 아이디로 로그인</span>
 							</a>

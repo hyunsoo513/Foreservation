@@ -147,7 +147,7 @@
 	        			<div class="btn-inner">
 	        				<div class="prgm-btn">
 		        				<ul>
-		        					<li><a href="Foreservation.action"><p>홈페이지 가기</p><span><img alt="" src="Resources/img/arr.png"></span></a></li>
+		        					<li><a href="welcome.action"><p>홈페이지 가기</p><span><img alt="" src="Resources/img/arr.png"></span></a></li>
 		        					<li><a href="PrgmInfo.jsp"><p>상세내역 보기</p><span><img alt="" src="Resources/img/arr.png"></span></a></li>
 		        				</ul>
 	        				</div>

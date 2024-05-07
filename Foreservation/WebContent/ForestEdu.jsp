@@ -13,7 +13,7 @@
 		                <h5 class="mb-3">산림교육이란?</h5>
 		                <p class="mb-4">숲체험 활동을 통해 국민이 산림에 대한 올바른 지식을 습득하고 가치관을 가지도록 함으로써 산림을 <br>
 		                	지속가능하게 보전하고 국가와 사회 발전 및 국민의 삶의 질 향상에 이바지함을 목적으로 두고 있습니다.</p>
-                    	<a class="btn-default py-1 px-4" href="">더보기<i class="fa fa-chevron-down left-icon" aria-hidden="true"></i></a>
+                    	<!-- <a class="btn-default py-1 px-4" href="">더보기<i class="fa fa-chevron-down left-icon" aria-hidden="true"></i></a> -->
 	            	</div>
 	            	<div class="edu-content pt-5">
 	            		<div class="content-item text-left ms-5 mb-4">

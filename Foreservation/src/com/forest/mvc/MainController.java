@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MainController{
 
-	@RequestMapping(value = "/Foreservation.action")
+	@RequestMapping(value = "/welcome.action")
 	public String mainForm(HttpServletRequest request, HttpServletResponse response)
 	{ 
 		String result = "/ForeservationInfo.jsp"; 
@@ -93,8 +93,15 @@ public class MainController{
 		return result; 
 	}
 	
-	@RequestMapping(value = "/Login.action")
+	@RequestMapping(value = "/klogin.action")
 	public String LoginForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/Login.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/nlogin.action")
+	public String nloginOauth(HttpServletRequest request, HttpServletResponse response)
 	{ 
 		String result = "/Login.jsp"; 
 		return result; 
