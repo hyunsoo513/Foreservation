@@ -104,9 +104,9 @@
         					<div class="srch-txt">
         						<p class="font-bold">인원</p>
         						<div class="pl-mi">
-	        						<a href="#"><i class="fa fa-minus" aria-hidden="true"></i></a>
-	        						<p>1명</p>
-	        						<a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+	        						<a href="#" onclick='count("minus")'><i class="fa fa-minus" aria-hidden="true"></i></a>
+	        						<p id="result">1</p>
+	        						<a href="#" onclick='count("plus")'><i class="fa fa-plus" aria-hidden="true"></i></a>
         						</div>
         					</div>
         				</div>
@@ -216,7 +216,7 @@
     <!-- Template Javascript -->
     <script src="Resources/js/main.js"></script>
     
-    <!-- date calendar -->
+    <!-- date calendar start -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
@@ -250,7 +250,31 @@
 
 	});
 	</script>
-    <!-- date calendar -->
+    <!-- date calendar end -->
+    
+    <!-- count num start -->
+    <script>
+    	function count(type)  {
+    	  // 결과를 표시할 element
+    	  const resultElement = document.getElementById('result');
+    	  
+    	  // 현재 화면에 표시된 값
+    	  let number = resultElement.innerText;
+    	  
+    	  // 더하기/빼기
+    	  if(type === 'plus'){
+			if (number<15) {
+				number = parseInt(number) + 1;
+			}
+    	  }
+    	  else if(number>1 && type === 'minus')
+    	    number = parseInt(number) - 1;
+    	  
+    	  // 결과 출력
+    	  resultElement.innerText = number;
+    	}
+    </script>
+    <!-- count num end -->
 </body>
 
 </html>
