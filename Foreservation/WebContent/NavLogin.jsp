@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>NavJimList.jsp</title>
+	<title>NavLogin.jsp</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -59,10 +59,10 @@
                         <a href="RoomInfo.action" class="nav-item nav-link">시설안내</a>
                         <a href="PrgmInfo.action" class="nav-item nav-link">프로그램안내</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">마이페이지</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">마이페이지</a>
                             <div class="dropdown-menu bg-light mt-2">
                                 <a href="MyResrv.action" class="dropdown-item">예약정보</a>
-                                <a href="JimList.action" class="dropdown-item active">찜목록</a>
+                                <a href="JimList.action" class="dropdown-item">찜목록</a>
                                 <a href="Qnalist.action" class="dropdown-item">1:1문의</a>
                                 <a href="blog.html" class="dropdown-item">나의정보</a>
                                 <a href="Widrw.action" class="dropdown-item">회원탈퇴</a>

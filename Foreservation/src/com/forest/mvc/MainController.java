@@ -93,8 +93,15 @@ public class MainController{
 		return result; 
 	}
 	
-	@RequestMapping(value = "/klogin.action")
+	@RequestMapping(value = "/Login.action")
 	public String LoginForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/Login.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/klogin.action")
+	public String kLoginForm(HttpServletRequest request, HttpServletResponse response)
 	{ 
 		String result = "/Login.jsp"; 
 		return result; 

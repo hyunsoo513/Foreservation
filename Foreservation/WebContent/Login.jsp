@@ -46,7 +46,7 @@
 
 
 	<!-- Navbar Start -->
-	<jsp:include page="./NavWidrw.jsp"></jsp:include>
+	<jsp:include page="./NavLogin.jsp"></jsp:include>
 	<!-- Navbar End -->
 
 
