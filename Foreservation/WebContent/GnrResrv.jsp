@@ -337,15 +337,24 @@
         							<div class="edit-area">
 	        							<div class="edit-date">
 	        								<span class="edit-tit">이용일</span>
-	        								<input type="text" placeholder="2024-04-11 ~ 2024-04-12" class="mb-3">
+	        								<input type="text" name="datefilter" placeholder="날짜를 선택해주세요" class="mb-3">
 	        							</div>
 	        							<div class="edit-num">
 	        								<span class="edit-tit">인원</span>
-	        								<input type="text" placeholder="- 1 +" class="mb-3">
+	        								<div>
+	        									<!-- 버튼 클릭 시 위로 올라가는 문제, 숫자 count 안되는 문제 발생 -->
+	        									<a href="#" onclick='count("minus")'><i class="fa fa-minus" aria-hidden="true"></i></a>
+		        								<input type="text" id="resultNum" class="mb-3" value="1">
+	        									<a href="#" onclick='count("plus")'><i class="fa fa-plus" aria-hidden="true"></i></a>
+	        								</div>
 	        							</div>
 	        							<div class="edit-num">
 	        								<span class="edit-tit">추가 인원</span>
-	        								<input type="text" placeholder="- 1 +" class="mb-3">
+	        								<div>
+	        									<a href="#" onclick='count("pMinus")'><i class="fa fa-minus" aria-hidden="true"></i></a>
+		        								<input type="text" id="plusNum" value="1">
+	        									<a href="#" onclick='count("pPlus")'><i class="fa fa-plus" aria-hidden="true"></i></a>
+	        								</div>
 	        							</div>
         									<!-- 
 	        								<div>
@@ -482,6 +491,60 @@
 
     <!-- Template Javascript -->
     <script src="Resources/js/main.js"></script>
+    
+    <!-- date calendar start -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	<script type="text/javascript">
+	$(function() {
+
+		$('input[name="datefilter"]').daterangepicker({
+			"minYear": 1000,    
+			"maxYear": 9999,    
+			"locale": { "format": 'YYYY-MM-DD',        
+						"separator": " ~ ",        
+						"applyLabel": "확인",         
+						"cancelLabel": "취소",         
+						"fromLabel": "From",         
+						"toLabel": "To",         
+						"customRangeLabel": "Custom",         
+						"weekLabel": "주",         
+						"daysOfWeek": [ "일", "월", "화", "수", "목", "금", "토" ],       
+						"monthNames": [ "1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월" ],         
+						"firstDay": 1 }
+		});
+
+		$('input[name="datefilter"]').on('apply.daterangepicker', function(ev, picker) {
+		    $(this).val(picker.startDate.format('YYYY-MM-DD') + ' ~ ' + picker.endDate.format('YYYY-MM-DD'));
+		});
+		
+		$('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
+		    $(this).val('');
+		});
+
+	});
+	</script>
+    <!-- date calendar end -->
+    
+    <!-- count num start -->
+    <script>
+    	function count(type)  {
+    	  // 결과를 표시할 element
+    	  var number = document.getElementById('resultNum').value;
+    	  
+    	  // 더하기/빼기
+    	  if(type === 'plus'){
+			if (number<15) {
+				number = parseInt(number) + 1;
+			}
+    	  }
+    	  else if(number>1 && type === 'minus')
+    	    number = parseInt(number) - 1;
+    	}
+    </script>
+    <!-- count num end -->
 </body>
 
 </html>
