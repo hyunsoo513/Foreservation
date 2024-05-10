@@ -64,7 +64,7 @@
                                 <a href="MyResrv.action" class="dropdown-item">예약정보</a>
                                 <a href="JimList.action" class="dropdown-item">찜목록</a>
                                 <a href="Qnalist.action" class="dropdown-item">1:1문의</a>
-                                <a href="blog.html" class="dropdown-item">나의정보</a>
+                                <a href="MyInfo.action" class="dropdown-item">나의정보</a>
                                 <a href="Widrw.action" class="dropdown-item">회원탈퇴</a>
                             </div>
                         </div>
