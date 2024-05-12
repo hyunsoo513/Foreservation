@@ -342,34 +342,21 @@
 	        							<div class="edit-num">
 	        								<span class="edit-tit">인원</span>
 	        								<div>
-	        									<!-- 버튼 클릭 시 위로 올라가는 문제, 숫자 count 안되는 문제 발생 -->
-	        									<a href="#" onclick='count("minus")'><i class="fa fa-minus" aria-hidden="true"></i></a>
-		        								<input type="text" id="resultNum" class="mb-3" value="1">
-	        									<a href="#" onclick='count("plus")'><i class="fa fa-plus" aria-hidden="true"></i></a>
+	        									<!-- input 으로 변경  or 템플릿 수정 -->
+	        									<a href="javascript:void(0);" onclick="count('minus')"><i class="fa fa-minus" aria-hidden="true"></i></a>
+				        						<p id="result">1</p>
+				        						<a href="javascript:void(0);" onclick="count('plus')"><i class="fa fa-plus" aria-hidden="true"></i></a>
 	        								</div>
 	        							</div>
 	        							<div class="edit-num">
 	        								<span class="edit-tit">추가 인원</span>
 	        								<div>
-	        									<a href="#" onclick='count("pMinus")'><i class="fa fa-minus" aria-hidden="true"></i></a>
-		        								<input type="text" id="plusNum" value="1">
-	        									<a href="#" onclick='count("pPlus")'><i class="fa fa-plus" aria-hidden="true"></i></a>
+	        									<!-- input 으로 변경  or 템플릿 수정 -->
+	        									<a href="javascript:void(0);" onclick="pCount('pMinus')"><i class="fa fa-minus" aria-hidden="true"></i></a>
+				        						<p id="pResult">1</p>
+				        						<a href="javascript:void(0);" onclick="pCount('pPlus')"><i class="fa fa-plus" aria-hidden="true"></i></a>
 	        								</div>
 	        							</div>
-        									<!-- 
-	        								<div>
-	        									<label for="spinner">
-													<span class="hide">숫자선택</span>
-												</label>
-	        									<span class="ui-spinner ui-corner-all ui-widget ui-widget-content" style="height: 40px;">
-			        								<input type="number" min="1" max="19" class="spinner ui-spinner-input"
-			        								id="smmarGsrmNofpr" readonly="readonly" aria-valuemin="1" aria-valuemax="19" 
-			        								aria-valuenow="1" autocomplete="off" role="spinbutton">
-			        								<a tabindex="-1" aria-hidden="true" class="ui-spinner-button ui-spinner-up ui-corner-tr"></a>
-			        								<a tabindex="-1" aria-hidden="true" class="ui-spinner-button ui-spinner-down ui-corner-br"></a>
-	        									</span>
-	        								</div>
-        									 -->
         							</div>
         							<ul class="choice-result">
 										<li class="pt-3">
@@ -452,8 +439,8 @@
 											</div>
 										</li>
 									</ul>
-									<div class="res-btn" onclick="javascript:fn_makeRsrvt();">
-										<a href="javascript:void(0);" class="a_link"><img src="/images/common/content/calendar.png" alt="">예약하기</a>
+									<div class="res-btn">
+										<a href="#" class="a_link"><img src="/images/common/content/calendar.png" alt="">예약하기</a>
 									</div>
         						</div>
         					</div>
@@ -530,19 +517,45 @@
     
     <!-- count num start -->
     <script>
-    	function count(type)  {
-    	  // 결과를 표시할 element
-    	  var number = document.getElementById('resultNum').value;
-    	  
-    	  // 더하기/빼기
-    	  if(type === 'plus'){
-			if (number<15) {
-				number = parseInt(number) + 1;
-			}
-    	  }
-    	  else if(number>1 && type === 'minus')
-    	    number = parseInt(number) - 1;
-    	}
+	    function count(type)  {
+	  	  // 결과를 표시할 element
+	  	  const resultElement = document.getElementById('result');
+	  	  
+	  	  // 현재 화면에 표시된 값
+	  	  let number = resultElement.innerText;
+	  	  
+	  	  // 더하기/빼기
+	  	  if(type === 'plus'){
+				if (number<15) {
+					number = parseInt(number) + 1;
+				}
+	  	  }
+	  	  else if(number>1 && type === 'minus')
+	  	    number = parseInt(number) - 1;
+	  	  
+	  	  // 결과 출력
+	  	  resultElement.innerText = number;
+	  	}
+	    
+	    function pCount(type)  {
+	  	  // 결과를 표시할 element
+	  	  const resultElement = document.getElementById('pResult');
+	  	  
+	  	  // 현재 화면에 표시된 값
+	  	  let number = resultElement.innerText;
+	  	  
+	  	  // 더하기/빼기
+	  	  if(type === 'pPlus'){
+				if (number<15) {
+					number = parseInt(number) + 1;
+				}
+	  	  }
+	  	  else if(number>1 && type === 'pMinus')
+	  	    number = parseInt(number) - 1;
+	  	  
+	  	  // 결과 출력
+	  	  resultElement.innerText = number;
+	  	}
     </script>
     <!-- count num end -->
 </body>
