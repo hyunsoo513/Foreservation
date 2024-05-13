@@ -2057,6 +2057,52 @@ caption {
 	border-bottom: 1px solid #000;
 }
 
+.personal {
+	display: flex;
+	border: 1px solid #ddd;
+}
+
+.personal>* {
+	width: calc(100% / 3);
+    height: 40px;
+	text-align: center;
+	align-content: center;
+	margin-bottom: 0;
+	border-right: 1px solid #ddd;
+	font-size: 15px;
+    color: #323232;
+    font-weight: normal;
+}
+
+.personal>*:last-child {
+	border-right: 0;
+}
+
+/* PrgmResrv.jsp */
+.pg-personal {
+	display: flex;
+	border: 1px solid #ddd;
+}
+
+.pg-personal>* {
+	width: calc(100% / 3);
+    height: 40px;
+	text-align: center;
+	align-content: center;
+	margin-bottom: 0;
+	border-right: 1px solid #ddd;
+	font-size: 15px;
+    color: #323232;
+    font-weight: normal;
+}
+
+.pg-personal>*:last-child {
+	border-right: 0;
+}
+
+
+
+
 /* Login.jsp */
 .login-page {
     max-width: 1260px;

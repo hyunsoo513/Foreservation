@@ -99,9 +99,9 @@
         					<div class="srch-txt">
         						<p class="font-bold">인원</p>
         						<div class="pl-mi">
-	        						<a href="#" onclick='count("minus")'><i class="fa fa-minus" aria-hidden="true"></i></a>
+	        						<a href="javascript:void(0);" onclick='count("minus")'><i class="fa fa-minus" aria-hidden="true"></i></a>
 	        						<p id="result">1</p>
-	        						<a href="#" onclick='count("plus")'><i class="fa fa-plus" aria-hidden="true"></i></a>
+	        						<a href="javascript:void(0);" onclick='count("plus")'><i class="fa fa-plus" aria-hidden="true"></i></a>
         						</div>
         					</div>
         				</div>

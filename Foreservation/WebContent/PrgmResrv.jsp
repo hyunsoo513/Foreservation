@@ -517,10 +517,15 @@
 							</div>
 							<div class="edit-num edit-row">
 								<span class="edit-tit">신청인원</span>
-								<div class="spinner-wrap">
+								<div class="spinner-wrap pg-personal">
+									<a href="javascript:void(0);" onclick="count('minus')"><i class="fa fa-minus" aria-hidden="true"></i></a>
+        							<p id="result">1</p>
+	        						<a href="javascript:void(0);" onclick="count('plus')"><i class="fa fa-plus" aria-hidden="true"></i></a>
+									<!-- 
 									<label for="spinner">
 										<span class="hide">숫자선택</span></label>
 									<span class="ui-spinner ui-corner-all ui-widget ui-widget-content" style="height: 40px;"><input type="number" id="rqstNofpr" min="1" class="spinner ui-spinner-input" value="1" readonly="" aria-valuemin="1" aria-valuenow="1" autocomplete="off" role="spinbutton"><a tabindex="-1" aria-hidden="true" class="ui-spinner-button ui-spinner-up ui-corner-tr"></a><a tabindex="-1" aria-hidden="true" class="ui-spinner-button ui-spinner-down ui-corner-br"></a></span>
+									 -->
 								</div>
 							</div>
 						</div>
@@ -588,6 +593,30 @@
 
     <!-- Template Javascript -->
     <script src="Resources/js/main.js"></script>
+    
+    <!-- count num start -->
+    <script>
+    	function count(type)  {
+    	  // 결과를 표시할 element
+    	  const resultElement = document.getElementById('result');
+    	  
+    	  // 현재 화면에 표시된 값
+    	  let number = resultElement.innerText;
+    	  
+    	  // 더하기/빼기
+    	  if(type === 'plus'){
+			if (number<15) {
+				number = parseInt(number) + 1;
+			}
+    	  }
+    	  else if(number>1 && type === 'minus')
+    	    number = parseInt(number) - 1;
+    	  
+    	  // 결과 출력
+    	  resultElement.innerText = number;
+    	}
+    </script>
+    <!-- count num end -->
 </body>
 
 </html>

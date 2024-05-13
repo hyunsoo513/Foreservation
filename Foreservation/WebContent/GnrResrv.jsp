@@ -341,7 +341,7 @@
 	        							</div>
 	        							<div class="edit-num">
 	        								<span class="edit-tit">인원</span>
-	        								<div>
+	        								<div class="personal">
 	        									<!-- input 으로 변경  or 템플릿 수정 -->
 	        									<a href="javascript:void(0);" onclick="count('minus')"><i class="fa fa-minus" aria-hidden="true"></i></a>
 				        						<p id="result">1</p>
@@ -350,7 +350,7 @@
 	        							</div>
 	        							<div class="edit-num">
 	        								<span class="edit-tit">추가 인원</span>
-	        								<div>
+	        								<div class="personal">
 	        									<!-- input 으로 변경  or 템플릿 수정 -->
 	        									<a href="javascript:void(0);" onclick="pCount('pMinus')"><i class="fa fa-minus" aria-hidden="true"></i></a>
 				        						<p id="pResult">1</p>
