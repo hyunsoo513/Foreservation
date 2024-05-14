@@ -420,8 +420,9 @@
 										</li>
 										<li>
 											<div class="rc-wrap">
+												<!-- checkbox 선택 안되는 오류 -->
 												<div class="rc-inner penalty_btn">
-													<input type="checkbox" id="penaltyChkBox" name="checkbox01">
+													<input type="checkbox" id="penaltyChkBox" value="penaltyChkBox" name="checkbox01">
 													<label for="penaltyChkBox">
 														<span class="label-txt"><strong>위약금 정책</strong>을 읽었으며 동의합니다.</span>
 													</label>
@@ -431,7 +432,7 @@
 										<li>
 											<div class="rc-wrap">
 												<div class="rc-inner term_btn">
-													<input type="checkbox" id="termChkBox" name="checkbox01">
+													<input type="checkbox" id="termChkBox" name="termChkBox" value="termChkBox">
 													<label for="termChkBox">
 														<span class="label-txt"><strong>이용약관</strong>을 읽었으며 동의합니다.</span>
 													</label>
