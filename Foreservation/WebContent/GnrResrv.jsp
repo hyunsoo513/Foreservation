@@ -419,24 +419,19 @@
 											<p class="sub-check">아래 약관 및 정책을 확인하신 후 동의하시는 경우 체크하여 최종 예약을 완료해주세요.</p>
 										</li>
 										<li>
-											<div class="rc-wrap">
-												<!-- checkbox 선택 안되는 오류 -->
-												<div class="rc-inner penalty_btn">
-													<input type="checkbox" id="penaltyChkBox" value="penaltyChkBox" name="checkbox01">
-													<label for="penaltyChkBox">
-														<span class="label-txt"><strong>위약금 정책</strong>을 읽었으며 동의합니다.</span>
-													</label>
-												</div>
+											<div class="rc-inner penalty_btn">
+												<input type="checkbox" id="penaltyChkBox" name="penaltyChkBox">
+												<label for="penaltyChkBox">
+													<span class="label-txt"><strong>위약금 정책</strong>을 읽었으며 동의합니다.</span>
+												</label>
 											</div>
 										</li>
 										<li>
-											<div class="rc-wrap">
-												<div class="rc-inner term_btn">
-													<input type="checkbox" id="termChkBox" name="termChkBox" value="termChkBox">
-													<label for="termChkBox">
-														<span class="label-txt"><strong>이용약관</strong>을 읽었으며 동의합니다.</span>
-													</label>
-												</div>
+											<div class="rc-inner term_btn">
+												<input type="checkbox" id="termChkBox" name="termChkBox">
+												<label for="termChkBox">
+													<span class="label-txt"><strong>이용약관</strong>을 읽었으며 동의합니다.</span>
+												</label>
 											</div>
 										</li>
 									</ul>
