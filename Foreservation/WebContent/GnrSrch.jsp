@@ -177,7 +177,7 @@
 	        				</div>
 	        				<div class="srch-rsvbtn">
 	        					<ul>
-	        						<li onclick=""><a href="GnrResrv.jsp"><img alt="" src="Resources/img/date.png" class="me-2">예약하기</a></li>
+	        						<li onclick=""><a href="GnrResrv.action"><img alt="" src="Resources/img/date.png" class="me-2">예약하기</a></li>
 	        						<li onclick=""><a href="#"><img alt="" src="Resources/img/heart.png"></a></li>
 	        					</ul>
 	        				</div>

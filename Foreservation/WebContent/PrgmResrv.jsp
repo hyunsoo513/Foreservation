@@ -521,11 +521,6 @@
 									<a href="javascript:void(0);" onclick="count('minus')"><i class="fa fa-minus" aria-hidden="true"></i></a>
         							<p id="result">1</p>
 	        						<a href="javascript:void(0);" onclick="count('plus')"><i class="fa fa-plus" aria-hidden="true"></i></a>
-									<!-- 
-									<label for="spinner">
-										<span class="hide">숫자선택</span></label>
-									<span class="ui-spinner ui-corner-all ui-widget ui-widget-content" style="height: 40px;"><input type="number" id="rqstNofpr" min="1" class="spinner ui-spinner-input" value="1" readonly="" aria-valuemin="1" aria-valuenow="1" autocomplete="off" role="spinbutton"><a tabindex="-1" aria-hidden="true" class="ui-spinner-button ui-spinner-up ui-corner-tr"></a><a tabindex="-1" aria-hidden="true" class="ui-spinner-button ui-spinner-down ui-corner-br"></a></span>
-									 -->
 								</div>
 							</div>
 						</div>
@@ -542,24 +537,20 @@
 							</li>
 							
 								<li>
-									<div class="rc-wrap">
-										<div class="rc-inner penalty_btn">
-											<input type="checkbox" id="penaltyChkBox" name="checkbox01">
-											<label for="penaltyChkBox">
-												<span class="label-txt"><strong>위약금 정책</strong>을 읽었으며 동의합니다.</span>
-											</label>
-										</div>
+									<div class="rc-inner penalty_btn">
+										<input type="checkbox" id="penaltyChkBox" name="penaltyChkBox">
+										<label for="penaltyChkBox">
+											<span class="label-txt"><strong>위약금 정책</strong>을 읽었으며 동의합니다.</span>
+										</label>
 									</div>
 								</li>
 							
 							<li>
-								<div class="rc-wrap">
-									<div class="rc-inner term_btn">
-										<input type="checkbox" id="termChkBox" name="checkbox01">
-										<label for="termChkBox">
-											<span class="label-txt"><strong>이용약관</strong>을 읽었으며 동의합니다.</span>
-										</label>
-									</div>
+								<div class="rc-inner term_btn">
+									<input type="checkbox" id="termChkBox" name="termChkBox">
+									<label for="termChkBox">
+										<span class="label-txt"><strong>이용약관</strong>을 읽었으며 동의합니다.</span>
+									</label>
 								</div>
 							</li>
 						</ul>

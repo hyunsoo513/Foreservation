@@ -23,10 +23,24 @@ public class MainController{
 		return result; 
 	}
 	
+	@RequestMapping(value = "/GnrResrv.action")
+	public String GnrResrvForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/GnrResrv.jsp"; 
+		return result; 
+	}
+	
 	@RequestMapping(value = "/PrgmSrch.action")
 	public String PrgmSrchForm(HttpServletRequest request, HttpServletResponse response)
 	{ 
 		String result = "/PrgmSrch.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/PrgmResrv.action")
+	public String PrgmResrvForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/PrgmResrv.jsp"; 
 		return result; 
 	}
 	
@@ -76,6 +90,13 @@ public class MainController{
 	public String QnalistForm(HttpServletRequest request, HttpServletResponse response)
 	{ 
 		String result = "/Qnalist.jsp"; 
+		return result; 
+	}
+	
+	@RequestMapping(value = "/QnaReg.action")
+	public String QnaRegForm(HttpServletRequest request, HttpServletResponse response)
+	{ 
+		String result = "/QnaReg.jsp"; 
 		return result; 
 	}
 	

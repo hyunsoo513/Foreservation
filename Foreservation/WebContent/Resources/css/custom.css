@@ -2101,7 +2101,12 @@ caption {
 	border-right: 0;
 }
 
-
+.penalty_btn input[type="checkbox"], .term_btn input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    vertical-align: -4px;
+	margin-right: 4px;
+}
 
 
 /* Login.jsp */

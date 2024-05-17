@@ -154,7 +154,7 @@
        				<tbody>
        					<tr>
        						<th scope="row" class="text-left">303(오소리)(5/7명)</th>
-       						<td><a href="#" class="sch_btn"><img alt="예약완료" src="Resources/img/month-state-icon01.png"></a></td>
+       						<td><a href="GnrResrv.action" class="sch_btn"><img alt="예약완료" src="Resources/img/month-state-icon01.png"></a></td>
        						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
        						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>
        						<td><img alt="예약완료" src="Resources/img/month-state-icon02.png"></td>

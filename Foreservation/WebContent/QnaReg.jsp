@@ -198,7 +198,7 @@
 				        </div>
 				    </div>
 				    <div class="btn-wrap text-right mt-3">
-				    	<a href="Qnalist.jsp" class="btn-default btn-line">목록</a>
+				    	<a href="Qnalist.action" class="btn-default btn-line">목록</a>
 				        <a href="javascript:void(0);" class="btn-default btn-line" onclick="fn_save();">등록</a>
 				    </div>
 				</form>

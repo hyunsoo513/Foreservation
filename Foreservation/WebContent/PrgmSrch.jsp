@@ -153,7 +153,7 @@
 	        				</div>
 		        			<div class="prgminfo-btn">
 	        					<ul>
-	        						<li><a href="PrgmResrv.jsp"><img alt="" src="Resources/img/date.png" class="me-2 pb-1">예약하기</a></li>
+	        						<li><a href="PrgmResrv.action"><img alt="" src="Resources/img/date.png" class="me-2 pb-1">예약하기</a></li>
 	        						<li><a><img alt="" src="Resources/img/heart.png"></a></li>
 	        					</ul>
 	        				</div>
