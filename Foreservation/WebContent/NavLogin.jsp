@@ -70,6 +70,9 @@
                         </div>
                     </div>
                     <a href="Login.action" class="btn btn-outline-dark py-2 px-4 d-none d-lg-inline-block">로그인</a>
+                    <!-- if문_로그인 후 
+                    <a href="Logout.action" class="btn btn-outline-dark py-2 px-4 d-none d-lg-inline-block">로그아웃</a>
+                     -->
                 </div>
             </nav>
         </div>

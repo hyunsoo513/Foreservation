@@ -379,7 +379,6 @@ label {
 }
 
 /* Qnalist.jsp */
-
 .qna-srch {
     padding: 10px 40px;
 }
@@ -476,7 +475,6 @@ label {
 }
 
 /* MyInfo.jsp */
-
 .myinfo-box {
 	width: 80%;
 }
@@ -526,7 +524,6 @@ label {
 }
 
 /* GnrSrch.jsp */
-
 .srch-wrap {
 	display: flex;
     flex-wrap: wrap;
@@ -773,10 +770,7 @@ label {
 
 
 
-/*
-CheckList.jsp
-*/
-
+/* CheckList.jsp */
 .check-title ul {
 	margin-top: 30px;
     display: flex;
@@ -816,9 +810,7 @@ CheckList.jsp
 	font-size: 12px;
 }
 
-/*
-PrgmSrch.jsp
-*/
+/* PrgmSrch.jsp */
 .list-pgbtn {
 	margin: 35px 20px 30px 0;
     width: 40%;
